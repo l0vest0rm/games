@@ -1,20 +1,16 @@
 /*
 board.js - Source Code for XiangQi Wizard Light, Part IV
-
 XiangQi Wizard Light - a Chinese Chess Program for JavaScript
 Designed by Morning Yellow, Version: 1.0, Last Modified: Sep. 2012
 Copyright (C) 2004-2012 www.xqbase.com
-
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation; either version 2 of the License, or
 (at your option) any later version.
-
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
-
 You should have received a copy of the GNU General Public License along
 with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
@@ -55,7 +51,7 @@ function MOVE_PX(src, dst, step) {
 }
 
 function alertDelay(message) {
-  setTimeout(function() {
+  setTimeout(function () {
     alert(message);
   }, 250);
 }
@@ -82,7 +78,7 @@ function Board(container, images, sounds) {
   style.height = BOARD_HEIGHT + "px";
   style.background = "url(" + images + "board.jpg)";
   var this_ = this;
-  for (var sq = 0; sq < 256; sq ++) {
+  for (var sq = 0; sq < 256; sq++) {
     if (!IN_BOARD(sq)) {
       this.imgSquares.push(null);
       continue;
@@ -95,11 +91,11 @@ function Board(container, images, sounds) {
     style.width = SQUARE_SIZE;
     style.height = SQUARE_SIZE;
     style.zIndex = 0;
-    img.onmousedown = function(sq_) {
-      return function() {
+    img.onmousedown = function (sq_) {
+      return function () {
         this_.clickSquare(sq_);
       }
-    } (sq);
+    }(sq);
     container.appendChild(img);
     this.imgSquares.push(img);
   }
@@ -120,35 +116,35 @@ function Board(container, images, sounds) {
   this.flushBoard();
 }
 
-Board.prototype.playSound = function(soundFile) {
+Board.prototype.playSound = function (soundFile) {
   if (!this.sound) {
     return;
   }
   try {
     new Audio(this.sounds + soundFile + ".wav").play();
   } catch (e) {
-    this.dummy.innerHTML= "<embed src=\"" + this.sounds + soundFile +
-        ".wav\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+    this.dummy.innerHTML = "<embed src=\"" + this.sounds + soundFile +
+      ".wav\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
   }
 }
 
-Board.prototype.setSearch = function(hashLevel) {
+Board.prototype.setSearch = function (hashLevel) {
   this.search = hashLevel == 0 ? null : new Search(this.pos, hashLevel);
 }
 
-Board.prototype.flipped = function(sq) {
+Board.prototype.flipped = function (sq) {
   return this.computer == 0 ? SQUARE_FLIP(sq) : sq;
 }
 
-Board.prototype.computerMove = function() {
+Board.prototype.computerMove = function () {
   return this.pos.sdPlayer == this.computer;
 }
 
-Board.prototype.computerLastMove = function() {
+Board.prototype.computerLastMove = function () {
   return 1 - this.pos.sdPlayer == this.computer;
 }
 
-Board.prototype.addMove = function(mv, computerMove) {
+Board.prototype.addMove = function (mv, computerMove) {
   if (!this.pos.legalMove(mv)) {
     return;
   }
@@ -172,7 +168,7 @@ Board.prototype.addMove = function(mv, computerMove) {
   style.zIndex = 256;
   var step = MAX_STEP - 1;
   var this_ = this;
-  var timer = setInterval(function() {
+  var timer = setInterval(function () {
     if (step == 0) {
       clearInterval(timer);
       style.left = xSrc + "px";
@@ -182,12 +178,12 @@ Board.prototype.addMove = function(mv, computerMove) {
     } else {
       style.left = MOVE_PX(xSrc, xDst, step);
       style.top = MOVE_PX(ySrc, yDst, step);
-      step --;
+      step--;
     }
   }, 16);
 }
 
-Board.prototype.postAddMove = function(mv, computerMove) {
+Board.prototype.postAddMove = function (mv, computerMove) {
   if (this.mvLast > 0) {
     this.drawSquare(SRC(this.mvLast), false);
     this.drawSquare(DST(this.mvLast), false);
@@ -203,7 +199,7 @@ Board.prototype.postAddMove = function(mv, computerMove) {
 
     var pc = SIDE_TAG(this.pos.sdPlayer) + PIECE_KING;
     var sqMate = 0;
-    for (var sq = 0; sq < 256; sq ++) {
+    for (var sq = 0; sq < 256; sq++) {
       if (this.pos.squares[sq] == pc) {
         sqMate = sq;
         break;
@@ -220,17 +216,17 @@ Board.prototype.postAddMove = function(mv, computerMove) {
     var xMate = SQ_X(sqMate);
     var step = MAX_STEP;
     var this_ = this;
-    var timer = setInterval(function() {
+    var timer = setInterval(function () {
       if (step == 0) {
         clearInterval(timer);
         style.left = xMate + "px";
         style.zIndex = 0;
         this_.imgSquares[sqMate].src = this_.images +
-            (this_.pos.sdPlayer == 0 ? "r" : "b") + "km.gif";
+          (this_.pos.sdPlayer == 0 ? "r" : "b") + "km.gif";
         this_.postMate(computerMove);
       } else {
         style.left = (xMate + ((step & 1) == 0 ? step : -step) * 2) + "px";
-        step --;
+        step--;
       }
     }, 50);
     return;
@@ -242,15 +238,15 @@ Board.prototype.postAddMove = function(mv, computerMove) {
     if (vlRep > -WIN_VALUE && vlRep < WIN_VALUE) {
       this.playSound("draw");
       this.result = RESULT_DRAW;
-      alertDelay("À´∑Ω≤ª±‰◊˜∫Õ£¨–¡ø‡¡À£°");
+      alertDelay("ÂèåÊñπ‰∏çÂèò‰ΩúÂíåÔºåËæõËã¶‰∫ÜÔºÅ");
     } else if (computerMove == (vlRep < 0)) {
       this.playSound("loss");
       this.result = RESULT_LOSS;
-      alertDelay("≥§¥Ú◊˜∏∫£¨«Î≤ª“™∆¯ƒŸ£°");
+      alertDelay("ÈïøÊâì‰ΩúË¥üÔºåËØ∑‰∏çË¶ÅÊ∞îÈ¶ÅÔºÅ");
     } else {
       this.playSound("win");
       this.result = RESULT_WIN;
-      alertDelay("≥§¥Ú◊˜∏∫£¨◊£∫ÿƒ„»°µ√ §¿˚£°");
+      alertDelay("ÈïøÊâì‰ΩúË¥üÔºåÁ•ùË¥∫‰Ω†ÂèñÂæóËÉúÂà©ÔºÅ");
     }
     this.postAddMove2();
     this.busy = false;
@@ -259,7 +255,7 @@ Board.prototype.postAddMove = function(mv, computerMove) {
 
   if (this.pos.captured()) {
     var hasMaterial = false;
-    for (var sq = 0; sq < 256; sq ++) {
+    for (var sq = 0; sq < 256; sq++) {
       if (IN_BOARD(sq) && (this.pos.squares[sq] & 7) > 2) {
         hasMaterial = true;
         break;
@@ -268,14 +264,14 @@ Board.prototype.postAddMove = function(mv, computerMove) {
     if (!hasMaterial) {
       this.playSound("draw");
       this.result = RESULT_DRAW;
-      alertDelay("À´∑Ω∂º√ª”–Ω¯π•∆Â◊”¡À£¨–¡ø‡¡À£°");
+      alertDelay("ÂèåÊñπÈÉΩÊ≤°ÊúâËøõÊîªÊ£ãÂ≠ê‰∫ÜÔºåËæõËã¶‰∫ÜÔºÅ");
       this.postAddMove2();
       this.busy = false;
       return;
     }
   } else if (this.pos.pcList.length > 100) {
     var captured = false;
-    for (var i = 2; i <= 100; i ++) {
+    for (var i = 2; i <= 100; i++) {
       if (this.pos.pcList[this.pos.pcList.length - i] > 0) {
         captured = true;
         break;
@@ -284,7 +280,7 @@ Board.prototype.postAddMove = function(mv, computerMove) {
     if (!captured) {
       this.playSound("draw");
       this.result = RESULT_DRAW;
-      alertDelay("≥¨π˝◊‘»ªœﬁ◊≈◊˜∫Õ£¨–¡ø‡¡À£°");
+      alertDelay("Ë∂ÖËøáËá™ÁÑ∂ÈôêÁùÄ‰ΩúÂíåÔºåËæõËã¶‰∫ÜÔºÅ");
       this.postAddMove2();
       this.busy = false;
       return;
@@ -303,19 +299,19 @@ Board.prototype.postAddMove = function(mv, computerMove) {
   this.response();
 }
 
-Board.prototype.postAddMove2 = function() {
+Board.prototype.postAddMove2 = function () {
   if (typeof this.onAddMove == "function") {
     this.onAddMove();
   }
 }
 
-Board.prototype.postMate = function(computerMove) {
-  alertDelay(computerMove ? "«Î‘ŸΩ”‘Ÿ¿˜£°" : "◊£∫ÿƒ„»°µ√ §¿˚£°");
+Board.prototype.postMate = function (computerMove) {
+  alertDelay(computerMove ? "ËØ∑ÂÜçÊé•ÂÜçÂéâÔºÅ" : "Á•ùË¥∫‰Ω†ÂèñÂæóËÉúÂà©ÔºÅ");
   this.postAddMove2();
   this.busy = false;
 }
 
-Board.prototype.response = function() {
+Board.prototype.response = function () {
   if (this.search == null || !this.computerMove()) {
     this.busy = false;
     return;
@@ -323,13 +319,13 @@ Board.prototype.response = function() {
   this.thinking.style.visibility = "visible";
   var this_ = this;
   this.busy = true;
-  setTimeout(function() {
+  setTimeout(function () {
     this_.addMove(board.search.searchMain(LIMIT_DEPTH, board.millis), true);
     this_.thinking.style.visibility = "hidden";
   }, 250);
 }
 
-Board.prototype.clickSquare = function(sq_) {
+Board.prototype.clickSquare = function (sq_) {
   if (this.busy || this.result != RESULT_UNKNOWN) {
     return;
   }
@@ -351,22 +347,22 @@ Board.prototype.clickSquare = function(sq_) {
   }
 }
 
-Board.prototype.drawSquare = function(sq, selected) {
+Board.prototype.drawSquare = function (sq, selected) {
   var img = this.imgSquares[this.flipped(sq)];
   img.src = this.images + PIECE_NAME[this.pos.squares[sq]] + ".gif";
   img.style.backgroundImage = selected ? "url(" + this.images + "oos.gif)" : "";
 }
 
-Board.prototype.flushBoard = function() {
+Board.prototype.flushBoard = function () {
   this.mvLast = this.pos.mvList[this.pos.mvList.length - 1];
-  for (var sq = 0; sq < 256; sq ++) {
+  for (var sq = 0; sq < 256; sq++) {
     if (IN_BOARD(sq)) {
       this.drawSquare(sq, sq == SRC(this.mvLast) || sq == DST(this.mvLast));
     }
   }
 }
 
-Board.prototype.restart = function(fen) {
+Board.prototype.restart = function (fen) {
   if (this.busy) {
     return;
   }
@@ -377,7 +373,7 @@ Board.prototype.restart = function(fen) {
   this.response();
 }
 
-Board.prototype.retract = function() {
+Board.prototype.retract = function () {
   if (this.busy) {
     return;
   }
@@ -392,7 +388,7 @@ Board.prototype.retract = function() {
   this.response();
 }
 
-Board.prototype.setSound = function(sound) {
+Board.prototype.setSound = function (sound) {
   this.sound = sound;
   if (sound) {
     this.playSound("click");
