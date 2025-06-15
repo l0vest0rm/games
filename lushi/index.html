@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>炉石操作页面</title>
+    <meta name="description" content="这是一个使用Bootstrap框架创建的图片筛选页面，支持根据下拉筛选框展示不同静态图片。">
+    <meta name="keywords" content="Bootstrap, 图片筛选, 下拉框">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">炉石传说</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">炉石操作</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="card.html">卡牌浏览</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">联系我们</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container txxt-center mt-4">
+        <div class="row">
+            <div class="col-2">
+                <label for="operation">操作</label>
+                <select id="operation">
+                  <option value="randomNumber">随机数</option>
+                  <option value="find">发现</option>
+                  <option value="call">召唤</option>
+                  <option value="4">4</option>
+                  <option value="6" selected="">6</option>
+                  <option value="9">9</option>
+                  <option value="12">12</option>
+                </select>
+            </div>
+            <div class="col-2">
+                <label for="option">选项</label>
+                <select id="option">
+                </select>
+            </div>
+            <div class="col-2">
+                <button id="btn-execute" type="button" class="btn btn-success btn-sm">执行</button>
+            </div>
+        </div>
+        <div id="alert" class="row alert alert-primary" role="alert">
+        </div>
+        <div id="imageContainer" class="row">
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", ()=> {
+          // Code to be executed when the DOM is ready
+          main()
+        });
+      </script>
+</body>
+</html>
