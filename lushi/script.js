@@ -46,6 +46,11399 @@ const huntiao = [
     'https://hs.res.netease.com/pc/zt/20250225182549/static/img/89be10b147956d1b7c0167f5bdefea1d6dabfdebd709f83cec7a9783548d2325.png',
 ]
 
+const cards = [
+    {
+      "id": 69521,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 0,
+      "name": "背刺",
+      "text": "对一个未受伤的随从造成 2点 伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f9760296cac0d3a1e2234299fc93b0acbf6122aa0de58abd054aa1ebb5cdc301.png"
+    },
+    {
+      "id": 69550,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 0,
+      "name": "激活",
+      "text": "在本回合中，获得一个 法力水晶。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/720fa50cf6c63f64f940717afbb6db2c22f6f94e7bb4a2bbce19851cc8a97c24.png"
+    },
+    {
+      "id": 69622,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 0,
+      "name": "暗影步",
+      "text": "将一个友方随从移回你的手牌，它的法力值消耗减少 （2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7ab4beacab3c4340db96820cfccb4ec496733eaa284b4fec8ec025fbe8b238bc.png"
+    },
+    {
+      "id": 69623,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 0,
+      "name": "伺机待发",
+      "text": "在本回合中，你所施放的下一个法术的法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6781e33ade0fa1254aaf3e40ca6a2a41d6e849f44a4c95e5f17f40adee925105.png"
+    },
+    {
+      "id": 102983,
+      "class_id": 12,
+      "health": 0,
+      "attack": 0,
+      "mana_cost": 0,
+      "name": "奇利亚斯豪华版3000型",
+      "text": "你可以在构筑 套牌时打造专属于自己的奇利亚斯豪华版3000型！",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/25331e7f72978f8b97c7fd506c35d3f97adbb099c0052b874041c4e3b57b55a6.png"
+    },
+    {
+      "id": 111177,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 0,
+      "name": "治疗石",
+      "text": "<b>可交易</b> 恢复你的英雄在本回合中受到的所有伤害。 <i>（恢复 点）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/fa1d22f765fa597a926e9c79958e0ea75932c7d8da84c68ed940158e2deda8e2.png"
+    },
+    {
+      "id": 111325,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 0,
+      "name": "寒冬号角",
+      "text": "复原两个法力水晶。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1dfadafecd3f1be370cab33a21ca9907768ad0a5f1d925b3a9ffc2a732319b38.png"
+    },
+    {
+      "id": 111424,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 0,
+      "name": "引力失效",
+      "text": "将每个随从的攻击力和生命值变为两者中的低值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8e56a230a052ff23cd8fa68cb9352d13e1262f4b34763a1e7f1280e7d05f100c.png"
+    },
+    {
+      "id": 113173,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 0,
+      "name": "建造水晶塔",
+      "text": "在本回合中，你的下一张星灵牌法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6a5fef626b08466b835e6c176a4d377fb8099250c0b28b40c310dadaf836b3c7.png"
+    },
+    {
+      "id": 117892,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 0,
+      "name": "咒怨之墓",
+      "text": "从你的牌库中<b>发现</b>一张随从牌，将其变为<b>临时</b>卡牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/01226fd5b28b7705b9d398d82afcac6596b4c819fb1076c16e05276748f3a51c.png"
+    },
+    {
+      "id": 120970,
+      "class_id": 12,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 0,
+      "name": "小精灵",
+      "text": "",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5bd2221c0a1a27159e69daf62f0bc6300e60b77f031378b6413e46777b1a2a7f.png"
+    },
+    {
+      "id": 62442,
+      "class_id": 8,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 1,
+      "name": "电击学徒",
+      "text": "<b>法术伤害+1</b> <b>过载：</b>（1）",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c34749e7cf65dd4450e5e51d681acf0d99d80bd4e96fb6f6545463dae9f59625.png"
+    },
+    {
+      "id": 69509,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "神圣惩击",
+      "text": "对一个随从造成 3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cac4fb9dd8032482c7372369aa8bce41a403dd54d83ad22f2c905c9d71d2b3d9.png"
+    },
+    {
+      "id": 69522,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "致命药膏",
+      "text": "使你的武器获得+2攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bb379b3c3e66e8903788a0c9b3bea559b71bdeabe2c3ca13ff9f7de6c4f7489f.png"
+    },
+    {
+      "id": 69535,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "斩杀",
+      "text": "消灭一个受伤的敌方随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8f104d2f19687f6c4d9a0afb418b59f69c3a8c4f06694d4e7af9476e9f8fffc9.png"
+    },
+    {
+      "id": 69545,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "追踪术",
+      "text": "从你的牌库中<b>发现</b>一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/fe2078725c01c90d7d2ab798cb5a427e6d2cb402d743b69dd0e2f1af3764a1cd.png"
+    },
+    {
+      "id": 69546,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "奥术射击",
+      "text": "造成 2点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/30b49d0c278e8bc699a51191852646a6e58c82ced03faab34b6d1a6840853f5f.png"
+    },
+    {
+      "id": 69547,
+      "class_id": 12,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 1,
+      "name": "巫医",
+      "text": "<b>战吼：</b> 恢复 2点生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7bf3b985829680f8a1c44c1436903ee146c12c64eb8be4816533c12ed5f7e0f9.png"
+    },
+    {
+      "id": 69553,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "死亡缠绕",
+      "text": "对一个随从造成 1点伤害。如果消灭该随从，抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8928b06d69ae405cbd7f1ad7223cd596a325cc9b8b0c838301db0df7182ccea7.png"
+    },
+    {
+      "id": 69565,
+      "class_id": 12,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "精灵弓箭手",
+      "text": "<b>战吼：</b>造成1点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7b7b2be968defad0c588b3d399e18cb61c427682b77a8aa17cf3fdb97ec1437c.png"
+    },
+    {
+      "id": 69566,
+      "class_id": 6,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "心灵咒术师",
+      "text": "<b>战吼：</b>复制你对手的牌库中的一张牌，并将其置入你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c55aec914889f713454ab4b31a232f95bee28dd3d97f5cbff22919c4601e64ca.png"
+    },
+    {
+      "id": 69586,
+      "class_id": 14,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "战斗邪犬",
+      "text": "在你的英雄攻击后，获得+1攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9a7e2c46992fac5248d5e29971ce079e4b943df7e6040a26836b310999b42267.png"
+    },
+    {
+      "id": 69625,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "闪电箭",
+      "text": "造成 3点伤害，<b>过载：</b>（1）",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b318df3de258db5cdc379be4179e6dace0a306d10b199b227767cf5e374b34c4.png"
+    },
+    {
+      "id": 69636,
+      "class_id": 9,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 1,
+      "name": "烈焰小鬼",
+      "text": "<b>战吼：</b>对你的英雄造成3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d697f0014b5b1d93dfbbac8e16aa9625365aed6290798d42cb26cf6b14028faa.png"
+    },
+    {
+      "id": 69638,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "猛击",
+      "text": "对一个随从造成 2点伤害，如果 它依然存活，则抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0850c4594df9f93f7cca0b6d4090d8b86521a0ae75286fba55410e2e87e6d8e1.png"
+    },
+    {
+      "id": 69641,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "盾牌猛击",
+      "text": "你每有1点护甲值，便对一个随从造成1点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d2657067f851a8a4021923c7e1b40545a0fc3004b5e8dcf0c812d9a7b2c3c814.png"
+    },
+    {
+      "id": 69649,
+      "class_id": 12,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "叫嚣的中士",
+      "text": "<b>战吼：</b>在本回合中，使一个随从获得+2攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2850de05760962dce1a759fee8d30bb3090f9442d3de90c3b171e9a31b76f325.png"
+    },
+    {
+      "id": 69654,
+      "class_id": 12,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 1,
+      "name": "狼人渗透者",
+      "text": "<b>潜行</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/103ac3a9f247eca4132ddd08a32722e0bbe646ebbab52f2521cd80d5815b0f20.png"
+    },
+    {
+      "id": 69675,
+      "class_id": 12,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "鱼人招潮者",
+      "text": "每当你召唤一个鱼人，便获得 +1攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b43bd9976d3ae0996d0e7b6bad2dbbca909f482c88e0b108068c2b536c6f385d.png"
+    },
+    {
+      "id": 69683,
+      "class_id": 14,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "火色魔印奔行者",
+      "text": "<b>流放：</b>抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d424b6d1673b10f209f25a1c0fa70a5ec79042edce2d8fb51c1968981d0e63f7.png"
+    },
+    {
+      "id": 69705,
+      "class_id": 5,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "正义保护者",
+      "text": "<b>嘲讽</b> <b>圣盾</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8b79ba6dedfb7d0e8d62c5844e8da573d8685251cc81e61965f3bebcbfbdf7f7.png"
+    },
+    {
+      "id": 69707,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "快速治疗",
+      "text": "恢复 5点生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/939ace4a6250f384002c9bdc353c2983f37d06273aedca57f7f6e18dd186b604.png"
+    },
+    {
+      "id": 69742,
+      "class_id": 7,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "吹嘘海盗",
+      "text": "<b>战吼：</b>随机将一张另一职业的卡牌置入你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1a9004ec7e11cd5610c653f69075d11881a670ff9a401d87195f488066595da6.png"
+    },
+    {
+      "id": 76289,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "活体根须",
+      "text": "<b>抉择：</b>造成 2点伤害；或者召唤两个1/1的树苗。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cc22bfe13df1940718464400dd1969ed863028879fb008c22c56e95c2020d741.png"
+    },
+    {
+      "id": 76318,
+      "class_id": 12,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "欢快的同伴",
+      "text": "<b>战吼：</b>使一个友方随从获得+2生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d916dda1541bc701d9e66285956014ce4cf0bc9d790a4832934c565baff2ac0a.png"
+    },
+    {
+      "id": 80818,
+      "class_id": 1,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "扛包收尸人",
+      "text": "<b>战吼：</b>获得一份<b>残骸</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/845febb37cf47d0793d4883de6e2d1a44ac4ec322aaec1b34da714eaf1374810.png"
+    },
+    {
+      "id": 86190,
+      "class_id": 1,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "骷髅帮手",
+      "text": "<b>战吼：</b>使一个友方亡灵获得+2攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/78a74cee003abd530a264c74a3510ed13cb3012d36e6dbdf1af599e47b34d930.png"
+    },
+    {
+      "id": 97374,
+      "class_id": 4,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "奥术工匠",
+      "text": "每当你施放一个法术，便获得等同于其法力值消耗的护甲值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b9ea91d1750c5f1c5cde6c4d417fe30a188781fc9273ad10dc3a8d6415830780.png"
+    },
+    {
+      "id": 97376,
+      "class_id": 3,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "宝石鹦鹉",
+      "text": "<b>战吼：</b>随机将一张野兽牌置入你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5a0a280e84d3f59ec47e8e43ebf1d0f5ff1173f1542e7e6bddce82d138c3a3f7.png"
+    },
+    {
+      "id": 97377,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "伊利达雷研习",
+      "text": "<b>发现</b>一张<b>流放</b>牌。你的下一张<b>流放</b>牌法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/591ba681374653275b1ff6c20fb2494b28e78e1f49abcd471ffe849f2029209e.png"
+    },
+    {
+      "id": 102188,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "女巫森林苹果",
+      "text": "将两张2/2的树人置入你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/096612aa41562d7daeacdb31131409e8aaa7138b20769e2f00057d4fb9285b68.png"
+    },
+    {
+      "id": 102194,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "烈焰喷涌",
+      "text": "造成 2点伤害。 将一张1/2的元素牌置入你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bfd26570b4443dabbd5fe64bf9fa074ad2e26bce266abcd48e2a6d6c6f9306f6.png"
+    },
+    {
+      "id": 102212,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "灵魂炸弹",
+      "text": "对一个随从和你的英雄各造成 4点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4c0c884b048d35ad5c10d47587b8ee9418b301b1dcff0aa1f3763ed4f7b1b294.png"
+    },
+    {
+      "id": 102227,
+      "class_id": 12,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 1,
+      "name": "冰川裂片",
+      "text": "<b>战吼：</b> <b>冻结</b>一个敌人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cebdbae43f317b8c249a82801b107ba2401436d9723af834d79031e10c583870.png"
+    },
+    {
+      "id": 102228,
+      "class_id": 12,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "鱼人木乃伊",
+      "text": "<b>复生</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b2e27a382eb6620f39ceb9fe901c0f2627aef2f12bcef4d9868b36f3314e7473.png"
+    },
+    {
+      "id": 102337,
+      "class_id": 12,
+      "health": 3,
+      "attack": 0,
+      "mana_cost": 1,
+      "name": "焦油泥浆怪",
+      "text": "<b>嘲讽</b> 在你对手的回合拥有+2攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ad44f9487ab99baf194a1abd5364a799edf27bb195addf0c607a16fb1eb70a88.png"
+    },
+    {
+      "id": 102347,
+      "class_id": 12,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "甲虫钥匙链",
+      "text": "<b>战吼：</b><b>发现</b>一张 法力值消耗为（2）的卡牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/07ca18917a96042e8d4cf23ec6d1e71d802087374f4fb866e64fbf8e63c2b9ae.png"
+    },
+    {
+      "id": 103146,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "抛接嬉戏",
+      "text": "抽一张随从牌。如果是野兽牌，抽一张法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8ca68735dad2706eb57827ed5f9813221823864e1141dfcfbd7eee257d1b8f2c.png"
+    },
+    {
+      "id": 103336,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "立体书",
+      "text": "造成 2点伤害。召唤两只0/1并具有<b>嘲讽</b>的青蛙。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c1244e46926510c786c96ef369b2249eab4287e70eb634ea59e24e26ad692ffd.png"
+    },
+    {
+      "id": 103341,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "挖掘宝藏",
+      "text": "抽一张随从牌。如果是海盗牌，获取一张幸运币。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/34d41fcd989a35ec91b98b7b0ba6071407ca22e9ad9726a925f8663673364b6a.png"
+    },
+    {
+      "id": 103530,
+      "class_id": 12,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 1,
+      "name": "礼盒雏龙",
+      "text": "<b>战吼：</b>如果你的手牌中有龙牌，使该龙牌和本随从获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1d43522f2ff9c6ad4bb11046291a8aa3c5a24bd5d35d2b18de5580ceda82b229.png"
+    },
+    {
+      "id": 103548,
+      "class_id": 12,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "宝藏经销商",
+      "text": "在你召唤一个海盗后，使其获得+1攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/83226a7c05aa84dba5fa14e02ca118ed3f99d4510c73b9cffa05588006f870e3.png"
+    },
+    {
+      "id": 104515,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "红牌",
+      "text": "使一个随从<b>休眠</b>2回合。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8448bda2cd79d7822af58512eaee4c23b5dca6e454fa21ef9f42f674793750bd.png"
+    },
+    {
+      "id": 104598,
+      "class_id": 2,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "青玉展品",
+      "text": "<b>亡语：</b>在本局对战中，你的青玉展品拥有+1/+1。将2张青玉展品洗入你的牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4d54b6b2c0ace221a9d705aaba0e06f984f6956bff0a9f5ca5e47b6e95b36bc8.png"
+    },
+    {
+      "id": 104869,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "光鲜包装",
+      "text": "使一个具有<b>圣盾</b>的随从获得+2/+3。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c142ff344efa6fa4da3e2d4cf4c39ebf5712226d1ce50a378ffd5763e60abe35.png"
+    },
+    {
+      "id": 105100,
+      "class_id": 12,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 1,
+      "name": "通道沉眠者",
+      "text": "起始<b>休眠</b>状态。在7个随从死亡后唤醒。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2a0da38db8d3907568c7c92d69d8adcf3ead616b15b0ce784530fab15b096fd8.png"
+    },
+    {
+      "id": 105355,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "小型法术尖晶石",
+      "text": "使你手牌中的亡灵牌获得+1/+1。<i>（获得 份<b>残骸</b>后升级。）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b45367cdd28ea3a48c3408c5354facd7d8ab9d53ba59d98dfa6881b51db81c69.png"
+    },
+    {
+      "id": 105499,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "痛打豺狼人",
+      "text": "<b>发现</b>一张来自过去的圣骑士武器牌，使其获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0eab9a8e7f82b9b95499fda7a1fff685d23344d3f461dcd0a73baeae32f3c66a.png"
+    },
+    {
+      "id": 105505,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "标准的卡牌包",
+      "text": "随机将五张<b>嘲讽</b>随从牌置入你的手牌。这些牌为<b>临时</b>牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/fb2c9ab3156581d247288024445e8cd42132241b22aca03dbdd39e42207519de.png"
+    },
+    {
+      "id": 105521,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "狂野的卡牌包",
+      "text": "随机将五张野兽牌置入你的手牌。这些牌为<b>临时</b>牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a55e364c91475177cf4a87fff454d5591d9513913bb9297fc7a566c054817cc5.png"
+    },
+    {
+      "id": 105539,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "批量生产",
+      "text": "抽两张牌。对你的英雄造成 3点伤害。将两张本牌的复制洗入你的牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/aca87941eb76baa527cc14182057a36efee4e924759ebbc6565e6f6fc764170a.png"
+    },
+    {
+      "id": 105552,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "幻变的卡牌包",
+      "text": "随机将五张其他职业的牌置入你的手牌。这些牌为<b>临时</b>牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/078393f114469b6460e4b5b6966c64177e831793c25d1ae0332bd0ea0bce2832.png"
+    },
+    {
+      "id": 105559,
+      "class_id": 14,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "滑矛布袋手偶",
+      "text": "本随从的攻击力 随你的英雄的攻击力提高。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5cca8128f9ae2de7f42aaf4d9eaad995e02f47420a2b3bc2f70e4201c452cbac.png"
+    },
+    {
+      "id": 105815,
+      "class_id": 6,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 1,
+      "name": "心灵按摩师",
+      "text": "每当本随从受到伤害，对你的英雄造成等量的伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/07133b52c64096f91e91280079c27d22b0bb349c27a747ceda4451386b7cee22.png"
+    },
+    {
+      "id": 106323,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "流电爆裂",
+      "text": "召唤两个1/1并具有<b>突袭</b>的“火花”。<b>过载：</b>（1）",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/25e9b5117ab77330ecbb904811a7fe186e4ddb212d558e6ab2649bb3f34997b3.png"
+    },
+    {
+      "id": 106369,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "银樽海韵",
+      "text": "造成 2点伤害，随机分配到所有敌方随从身上。<i>（还剩3杯！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c9f464c36b4b13d4450fe131555a00b363fc07ab56f2bd87783c1c043ac990fa.png"
+    },
+    {
+      "id": 106433,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "神圣佳酿",
+      "text": "使一个角色获得<b>圣盾</b>。 <i>（还剩3杯！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1fe51e470f6f486e2a45214164e7cbf721e0a9fb6d5d909a881f36f7312bbf6a.png"
+    },
+    {
+      "id": 106446,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "救生光环",
+      "text": "在你的回合结束时，获取一张法力值消耗为（1）的可以使随从获得+1/+2的防晒霜。 持续 回合。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/406e267a7e1466840490679937d858183e9187f8f911d9e3d9418a3f33a9c18e.png"
+    },
+    {
+      "id": 106521,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "夜影花茶",
+      "text": "对一个随从造成 2点伤害。对你的英雄造成 2点伤害。<i>（还剩3杯！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/48dfad9dbab9fd1bc68e4dcf052d7c5c24fe454f4e6a4f2590ed9c4e83307e5c.png"
+    },
+    {
+      "id": 106620,
+      "class_id": 14,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "飞行员帕奇斯",
+      "text": "<b>战吼：</b>将六张降落伞洗入你的牌库。当抽到降落伞时，召唤一个1/1并具有<b>冲锋</b>的海盗。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/82a321b0257f511ad931fe91b2ca3426c28baefecb14e18e2467e33129c99918.png"
+    },
+    {
+      "id": 106636,
+      "class_id": 3,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 1,
+      "name": "当日渔获",
+      "text": "<b>突袭</b>。<b>战吼： </b>为你的对手召唤一只2/1的鱼虫。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/247f6841247cac2e584b53a0b3fe4cf17861e59d77c4c214cf8fb970da0d3889.png"
+    },
+    {
+      "id": 106709,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "针灸",
+      "text": "对双方英雄造成 4点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/10f2224838bc3ee5ef48a4216a04d2b0a516f344ae4b86519e93a4b4abaebf3e.png"
+    },
+    {
+      "id": 107767,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "腱力金杯",
+      "text": "使你手牌中的一张随从牌获得+2/+1。<i>（还剩3杯！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/af7c84acee3106018058b10aebda143a26c07869b6fa7689ee87950faedf47a8.png"
+    },
+    {
+      "id": 107776,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "顺水漂流",
+      "text": "选择一个随从。如果是敌方随从，将其<b>冻结</b>；如果是友方随从，使其获得<b>法术伤害+1</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0214db3082aaeb6c3e941cfd4f5e9d444e012f282a5be365d447bc8703931d9a.png"
+    },
+    {
+      "id": 108625,
+      "class_id": 8,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "水宝宝鱼人",
+      "text": "<b>扩大</b> <b>战吼：</b>召唤一个属性值等同于本随从并具有<b>突袭</b>的鱼人宝宝。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/41091fe0788b18980fb0f09634a77e81a2537a527fc1d83b00176c668016bfcf.png"
+    },
+    {
+      "id": 108950,
+      "class_id": 12,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "进化融合怪",
+      "text": "<i>本随从拥有全部随从类型。</i><b>亡语：</b>将本随从洗入你的牌库。保留所有附加效果。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/613e0f9d30052901ad8084824497264404fa387979971cfde204ff0217c5917f.png"
+    },
+    {
+      "id": 110110,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "星舰详图",
+      "text": "<b>发现</b>一张 另一职业的<b>星舰组件</b>，其法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9345b40ba5b0893048551747f0ddde60412bc813bf4e24b484457452d6985e3f.png"
+    },
+    {
+      "id": 110559,
+      "class_id": 12,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 1,
+      "name": "星光漫游者",
+      "text": "<b>战吼：</b>你使用的下一个德莱尼获得+2/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/65b3b6cf05c25957a03e8fcbd61147b2e9da28ef2f0ae7abf673a2f84736873a.png"
+    },
+    {
+      "id": 110869,
+      "class_id": 3,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "游侠斥候",
+      "text": "在你<b>发现</b>一张牌后，获取一张它的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5f40b869302854a88f435e1aa9b357ff31203c84b41c1a80b9f5a59160638a25.png"
+    },
+    {
+      "id": 110886,
+      "class_id": 14,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "怪异奇物",
+      "text": "<b>流放，<b>法术迸发</b>：</b>洗混你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f700c84129fceb92a736b1bdc3798fc37cf34d6b10a8c99ddcea87b56712adec.png"
+    },
+    {
+      "id": 110893,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "阿肯尼特的启示",
+      "text": "抽一张牌。如果该牌是法术牌，则其法力值消耗 减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f73f6f7a76701e7047c2031b27a0aaf6e408baeef0a72b13145e77847fc00e88.png"
+    },
+    {
+      "id": 111010,
+      "class_id": 6,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 1,
+      "name": "狂热的医者",
+      "text": "<b>亡语：</b>为敌方英雄恢复 6点生命值。<b><b>法术迸发</b>：</b><b>沉默</b>本随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dcf107065353289c8ba7c0c54a589722035d0dfea6bd78c7611a461a67802e54.png"
+    },
+    {
+      "id": 111185,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "第一次接触",
+      "text": "随机召唤两个法力值消耗为（1）的随从。<b>过载：</b>（1）",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f6c1499c77df89d4063eeb13ed356626d2c223244089249f859d29ec06c6d206.png"
+    },
+    {
+      "id": 111305,
+      "class_id": 12,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "星域戒卫",
+      "text": "<b>战吼：</b>获取你使用的上一个德莱尼的一张复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8afa443fa6b204d828b8ac69f88dc315dc4b45af1e679729eab12d688ebf24f5.png"
+    },
+    {
+      "id": 111310,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "在轨卫星",
+      "text": "<b>发现</b>一张德莱尼牌。如果你在本回合中使用过相邻的牌，再<b>发现</b>一张。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dadbc3bc8e20e0e463f820769d88b8e3f23172271287873eaa27b3dc23ea60f8.png"
+    },
+    {
+      "id": 111338,
+      "class_id": 7,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 1,
+      "name": "星岩收藏家",
+      "text": "<b>战吼：</b>你的下一张 <b>连击</b>牌法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b67d6e2b35aa757b12286aca0df1d8370713b47c5030160839212beef031c541.png"
+    },
+    {
+      "id": 111458,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "恶魔研习",
+      "text": "<b>发现</b>一张恶魔牌。你的下一张恶魔牌法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bb8d735679988e7b24c367657635bd66df6147afeeb65b4ab7536da7351156e8.png"
+    },
+    {
+      "id": 111459,
+      "class_id": 10,
+      "health": 3,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "赤红深渊",
+      "text": "对一个随从造成1点伤害，并使其获得+2攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c760f1afb270059d73dab816a1b318b35ec2bbfc025680a37c966065fceba0d5.png"
+    },
+    {
+      "id": 111469,
+      "class_id": 12,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "火羽精灵",
+      "text": "<b>战吼：</b>将一张1/2的元素牌置入你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9b48481e5c491eea4cad10d57aac387ab7329a18c18176409b8369e2434c3de9.png"
+    },
+    {
+      "id": 111680,
+      "class_id": 1,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "奥金尼亡语者",
+      "text": "在另一个友方随从 <b>复生</b>后，召唤一个它的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/099159b237271d359e26637a0d17b651d5638547b322b5b58d6a865a55b18af6.png"
+    },
+    {
+      "id": 111934,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "猎头",
+      "text": "造成 2点伤害。获取一张4/4并具有一项随机<b>额外效果</b>的乘务员。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0fd19f4ef6371a80eb2f36c74a0f3b1bf68a6f1357caf2d6e33b8b352df4ac07.png"
+    },
+    {
+      "id": 111969,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "近轨血月",
+      "text": "使一个随从获得 <b>嘲讽</b>和<b>吸血</b>。如果你在本回合中使用过相邻的牌，还会使其获得<b>复生</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bab799caf39a3437b009bffc3296ef4b6150afcd48da15f7c72e271a5c978768.png"
+    },
+    {
+      "id": 112049,
+      "class_id": 12,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 1,
+      "name": "太空海盗",
+      "text": "<b>亡语：</b>你的下一张武器牌法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ce6f2a4e99a4e58fcc03625960246f54e55815967b1abbeeedc69f6d44f53957.png"
+    },
+    {
+      "id": 112812,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "爆虫冲锋",
+      "text": "获取一张1/1且会爆炸的爆虫。如果你控制着异虫随从，再获取一张爆虫。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/621484434f44dfc5f1d819ee9eae0d09bacda5ff718a8f0df165bef9ac07ee47.png"
+    },
+    {
+      "id": 112820,
+      "class_id": 0,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "SCV",
+      "text": "<b>战吼：</b>你的下一次 <b>星舰</b>发射的法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/141e00fbfc6b1fe219ae3701b5f5907f9e16e7b00ff489fd2f036c06eb8a45dc.png"
+    },
+    {
+      "id": 112867,
+      "class_id": 0,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "跳虫",
+      "text": "<b>战吼：</b>召唤一个1/1的跳虫。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2ea7f18762c101fe0c10ad34dd5d3ab39aeb8dd72ffdba46f20c2c69b96bf9cb.png"
+    },
+    {
+      "id": 112876,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "锁定",
+      "text": "将一个随从的生命值变为1。你的下一次<b>星舰</b>发射的法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/eb88276967d82a4ecda22a498750bd16fd97fa934cdf4e836ee7189b1f6ffc41.png"
+    },
+    {
+      "id": 113109,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "乌鸦神像",
+      "text": "<b>抉择：</b> <b>发现</b>一张随从牌；或者<b>发现</b>一张法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a7d0c91414f06c0946955fe14f6b9396bdd1faa65e5876522e8e3fa7aba61b93.png"
+    },
+    {
+      "id": 113111,
+      "class_id": 12,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "凶恶的滑矛纳迦",
+      "text": "在你施放一个法术后，直到你的下个回合，获得+1攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d0d36d367b06518d88fe3d4fbf589c7ac4f3f2e0a26479bcd0930dfa8f4b5b35.png"
+    },
+    {
+      "id": 113116,
+      "class_id": 6,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "随船外科医师",
+      "text": "在你召唤一个随从后，使其获 得+1生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/59c84cf556e3174b30cadaa95d04ff926c136fca17de8e09e7b8f355fd756bc5.png"
+    },
+    {
+      "id": 113176,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "幻像",
+      "text": "召唤一个友方 星灵随从的一个复制。该复制受到的伤害翻倍。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bd7b13733cb739d28c9509a824f11fece435479bbf0cbdda6825cdcfbc12b4e6.png"
+    },
+    {
+      "id": 113212,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "震荡弹",
+      "text": "造成 2点伤害并获得2点护甲值。你的下一次<b>星舰</b>发射的法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/915620c2e3caeee2f9bc3d338b1cbcdea5412f355c325e7d986a9b1f6510d8f7.png"
+    },
+    {
+      "id": 113667,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "吞噬",
+      "text": "移除一个 友方地标的1点耐久度，为你的英雄恢复 8点生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2cc9a4d90d94c1e1f981c0f1961b127a8a6f63d8934f85bac5d2b89a1566a7a5.png"
+    },
+    {
+      "id": 114218,
+      "class_id": 10,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 1,
+      "name": "黑暗的龙骑士",
+      "text": "<b>战吼：</b>如果你的手牌中有龙牌，<b>发现</b>一张具有<b>黑暗之赐</b>的龙牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3b14d01a3edc7a46e1d1c1177db757acc24b43540262d3e3da7b5b687c2ff19d.png"
+    },
+    {
+      "id": 114293,
+      "class_id": 4,
+      "health": 3,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "禁忌神龛",
+      "text": "消耗你所有的法力值，随机施放一个法力值消耗相同的法术。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c36664d1a660a688dea5faaa23a6eea2318548c5e26b9e74753ddef1363b48f1.png"
+    },
+    {
+      "id": 114303,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "暴行祭礼",
+      "text": "<b>发现</b>一张亡灵牌。消耗2份<b>残骸</b>，使其获得<b>黑暗之赐</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/40d329ee26d665ab706108edbae6b43f5c9c844b09bf520e90cf0d0b20b8a81d.png"
+    },
+    {
+      "id": 114344,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 1,
+      "name": "沉睡的林精",
+      "text": "起始<b>休眠</b>状态。在你使用你的英雄技能后唤醒。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9bd89d3bfabc633404b95b8205e267fd6df1b3e273d969030f668a33223ea458.png"
+    },
+    {
+      "id": 114508,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "拟态",
+      "text": "你的对手 抽两张牌，你获取其复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/14373835a4c5c5d5da5f4887e645cf6d852cd65f59a37c97fc5b3f1018aefab8.png"
+    },
+    {
+      "id": 114511,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "龙鳞军备",
+      "text": "抽取你套牌中和套牌之外的法术牌各一张。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2889de5d9e795e874576110d3dd85e76cf584898d25b5c2a2d102481c7245a92.png"
+    },
+    {
+      "id": 114933,
+      "class_id": 12,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 1,
+      "name": "梦缚迅猛龙",
+      "text": "在你使用一张随从牌后，随机使其获得一项<b>额外效果</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b2952e29ef4b0ad206c83deff590ba33ce220d5cc25e6641d0bd897e033e21f2.png"
+    },
+    {
+      "id": 114967,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "病变虫群",
+      "text": "<b>抉择：</b>召唤两只1/1的蚂蚁；或者消耗2份<b>残骸</b>，对一个随从造成 4点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2c0df6eed73702019d84af71ef27c29f09218201bbdfd40f465ae4a5eb459a72.png"
+    },
+    {
+      "id": 115039,
+      "class_id": 9,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "腐心树妖",
+      "text": "<b>亡语：</b>抽一张法力值消耗大于或等于（7）点的随从牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3128fcf8e3c8377d77ffb7f3c6f47938ae2b54850646510bfb014e7883d68ea1.png"
+    },
+    {
+      "id": 115088,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "梦魇供能",
+      "text": "从你对手的牌库中<b>发现</b>一张随从牌的复制。<b>连击：</b>并使其具有<b>黑暗之赐</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cad7e91fefa06944ce8fcc9bccb07895a2ce936f5e304a1cc32aff963abb2777.png"
+    },
+    {
+      "id": 115295,
+      "class_id": 8,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "胆大的魔荚人",
+      "text": "如果本随从即将变形成为某随从，则会变形成为法力值消耗增加（2）点的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3b4e196fd4d4edd3492d976066b1b6aba1af4682b38b22b4cf0683e3eb9a962e.png"
+    },
+    {
+      "id": 115632,
+      "class_id": 2,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "火炭变色龙",
+      "text": "<b>战吼：</b>如果你在本回合中使用过英雄技能，使一个友方随从获得+1/+2和<b>突袭</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7b0979dac726b21760e4b250f14148f7641637c8e0ee80a72ce4961246ae2650.png"
+    },
+    {
+      "id": 115638,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "焚火之力",
+      "text": "使一个友方随从获得+ /+ 。<i>（每回合都会升级，但本牌会在 回合后弃掉！）</i> 使一个友方随从获得+ /+ 。<i>（本牌会在本回合弃掉！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bb34f3dddd6c7b5cdd8e1552255c251e21f39d55edbbd59d4bc0ae95f42fc923.png"
+    },
+    {
+      "id": 115649,
+      "class_id": 7,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "燃薪之剑",
+      "text": "<b>战吼：</b>如果你的手牌中有具有<b>黑暗之赐</b>的随从牌，获得+3攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7680a7dc71ef51505c450314205e6fc3c7f0f84e0e61f099e4744acf617c7c0b.png"
+    },
+    {
+      "id": 115753,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "焚烧",
+      "text": "对一个随从造成 5点伤害，其拥有者抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cb2fd76760b5e817ce2658fdefa07e7b2f99fe4071adf419a83bbde7a4d6e32a.png"
+    },
+    {
+      "id": 115876,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "共生术",
+      "text": "<b>发现</b>一张另一职业的<b>抉择</b>牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8068da626eb53a2b37e3ea0e4751b4fe2349c49dfae36a979b6a773e6a14ae83.png"
+    },
+    {
+      "id": 115938,
+      "class_id": 12,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 1,
+      "name": "小动物看护者",
+      "text": "在你的回合结束时，为双方英雄各恢复 3点生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/fe6460c107595368df12fad5e820c2cfc4e922f46a8cd5de60021945a38b381f.png"
+    },
+    {
+      "id": 116256,
+      "class_id": 12,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "啮齿绿鳍鱼人",
+      "text": "<b>战吼：</b>随机获取一张鱼人牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/caa1c82d35c74144aafbefefa993acc9bccea423179ce4bd67301f3a1349f79e.png"
+    },
+    {
+      "id": 116296,
+      "class_id": 1,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "怪异魔蚊",
+      "text": "在你的回合结束时，使你的其他随从获得+1攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3f692437e47501112956fa16b8cce9d73a87deab36062b7705aab4657c958b0a.png"
+    },
+    {
+      "id": 116660,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "凶险梦魇",
+      "text": "<b>抉择：</b>对所有随从造成 1点伤害；或者使一个受伤的随从获得+2/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/18d5f59add7d2c0f3810967a8bed11d20177a4399fad9ec0c997f8613fb004b7.png"
+    },
+    {
+      "id": 116675,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "圣光护盾",
+      "text": "随机召唤一个法力值消耗为（1）的随从并使其获得<b>嘲讽</b>。<b>灌注</b>你的英雄技能。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/fa3d0e852c2dfceac9f81f3a2355c06cc5c3b645c8d2eb3c32fda7cb1d7c339d.png"
+    },
+    {
+      "id": 116684,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "虹吸生长",
+      "text": "消灭一个友方随从以获得8点护甲值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3f6443b570bf5b9309b268fae2bf1ed2873f6315ce49b729b64a22240bc3c046.png"
+    },
+    {
+      "id": 116719,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "莫瑞甘的灵界",
+      "text": "抽三张牌。这些牌为<b>临时</b>牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/999ddb9b1c1c052d523383698730a9b90980bcdbdac099b2fc705212252298c7.png"
+    },
+    {
+      "id": 116977,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "生命火花",
+      "text": "<b>抉择：</b><b>发现</b> 一张法师法术牌；或者<b>发现</b>一张德鲁伊法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/485c4106d6a99e7d65558a1efe018b196c8185187c6e2f29f9c8720a1bbb402a.png"
+    },
+    {
+      "id": 117039,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "击伤猎物",
+      "text": "造成 1点伤害。召唤一只1/1并具有<b>突袭</b>的土狼。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3e91b14bac68f9dcd7cb6582f1b145d2432a28c6c57bc33a04743d5386fd2228.png"
+    },
+    {
+      "id": 117061,
+      "class_id": 9,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 1,
+      "name": "邪魔仆从",
+      "text": "<b>亡语：</b>随机使一个友方随从获得本随从的攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/593b061d8f19e695804cef094aeaf2f232eb38b33622aaa3074a1af3d208009f.png"
+    },
+    {
+      "id": 117427,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "恐怖再起",
+      "text": "<b>任务：</b>消耗18份<b>残骸</b>。<b>奖励：</b>泰拉克斯，魔骸暴龙。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0fca1e83ed863c14699cd293c0ec5fdf6e8817983b4c495e3d2c02039c9eac73.png"
+    },
+    {
+      "id": 117538,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "群山之灵",
+      "text": "<b>任务：</b>使用7个不同类型的随从牌。<b>奖励：</b>阿沙隆。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7bd79e05610a92405f96e4f6f5bf28542272553e9b650582f72895daf02ee67d.png"
+    },
+    {
+      "id": 117596,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "奇异的地图",
+      "text": "<b>发现</b>一张攻击力为奇数的野兽牌，如果你在本回合中使用该牌，再从其余选项中选择一张。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9f08a6bfb1c4bb2158a94637b2e7609002199e9ae4b4b3497d7ed804eb1f965d.png"
+    },
+    {
+      "id": 117655,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "生命循环",
+      "text": "消灭一个随从，随机召唤一个法力值消耗相同的随从来替换它。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8a727b82eaf820989717a2f75f040bc441566f15ff3807fd12a1361f0e93e1b7.png"
+    },
+    {
+      "id": 117661,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "治愈荒野",
+      "text": "<b>任务：</b>填满你的面板，总计3回合。<b>奖励：</b>永茂之花。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/793d66f0a50c5b74be5e1484b833a73dce5d5e96602a3b735e42bcb44d5c94f7.png"
+    },
+    {
+      "id": 117672,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "食物链",
+      "text": "<b>任务：</b>使用攻击力为1，3，5，7的野兽牌各一张。<b>奖励：</b>绍克。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a35a45b66a5e4ec3748b5fd365c58fef9c883af06dadf298952ce71fba002d07.png"
+    },
+    {
+      "id": 117684,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "虫巢地图",
+      "text": "<b>发现</b>一张邪能法术牌，如果你在本回合中使用该牌，再从其余选项中选择一张。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/67506f975e70828b11d696d47a1d7ad8e0976934cec71b60a1818006100545c9.png"
+    },
+    {
+      "id": 117716,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "走进失落之城",
+      "text": "<b>任务：</b>存活10个回合。<b>奖励：</b>拉特维厄斯，城市之眼。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4423902aaacfb43ecf4bf1b50b436d245b96f3a31e0f1652ce7e33728600129d.png"
+    },
+    {
+      "id": 117719,
+      "class_id": 12,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "栉龙",
+      "text": "<b>战吼：</b>抽一张牌。<b>亡语：</b>弃掉该牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9df62e3a6a3a5e1d9d97c00a6b69aa027983784d34374e8c98a0d264f5db75e3.png"
+    },
+    {
+      "id": 117827,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "逃离邪能地窟",
+      "text": "<b>任务：</b>使用6张<b>临时</b>牌。<b>奖励：</b>邪能地窟裂隙。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6c3f0eed4308078f7dd9bd2463de0f79da8a588c86e5a9ec4c3de7869c54c118.png"
+    },
+    {
+      "id": 117837,
+      "class_id": 9,
+      "health": 2,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "血瓣群系",
+      "text": "<b>发现</b>一张<b>临时</b>的法力值消耗为（1）的随从牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5effa495ac0cbf73715f4f80661bf071d7b5b8458cd9407602e15692f9d492a0.png"
+    },
+    {
+      "id": 117871,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "放出巨虫",
+      "text": "<b>任务：</b>在你的回合对敌人造成刚好2点伤害，总计15次。<b>奖励：</b>格里什巨虫。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/82944f4ca1c4072a643ad83a80211a56ea38f825425639907bb99495b5ff524f.png"
+    },
+    {
+      "id": 118183,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "禁忌序列",
+      "text": "<b>任务：</b><b>发现</b>8张牌。<b>奖励：</b>源生之石。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3c35460cbba6d8218b22e71a79c236a352d7ec41d263c86c4d3d36dbeda0ffc6.png"
+    },
+    {
+      "id": 118192,
+      "class_id": 4,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "拾荒清道夫",
+      "text": "<b>战吼：</b><b>发现</b>一张法力值消耗等同于你剩余法力水晶数量的卡牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/256872307cad7a0a95a0733cbcc42a0d93ccee1a887f8d048d21fef23b4d98c3.png"
+    },
+    {
+      "id": 118222,
+      "class_id": 12,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 1,
+      "name": "炽烈烬火",
+      "text": "<b>亡语：</b>造成2点伤害，随机分配到所有敌人身上。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1d987131453c7c5a5116fef70e805d7c16cd883e6620b0c734975df76ff2bfa8.png"
+    },
+    {
+      "id": 118225,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "登山地图",
+      "text": "<b>发现</b>一张你未使用过的类型的随从牌，如果你在本回合中使用该牌，再从其余选项中选择一张。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/066985a0c21e92c85ba9bd4038c090e9d5d544980484c9e6a9680a97194ee06e.png"
+    },
+    {
+      "id": 120393,
+      "class_id": 2,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 1,
+      "name": "活泼的松鼠",
+      "text": "<b>亡语：</b>将四张橡果洗入你的牌库。当抽到橡果时，召唤一只2/1的松鼠。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e487985ae9994ba0de0f9b423751ea015969b5e0b273d5c8148b499589440e1c.png"
+    },
+    {
+      "id": 120468,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "盛气凌人",
+      "text": "<b>发现</b>一张<b>嘲讽</b>随从牌。使其获得+1/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/063b4c78c5b0955c718c2ba42b39ab7679dcc60306dd52d1235cfcb7203cbffb.png"
+    },
+    {
+      "id": 120572,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "炽焰祈咒",
+      "text": "<b>发现</b>一张<b>战吼</b>随从牌，其法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a4c1f614a1219ca69d07a78c39c5a508bc71d6a11b7453f43f4382df8d1b8dfb.png"
+    },
+    {
+      "id": 120785,
+      "class_id": 14,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "獠牙锥刃",
+      "text": "<b>亡语：</b>抽一张<b>亡语</b>随从牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/05f7b2fe3b47f9fefc5757a382eed7c4fd4b33faecbbffb5e369ec2fc85d16b5.png"
+    },
+    {
+      "id": 120786,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 1,
+      "name": "真言术：盾",
+      "text": "使一个随从获得+2生命值。 抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0f330cc08ce7a2276995bfc8c98a5902924b79a6b6356f14d695930cc125be9b.png"
+    },
+    {
+      "id": 120881,
+      "class_id": 8,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 1,
+      "name": "哀嚎蒸汽",
+      "text": "在你使用一张元素牌后，获得+1攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2cc39ab233ee791a54749578bd92908d64b357fd039bbc8de6b565f81f09cdaa.png"
+    },
+    {
+      "id": 120971,
+      "class_id": 4,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 1,
+      "name": "紫罗兰魔翼鸦",
+      "text": "<b>亡语：</b>将一张“奥术飞弹”法术牌置入你的 手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/351b0b78f93f9c94446d84b6d842e7513d89183abcdb1ecbef1631e8da6ccd6d.png"
+    },
+    {
+      "id": 66854,
+      "class_id": 12,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "雾帆劫掠者",
+      "text": "<b>战吼：</b>如果你装备着武器，造成2点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5a36bd9f02908dec0efc289d6b5414db2c57b026e38128924ec8a3dd77e7a5c3.png"
+    },
+    {
+      "id": 66861,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "暗中生长",
+      "text": "从你的牌库中<b>发现</b>一张法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7f9b97a19c12a22c659e0a03ee9cc261cdf9b4f0709cd6169c2f870abc29aa0f.png"
+    },
+    {
+      "id": 69511,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "野性印记",
+      "text": "使一个随从获得<b>嘲讽</b>和+2/+3。<i>（+2攻击力/+3生命值）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/218f8f211b08a497eb5255cf24d60edac3c8162abcaa507af0ad9b0c8be1e330.png"
+    },
+    {
+      "id": 69534,
+      "class_id": 10,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "炽炎战斧",
+      "text": "",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/57cd7ff106aeec11fe3001aac5a60a8e8cd2fe8cc33355e6d104dc5ba87a2323.png"
+    },
+    {
+      "id": 69539,
+      "class_id": 12,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "狗头人地卜师",
+      "text": "<b>法术伤害+1</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/93fc9d558ed9c90caca180a99aa2aa36c7019a0a329432861b6786cdb8f01b9b.png"
+    },
+    {
+      "id": 69557,
+      "class_id": 12,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "鱼人猎潮者",
+      "text": "<b>战吼：</b>召唤一个1/1的鱼人斥候。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2520295fab454c5f101097b1d22a977fa529becb6a643008e901e1d41b2e8d48.png"
+    },
+    {
+      "id": 69558,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "混乱打击",
+      "text": "在本回合中，使你的英雄获得+2攻击力。抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dfd41afd192f347de8423720743093b7fd5dec908d40ef592274a0a694dd0269.png"
+    },
+    {
+      "id": 69593,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "野性之力",
+      "text": "<b>抉择：</b>使你的所有随从获得+1/+1；或者召唤一只3/2的 猎豹。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3626b06f5398da0f4f7694d5b9a1559f7ef4dca6fdee1281ae47333abe4ee2eb.png"
+    },
+    {
+      "id": 69603,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "爆炸陷阱",
+      "text": "<b>奥秘：</b>当你的英雄受到攻击，对所有敌人造成 2点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d4057b18002de297d89427555b4d2208dd21101eeba652d0fefecd477f2ea725.png"
+    },
+    {
+      "id": 69604,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "冰冻陷阱",
+      "text": "<b>奥秘：</b>当一个敌方随从攻击时，将其移回拥有者的手牌，并且法力值消耗增加（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/96cd2f963d315a5154734943951bd0937781c6f7393296bc233a197bddd60a86.png"
+    },
+    {
+      "id": 69611,
+      "class_id": 5,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "银色保卫者",
+      "text": "<b>战吼：</b>使一个其他友方随从获得<b>圣盾</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2fde3e25745acf0f94f0f5f36d09fe92e155cd61e046d14481beb9b2299d1f34.png"
+    },
+    {
+      "id": 69614,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "生而平等",
+      "text": "将所有随从的生命值变为1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dca6012a353b5a24695063774e366696ea58b526505285b67dcc3b828d4e7eeb.png"
+    },
+    {
+      "id": 69655,
+      "class_id": 12,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "血法师萨尔诺斯",
+      "text": "<b>法术伤害+1</b>，<b>亡语：</b>抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5a9e869ac5bbc1ccd5bfd0301469ad75942fb7f59a9355e8c5dd9c2455193ef5.png"
+    },
+    {
+      "id": 69660,
+      "class_id": 12,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "年轻的酒仙",
+      "text": "<b>战吼：</b>使一个友方随从从战场上移回你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d13eb65279dc6465606141a26888eb26c7d8224e107bdc58d10e3c1be6f14d65.png"
+    },
+    {
+      "id": 69661,
+      "class_id": 12,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "疯狂的炼金师",
+      "text": "<b>战吼：</b> 使一个随从的攻击力和生命值互换。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7efc87594902d77543d74e7aa6eb388d07b85167e79d77b2a7ab089be5e518a9.png"
+    },
+    {
+      "id": 69662,
+      "class_id": 12,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "疯狂投弹者",
+      "text": "<b>战吼：</b>造成3点伤害，随机分配到所有其他角色身上。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f16cb0017e0519fed2e7c4b5d7f6a4f80b3dd5f60ff3a4d3e9e529d78afe0bc6.png"
+    },
+    {
+      "id": 69665,
+      "class_id": 12,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "战利品贮藏者",
+      "text": "<b>亡语：</b>抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3da70587be1890ec2539ec3318132f59795b1430d3ed270772ef09b25e393aa1.png"
+    },
+    {
+      "id": 69668,
+      "class_id": 12,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "恐狼前锋",
+      "text": "相邻的随从拥有+1攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/19a93ff0032a7b3a7132e324ec6f149f01bcc6923cfbee86eec26095985b4971.png"
+    },
+    {
+      "id": 69677,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "血帆袭击者",
+      "text": "<b>战吼：</b> 获得等同于你的武器攻击力的攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c03b5301a78928be358162fc1083bb898f3401e7b0d6c1cec7cdf4d487c016ad.png"
+    },
+    {
+      "id": 69684,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "幽灵视觉",
+      "text": "抽一张牌。<b>流放：</b>再抽一张。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8ae6539a21911a3c0b024e7d6e412cf1b9d2849d31f230edcb8e80ff649cc068.png"
+    },
+    {
+      "id": 69691,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "快速射击",
+      "text": "造成 3点伤害。 如果你没有其他手牌，则抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/15a0a42f87b488f1e27bf21f88273cfc1754509bc7cae148ec49c0264357cfe3.png"
+    },
+    {
+      "id": 69713,
+      "class_id": 12,
+      "health": 2,
+      "attack": 0,
+      "mana_cost": 2,
+      "name": "蛛魔之卵",
+      "text": "<b>亡语：</b>召唤一个4/4的蛛魔。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e41ee884b1ad88cf939d3c0b6b91cd100cd6be14e030e46a900b3e5938dd77ad.png"
+    },
+    {
+      "id": 69718,
+      "class_id": 12,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "吵吵机器人",
+      "text": "<b>嘲讽</b> <b>圣盾</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4a35ec83fcfa6a0775ad83f3d62eb32f1a188fb3985aad55abeede4c9d1852d7.png"
+    },
+    {
+      "id": 69731,
+      "class_id": 8,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "凶恶的雨云",
+      "text": "<b>战吼：</b>随机将一张元素牌置入你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3d53db8f912e40091a306fab071c413a507318f5cf2543027228f2362ba6dc27.png"
+    },
+    {
+      "id": 69735,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "吸取灵魂",
+      "text": "<b>吸血</b> 对一个随从造成 3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3f4aa92af0818476180b80a5d107bc81b045c0ba0a7c292f09e043cbaa432baf.png"
+    },
+    {
+      "id": 72250,
+      "class_id": 12,
+      "health": 1,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "红鳃锋颚战士",
+      "text": "<b>突袭</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2e876b7ad38fb38063426188f969a9fe3228ea4f0002871733b2b41d11ce5096.png"
+    },
+    {
+      "id": 76288,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "愤怒",
+      "text": "<b>抉择：</b> 对一个随从造成 3点伤害；或者造成 1点伤害并抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/25086128fb79239821626bec21c9649bdf513a00c37c3b1e14a847c59fdfa199.png"
+    },
+    {
+      "id": 76294,
+      "class_id": 8,
+      "health": 3,
+      "attack": 0,
+      "mana_cost": 2,
+      "name": "火舌图腾",
+      "text": "相邻的随从拥有+2攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0b965da6e141cd65b0e60f6e3ac020e4d87b4156c6a035ef56a4eabe6a14fe5b.png"
+    },
+    {
+      "id": 76302,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "盾牌格挡",
+      "text": "获得5点护甲值。抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5cb1c99e703060d05665aa34f3453d6c0ce69174a3b8f94602d6fee0db7895f2.png"
+    },
+    {
+      "id": 76304,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "怒袭",
+      "text": "造成 3点伤害。获得3点 护甲值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8e39266ca8cc4c789fe340f96ad162b719a56d25b3dc70f3f03b93e144dec96d.png"
+    },
+    {
+      "id": 76306,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "圣光闪现",
+      "text": "恢复 4点生命值。抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bfaee443595e6e10e2b64c600ea0b3b215ec8d0cb9b2f1270fee1768cb688af2.png"
+    },
+    {
+      "id": 76317,
+      "class_id": 12,
+      "health": 7,
+      "attack": 0,
+      "mana_cost": 2,
+      "name": "末日预言者",
+      "text": "在你的回合开始时，消灭所有随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/511c7fb576f2a3f6f40b5c6b2138fb60da80dc54f5f57efd6e15dafaebeddac8.png"
+    },
+    {
+      "id": 76321,
+      "class_id": 12,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "狂野炎术师",
+      "text": "在你施放一个法术后，对所有随从造成1点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/782bd9c83e007a86bf8c9a8ad429613638e3bd76ce644665a97623eef2c3735a.png"
+    },
+    {
+      "id": 76323,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "硬壳甲虫",
+      "text": "<b>亡语：</b> 获得3点护甲值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a5e08e8a0c118e816d3476d9b15496071af946643fc21df7910720ab0433c92c.png"
+    },
+    {
+      "id": 76329,
+      "class_id": 12,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "精灵龙",
+      "text": "<b>扰魔</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5bc785f22e4f2f10dc1f0212703c7fe4ae59c7f967ea921ca054bd00c7af6b83.png"
+    },
+    {
+      "id": 78325,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "冰霜打击",
+      "text": "对一个随从造成 3点伤害。如果消灭该随从，<b>发现</b>一张冰霜符文牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b1f96c9ec19ee280e71427e991d59eda04566e52f5ded8e6c8987ecb07630695.png"
+    },
+    {
+      "id": 78353,
+      "class_id": 1,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "战场通灵师",
+      "text": "在你的回合结束时，将一份<b>残骸</b>复活为1/3并具有<b>嘲讽</b>的复活的步兵。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/06d0825073c33b33d5df8f9d34d4b69a8e7980d3d97279b0f0bcd695e6a6c176.png"
+    },
+    {
+      "id": 81972,
+      "class_id": 1,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "寒冬先锋",
+      "text": "<b>亡语：</b>抽一张冰霜法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2ec4574752367ed9e4934d58cb63421e1181cc2a79318a6ef0628f8b2d35c976.png"
+    },
+    {
+      "id": 86552,
+      "class_id": 12,
+      "health": 6,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "受伤的托维尔人",
+      "text": "<b>嘲讽</b>。<b>战吼：</b>对本随从造成3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c756a701e88965ae5acbf8bb812e10fd655c90759298090b42aaa0ca18025022.png"
+    },
+    {
+      "id": 95746,
+      "class_id": 6,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "暗影升腾者",
+      "text": "在你的回合结束时，随机使另一个友方随从获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e12e6f24b9be0db00302b6f0ef3ee6f6570e31adef6e120f4cd4d21fd2ce74f5.png"
+    },
+    {
+      "id": 97379,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "献祭光环",
+      "text": "对所有随从造成 1点伤害两次。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7673487b1c921eee3db041cc3ab9da9598f6cf8804810bf16e14ec5aaa2e9aec.png"
+    },
+    {
+      "id": 98053,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "抗性光环",
+      "text": "你对手法术的法力值消耗增加（1）点。持续 个敌方回合。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/34bbdd6cc9cffe4ce1995a39aad0126c37cf7e77106741a9be3f7318f072e15f.png"
+    },
+    {
+      "id": 102196,
+      "class_id": 5,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "污手街供货商",
+      "text": "<b>战吼：</b>使你手牌中的所有随从牌获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/75c0f70082d62b9e070d9c802da75ff0952dddd677a2bf798a6e62513671615c.png"
+    },
+    {
+      "id": 102197,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "阿达尔之手",
+      "text": "使一个随从获得+2/+1。 抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4613827562d73676f343bc3ab1e5e379ec61e6e69c084928181efe8a1d61c27d.png"
+    },
+    {
+      "id": 102205,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "刺骨",
+      "text": "造成 2点伤害。<b>连击：</b>改为造成 4点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d7b6b3e95099f51349d2706e0ab745cffc94276bd2589c4f909a2d51fea11be7.png"
+    },
+    {
+      "id": 102224,
+      "class_id": 12,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "异教低阶牧师",
+      "text": "<b>战吼：</b>下个回合你的对手法术的法力值消耗增加（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/50fd93c0ee4c4d2d2e9a74e921c24c3806a7fff5ccee340e413ac439ed248d0b.png"
+    },
+    {
+      "id": 102225,
+      "class_id": 12,
+      "health": 6,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "卑劣的脏鼠",
+      "text": "<b>嘲讽，战吼：</b>使你的对手随机从手牌中召唤一个随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/95d21aa7c6272df5254f5a97c2020fd72be4bd1ed48f943ea83a1720dd530f19.png"
+    },
+    {
+      "id": 102376,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "零件破拆",
+      "text": "失去最多5点护甲值，你的下一张机械牌减少等量的法力值消耗。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9e4de2e702d71c407479de3de8519a97202c3c4a2e890adb278fbdbeb9a367b2.png"
+    },
+    {
+      "id": 102381,
+      "class_id": 14,
+      "health": 3,
+      "attack": 0,
+      "mana_cost": 2,
+      "name": "团队之灵",
+      "text": "<b>潜行</b>一回合。你的英雄在你的回合拥有+2攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/860a0a8b00b8726a2098074d77cd4969bbfc276abb9f9275cc3426d755dfee99.png"
+    },
+    {
+      "id": 102407,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "安全护目镜",
+      "text": "获得6点护甲值。如果你没有护甲值，本牌的法力值消耗为（0）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/743567c8498280ffc6e61ef64c21719262244c6d939ddfb954c34a9fb0f81bb8.png"
+    },
+    {
+      "id": 102449,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "寻物解谜",
+      "text": "<b>发现</b>一张<b>奥秘</b>牌，将其法力值消耗变为（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e5c9a60244549ff1e51eedbaedb75a42f8914de0542b322c0d5653b3f38952f2.png"
+    },
+    {
+      "id": 102745,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "刀扇",
+      "text": "对所有敌方随从造成 1点伤害，抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/85548fa6d0ea91fc640ddb056eefa889f292c660de1e44aa9f990ac3c394299e.png"
+    },
+    {
+      "id": 103143,
+      "class_id": 3,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "漆彩帆布龙",
+      "text": "<b>战吼：</b>使每只其他友方野兽各获得一项随机<b>额外效果</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d24596da935f46139f5c143ec1fa915119310966f2a52a592ea6459f441ed7e4.png"
+    },
+    {
+      "id": 103153,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "拼布好朋友",
+      "text": "获取全部3种动物伙伴，其法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/737f6059002e203b3728379cb02b1aaa66ecc086ffb171af03c890b722cbf260.png"
+    },
+    {
+      "id": 103164,
+      "class_id": 7,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "玩具船",
+      "text": "在你召唤一个海盗后，抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3307bc9273a4228b6d6fb2465fac49df4632db5eecb6b94d5eb902e1cf464472.png"
+    },
+    {
+      "id": 103167,
+      "class_id": 3,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "遥控器",
+      "text": "在你的英雄攻击后，召唤一只1/1的猎犬。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/df157571d960dcc01aea9c92ced92dea88f1cc481f4fea47559e738469db0106.png"
+    },
+    {
+      "id": 103186,
+      "class_id": 3,
+      "health": 2,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "丛林乐园",
+      "text": "随机对一个敌人 造成1点伤害。每有一只友方野兽，重复一次。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5f39904b9c5c2352d5a4bee649bcabec3a4a9a221f494e88a3e5afad68a8af9f.png"
+    },
+    {
+      "id": 103433,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "菊花茶具",
+      "text": "<b>发现</b>一张另一职业的法术牌，并获取一张它的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/92df4af91c6a91c868f99fab83a5c3446d27dd815b46c472a0330c80ff4740fc.png"
+    },
+    {
+      "id": 103441,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "质量保证",
+      "text": "抽两张<b>嘲讽</b>随从牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7501d56cfa30efdc4202ab78d64291edcbb9f7dd0feb2fc6e086d9914db06f55.png"
+    },
+    {
+      "id": 103492,
+      "class_id": 6,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "纸艺天使",
+      "text": "你的英雄技能的法力值消耗为（0）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/fcbbf0f80553c08312bdc295d9f4d249c060d303d87fd97b45af6fb14e0d9f1c.png"
+    },
+    {
+      "id": 103531,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "对照鳞摹",
+      "text": "抽取你法力值消耗最低和最高的龙牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3338a5c3e30d547c47df24f329f14a7ac6bf50f3848afd43abf8516ad2158274.png"
+    },
+    {
+      "id": 104514,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "盲盒",
+      "text": "随机获取2张恶魔牌。<b>流放：</b>改为<b>发现</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a9d739f5a238020d9efc14c0142bd38bde282af5b6ffe305863ba69de934538c.png"
+    },
+    {
+      "id": 104518,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "小型法术欧珀石",
+      "text": "抽一张牌。<i>（用你的英雄攻击 次后升级。）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/787216dc2746c0375dcebc544b309417c8f3fb0ba12c6a5a3ba1246a46c187cb.png"
+    },
+    {
+      "id": 104594,
+      "class_id": 2,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "发条树苗",
+      "text": "<b>可交易</b> <b>战吼：</b>复原 个法力水晶。<i>（<b>交易</b>后升级！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/005d59ce8174eb3236a87d6c72efb00c0b9f9fdbd78ba1e0fdf8609a8fa9d584.png"
+    },
+    {
+      "id": 104596,
+      "class_id": 2,
+      "health": 3,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "魔法妙妙屋",
+      "text": "在本回合中获得<b>法术伤害+1</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4f283aff2a6d7073341fed4ddb6098a004cd5330d50c06e66d4af7f08ce23549.png"
+    },
+    {
+      "id": 104632,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "蛛丝缝纫",
+      "text": "选择一个友方随从，为其<b>发现</b>一个法力值消耗小于或等于（4）点的法术，当该随从死亡时会施放。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5ecbe52df4bb69bc95cfb03c8586be5ff8ab8a967a0a01b59e867898d8a20437.png"
+    },
+    {
+      "id": 104636,
+      "class_id": 1,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "蹒跚的僵尸坦克",
+      "text": "<b>嘲讽</b>。<b>战吼：</b>消耗5份<b>残骸</b>以召唤一个本随从的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/49a156d53523c4fb66d8d2e3bc52dfcf8f1ad6ac52b70ba6637995bed314e573.png"
+    },
+    {
+      "id": 104665,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "无底玩具箱",
+      "text": "从你的牌库中<b>发现</b>一张牌。如果你拥有<b>法术伤害</b>，复制发现的牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a42a9b9a1bd03831c8dd6687cb668960bad774edfaf989a5887be4a6fbb67142.png"
+    },
+    {
+      "id": 105262,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "高端玩家",
+      "text": "<b>战吼：</b>向你的 对手发起挑战，玩一场剪刀石头布！胜者抽两张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/48adccc48b8f77ccd624ba3273fd9fa64de555c54e7973a5225a76753f0bfef3.png"
+    },
+    {
+      "id": 105564,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "折价篓",
+      "text": "<b>奥秘：</b>在你的对手使用一张随从，法术或武器牌后，你抽取其余两种类型的牌各一张。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e2945116339775df2488c01ad45cb9434bb425cedd60a25903b70031215bde04.png"
+    },
+    {
+      "id": 105573,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "玩具故障",
+      "text": "造成 3点伤害，随机分配到所有敌方随从身上。如果你的牌库中没有随从牌，再造成 3点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e0aed6929e02b94bdde226d9396bbd5f25942d8189386c5bc17c529727c0780d.png"
+    },
+    {
+      "id": 105795,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "能量零食",
+      "text": "仅在下回合，获得两个法力水晶。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ca0036be89387332155bddf20b8ec4f3689382006d1fad2c2c0aff94e76ea0d6.png"
+    },
+    {
+      "id": 105854,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "滑坡",
+      "text": "<b>冻结</b>一个角色。每有一个被<b>冻结</b>的角色，抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0c57cc79df9599c54b3f9b1da84f8f6abbb9642636267555bf4cac12307cd482.png"
+    },
+    {
+      "id": 105855,
+      "class_id": 1,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "恐惧猎犬训练师",
+      "text": "<b>突袭</b>。<b>亡语：</b>召唤一只1/1并具有<b>复生</b>的恐惧猎犬。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7edecd69e0de1dd9d8d1fce114c91666e6da58d628717b17798c24d55fc85a33.png"
+    },
+    {
+      "id": 106306,
+      "class_id": 12,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "潮池学徒",
+      "text": "<b>战吼：</b>如果你在此牌在你手中时施放过3个法术，从中<b>发现</b>一张。 <i>（还剩 个！）</i> <i>（已经就绪！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/80177af17c05e4b20c19ac7cf5e92ead8684774cce3b5f82af278e0f9b5b3517.png"
+    },
+    {
+      "id": 106310,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "海妖之歌",
+      "text": "随机获取两张你在本局对战中未施放过的派系的法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ee2db44d056106cbd1e9f4ac4b937d16f16d41856fce7ad74d6719a15bffce91.png"
+    },
+    {
+      "id": 106388,
+      "class_id": 12,
+      "health": 4,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "椰子火炮手",
+      "text": "在相邻的随从攻击后，随机对一个敌人造成1点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/222f81f800c9969fa0058b7923b3ec664575095881b2401cc62ba29012891e0a.png"
+    },
+    {
+      "id": 106442,
+      "class_id": 5,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "王牌发球手",
+      "text": "在本随从获得攻击力后，使你手牌中法力值消耗最高的牌的法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2d558817ebd20681f5360445203f5bd1761004b02d9d8ddfe6acefea25316657.png"
+    },
+    {
+      "id": 106532,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "麦芽岩浆",
+      "text": "对所有敌方随从造成 1点伤害。<i>（还剩3杯！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7407fecb2529b5f4fe6961d150d3b15931691ed677004c1c33dc0b3733b34261.png"
+    },
+    {
+      "id": 106574,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "观赏鸟类",
+      "text": "从你的牌库中<b>发现</b>一张随从牌。使其所有的复制获得+2/+1<i>（无论它们在哪）</i>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c7b27746c76302d7f70e5a01460085381476be8804e5a07adb241525b5f8fd29.png"
+    },
+    {
+      "id": 106576,
+      "class_id": 3,
+      "health": 3,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "鹦鹉乐园",
+      "text": "你的下一张<b>战吼</b>随从牌的法力值消耗减少（1）点。在你使用一张<b>战吼</b>随从牌后，重新开启本地标。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/14645c49dc3531fb9013d9baf42bdcd5e0ea572cbcd50b3eaf1fb5785004536a.png"
+    },
+    {
+      "id": 106582,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "伞降咒符",
+      "text": "在你的下个回合开始时，召唤两个1/1并具有<b>冲锋</b>的海盗。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1389e24ffe80bbe15ead920437b58fd3fdd049b7be253cd0c39a39cfbb188ba3.png"
+    },
+    {
+      "id": 106584,
+      "class_id": 14,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "狂飙邪魔",
+      "text": "在一个友方海盗攻击后，使你的英雄在 本回合中获得 +1攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/19056454b06b95f22b64ee8feb0304889c14e95261d249cf1721aaaf5d9c0c25.png"
+    },
+    {
+      "id": 106652,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "决胜时刻",
+      "text": "复活上一个死亡的你的恶魔。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f9967db915b73e1ac0d7ef6f61afdb8f829cdf06b1541b0f83c2ecf6cfd7516c.png"
+    },
+    {
+      "id": 107763,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "小偷小摸",
+      "text": "随机获取两张其他职业的法力值消耗为（1）的法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/02efb9e1a537140a88dbebfe41453f97d298b70297e87160ca04371c7192010e.png"
+    },
+    {
+      "id": 107775,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "甜筒殡淇淋",
+      "text": "造成 3点伤害。消耗3份<b>残骸</b>，在你的回合结束时将本牌移回你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cd57c5b0ea021faae6cd1c3556b4cfd9365183db0218f80f2d691b66ae5edb0e.png"
+    },
+    {
+      "id": 107796,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "吃掉小鬼！",
+      "text": "消灭一个友方随从以抽三张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c9dd9d57752ce9e0f20a22077c3124cbe223c069226e5b752e6c0e153afe5843.png"
+    },
+    {
+      "id": 107797,
+      "class_id": 9,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "派对邪犬",
+      "text": "<b>战吼：</b>召唤两只1/1的邪能兽。对你的英雄造成3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0ef76d84b3f205e99594b6e7addf3579f7798e4d5fa6f792e980638906b4030f.png"
+    },
+    {
+      "id": 107799,
+      "class_id": 12,
+      "health": 1,
+      "attack": 4,
+      "mana_cost": 2,
+      "name": "血帆征兵员",
+      "text": "<b>战吼：</b> <b>发现</b>一张海盗牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/54729706918e5108b0de5f2a0d4cf4ee932da74ce0e0d01e4857647b445c2e8f.png"
+    },
+    {
+      "id": 107807,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "弃明投暗",
+      "text": "将你的英雄技能和非术士卡牌替换成术士的。它们的法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e58eb69ffe8f34322701d662807d0717a286a4a737fb76c99c765cc6791f7b30.png"
+    },
+    {
+      "id": 107812,
+      "class_id": 9,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "无畏的火焰杂耍者",
+      "text": "<b>战吼：</b>获得等同于你的英雄在本回合中所受伤害量的属性值。 <i>（获得 点）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c7f4c973aad005dec8583913305afad3d5eb35a22ab73f9f55e65a0a074164e4.png"
+    },
+    {
+      "id": 107815,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "咒怨纪念品",
+      "text": "使一个随从获得+3/+3和“在你的回合开始时，对你的英雄造成3点伤害”。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/352a2202ae1956d7722774ea3dc19b0469995b0d961ab7f781aa64c2cea4324e.png"
+    },
+    {
+      "id": 107920,
+      "class_id": 1,
+      "health": 4,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "脆骨海盗",
+      "text": "每当你使用一张<b>亡语</b>随从牌时，使其获得<b>复生</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dce899628ed16c4abec70cc71f1477bcb0f35342bf36dd0cab22844d023cfeb1.png"
+    },
+    {
+      "id": 107928,
+      "class_id": 12,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "旅行社职员",
+      "text": "<b>战吼：发现</b>一张任意职业的地标牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/04522c6b0152cb94be6d6b7bf923d862443553ea0a8e159262ac7261d32334f6.png"
+    },
+    {
+      "id": 108449,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "XB-931型家政机",
+      "text": "在你使用一个 地标效果后，获得3点护甲值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cb05b8b22f06c71095719d895aebfd00674f239f8be51fd1a13ffcd154d9d09a.png"
+    },
+    {
+      "id": 108518,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "净化之力",
+      "text": "<b>沉默</b>所有友方随从，然后使其获得+1/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2fc94d3bfd17f71850896b0b06e3975ebff24838d3e381911a65a5e5cc55d609.png"
+    },
+    {
+      "id": 109324,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "把经理叫来！",
+      "text": "造成 2点伤害。<b>连击：</b>获取一张幸运币。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/419e05f23b2f32a30f8cbf707f2e9d324523c190ffbeb0ab3559c3aa2bd68521.png"
+    },
+    {
+      "id": 109326,
+      "class_id": 3,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "宠物鹦鹉",
+      "text": "<b>战吼：</b>重复你使用的上一张法力值消耗为（1）的牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/058907583d4cbc41d35201687923be9d3c0490602235ca426a0a887519399092.png"
+    },
+    {
+      "id": 109334,
+      "class_id": 12,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "饮品侍者",
+      "text": "<b>亡语：</b>随机获取一张饮品法术牌。<i>（饮品可以饮用3次！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a63bf2901e6217c785a36249caefa77a9c3a22b0ba36429236567b3499fe976c.png"
+    },
+    {
+      "id": 110108,
+      "class_id": 12,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "次元核心",
+      "text": "<b>圣盾</b> <b>星舰组件</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/833be638465fb88db0985188490b979e8df94b50f24ef4e6017f44164a8b8a5a.png"
+    },
+    {
+      "id": 110111,
+      "class_id": 2,
+      "health": 4,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "沙塔尔力场",
+      "text": "<b>扰魔</b>。你每个回合使用的第一张法术牌的法力值消耗减少（1）点。 <b>星舰组件</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5157074d2877468b80e522e04778266623101721c038e6bbb4a8679c045ee0b5.png"
+    },
+    {
+      "id": 110117,
+      "class_id": 1,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "引航舰首像",
+      "text": "<b><b>法术迸发</b>：</b>触发一个随机友方随从的<b>亡语</b>。 <b>星舰组件</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ae45d51d3a521e79a0c41babc58624ad0a37b0656c54397a7021c00c1825e5b4.png"
+    },
+    {
+      "id": 110235,
+      "class_id": 9,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "军团之心",
+      "text": "<b>吸血</b> <b>星舰组件</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4fa5d793331ed852b91ce2d5d312a4986cfaeccc6c347b35b4e93a5c3d37d488.png"
+    },
+    {
+      "id": 110237,
+      "class_id": 14,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "邪能动力源",
+      "text": "在本随从攻击后，使你的其他随从获得 +1攻击力。 <b>星舰组件</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/78381ae3b56144dd6761944a17861849ff5e65bb11c35f41403c93c35c4aa0e1.png"
+    },
+    {
+      "id": 110239,
+      "class_id": 3,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "生化罐仓",
+      "text": "<b>亡语：</b>随机对一个敌人造成等同于本随从攻击力的伤害。 <b>星舰组件</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3b8c2fd5f9b858965adb5600dd23aea8f0a820a51c6ef4adb886b2b427ec930d.png"
+    },
+    {
+      "id": 110566,
+      "class_id": 12,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "影像操作师",
+      "text": "<b>战吼：</b>随机获取3张 <b>临时</b>德莱尼牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5887dc909d8685d7b67372444cab780ee96115be4fbef0a6c1c8008fba64174a.png"
+    },
+    {
+      "id": 110610,
+      "class_id": 5,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "星际研究员",
+      "text": "<b>战吼，<b>法术迸发</b>：</b>抽一张圣契牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a036efe78b15777a45ceac7adc4801b48a7601ab7bc983a4122d1c64bdd18efd.png"
+    },
+    {
+      "id": 110744,
+      "class_id": 12,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "月石重拳手",
+      "text": "<b>战吼：</b>将3张小行星洗入你的牌库。当抽到小行星时会对一个随机敌人造成 点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dc5e5fb4856be7086be3d533ccef6d1454e9e0317ee80024a177516639d2699b.png"
+    },
+    {
+      "id": 110751,
+      "class_id": 5,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "忙碌机器人",
+      "text": "<b>战吼：</b>使你攻击力为1的随从获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/00a171c68c9450cf9bc7b9cf68586128391905423f43766f742c9523c09e9b91.png"
+    },
+    {
+      "id": 110759,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "最后期限",
+      "text": "<b>可交易</b>，<b>临时</b> 消灭一个随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c22d546b6f9966a92ed01c1aa4c7de5d09ab6f115d1d246b7718b7631aed9fa8.png"
+    },
+    {
+      "id": 110761,
+      "class_id": 9,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "月度魔范员工",
+      "text": "<b>战吼：</b>使一个友方随从获得<b>吸血</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ec7aa012123e0cc5fb40146ce480f12caae33b411c70d6bbfa910300af9272da.png"
+    },
+    {
+      "id": 110763,
+      "class_id": 8,
+      "health": 3,
+      "attack": 0,
+      "mana_cost": 2,
+      "name": "饮水图腾",
+      "text": "在你的回合结束时，使相邻的随从获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bcea42c5297eff9b448b3a9fd2c01813af9ac9fd13be519761b1981a2d8a0865.png"
+    },
+    {
+      "id": 110767,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "恶魔交易",
+      "text": "<b>吸血</b> 对一个随从造成 4点伤害。将一张法力值消耗大于或等于（5）点的随机恶魔牌置于你的牌库顶。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/fdb196a58f6c86dd9f26ab3c3c6f8a0cb479039663e551eb638844772679c232.png"
+    },
+    {
+      "id": 110771,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "银月城宣传单",
+      "text": "使一个随从获得在本回合中<b>免疫</b>和+2/+2。 <i>（每回合翻面。）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/397a2bccb6099c1809d35a27e49d2a18de29e0459e2f2fedcda9c3b47d892f97.png"
+    },
+    {
+      "id": 110786,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "蛮熊搬家",
+      "text": "获取两张3/3并具有<b>嘲讽</b>的熊，其每在你手牌中一回合便获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6831964f6d53189fb106ffd0e62a486749853c30c56994c872f8633a4ec77175.png"
+    },
+    {
+      "id": 110835,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "星轨晕环",
+      "text": "使一个随从获得+1/+1和<b>圣盾</b>。如果你在本回合中使用过相邻的牌，则法力值消耗为（0）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ae2ab2a395de7822baca1ef506c292542c97346041d8aeddb275832767757b5a.png"
+    },
+    {
+      "id": 110848,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "冰冠堡垒宣传单",
+      "text": "对一个随从造成 3点伤害并<b>冻结</b> 其相邻随从。 <i>（每回合翻面。）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4af20522f610d2fc78e1796cd86e215a474a99a46174b9425eb12b7da10472bb.png"
+    },
+    {
+      "id": 110849,
+      "class_id": 6,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 2,
+      "name": "暴富特使",
+      "text": "<b>战吼：</b>将你手牌中法力值消耗最高的牌置于你的牌库顶。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7a2f655278b3c38cba88a96cd444abf0d3694e2c35da27128db0488d8f8678fb.png"
+    },
+    {
+      "id": 110855,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "忙碌的苦工",
+      "text": "<b>亡语：</b>你的下一张地标牌法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5fdcab998fe99ede3f200084f4c0eafea26e966163e8397d7fdfe1d9d638f672.png"
+    },
+    {
+      "id": 110865,
+      "class_id": 8,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "行星领航员",
+      "text": "<b>战吼：</b>你使用的下一个德莱尼的法力值消耗减少（2）点，但拥有<b>过载：</b>（2）。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e6a875ee8f2928293f36e53f9271c6df5b0efa26e057f1e3728b0f3bd47d5d8f.png"
+    },
+    {
+      "id": 110867,
+      "class_id": 3,
+      "health": 2,
+      "attack": 0,
+      "mana_cost": 2,
+      "name": "异星虫卵",
+      "text": "<b>亡语：</b>召唤一只3/5的野兽并使其攻击生命值最低的敌人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/039d9b7e8545c6176ac61d5487fb417e22f5a91277bd498993d26d3f89f0f508.png"
+    },
+    {
+      "id": 110891,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "星域相变射线",
+      "text": "<b>抉择：</b>随机对两个敌方随从造成 2点伤害；或者使一个敌方随从<b>休眠</b>2回合。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7bd133dbda1a4ec391993b05be969d0181749d2ae1d36c6fe8393ce90c015e02.png"
+    },
+    {
+      "id": 110899,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "丢弃辎重",
+      "text": "<b>发现</b>一张法术牌。消耗2点护甲值，再<b>发现</b>一张。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7f2362019fd04c52fab8df130da067cc04a78464200c48afa6b86c492a405b46.png"
+    },
+    {
+      "id": 110911,
+      "class_id": 10,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "晶石巨槌",
+      "text": "在你的英雄攻击后，使你手牌中的所有德莱尼获得+2攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d4f490e578f5e36e0cc46d2c0effa2ce8c501ae80f5016e44352276024a49237.png"
+    },
+    {
+      "id": 110968,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "三角测量",
+      "text": "从你的牌库中 <b>发现</b>一张不同的法术牌，并将它的3张复制洗入你的牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f97bb9eb94fb9244e42b7ba80bc2531a2eff16d90960e6764d8ad2d065deb40a.png"
+    },
+    {
+      "id": 111067,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "自燃",
+      "text": "随机对一个敌人造成 4点伤害。如果你在上个回合使用过元素牌，则可以选择目标。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5c2310f35eb4427e8d0f9afbef5b8c97812cacab00cd26019e1372510b0e15db.png"
+    },
+    {
+      "id": 111071,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "详尽笔记",
+      "text": "<b>发现</b>一张法力值消耗大于或等于（5）点的野兽牌，使其法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/06e17dbb6fd87c8f0ad88453d2b9b2ce49612dabf86156ee4bc0b407fe8d479d.png"
+    },
+    {
+      "id": 111073,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "激光弹幕",
+      "text": "对一个随从造成 3点伤害。如果你正在构筑<b>星舰</b>，则还会对相邻随从造成伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/97dffff1e7cc3d2eb63e208573a0384bf3c95d3595fac2427e2b6b1999605819.png"
+    },
+    {
+      "id": 111075,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "紧急会议",
+      "text": "获取两张4/4的乘务员。将一张法力值消耗小于或等于（3）点的随机恶魔牌置于两者之间。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8c988098bbe05f45d67f7b7dd1bca0a1c4714553c3e92d8cb4eb2055d0c902d0.png"
+    },
+    {
+      "id": 111076,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "光速",
+      "text": "使一个随从获得+1/+2和<b>突袭</b>。在本回合可以重复使用。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c4293bd49e23bb061d24fd588e5c82cdab9c0bce6aea06335ed11ebd268e7064.png"
+    },
+    {
+      "id": 111133,
+      "class_id": 9,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "恶兆邪火",
+      "text": "<b>战吼：</b>在本局对战中，你套牌之外的恶魔的法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bb64accea9fe58263bc98a21e0c9d8f525c1980d17491f8241785c1147e64e88.png"
+    },
+    {
+      "id": 111169,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "挟持射线",
+      "text": "随机获取一张恶魔牌，其法力值消耗减少（2）点。在本回合可以重复使用。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6ca83759be1b314b6e6ee55c2fc7003d9c68ba49989d1efc589abd621b281649.png"
+    },
+    {
+      "id": 111181,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "遇险的航天员",
+      "text": "<b>战吼：</b>你使用的下一个德莱尼会获得+2生命值和<b>突袭</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/73bdbb452de6d033c442179bda6bf1bc6a9235adc774dcdf66d0f0afbda5e809.png"
+    },
+    {
+      "id": 111263,
+      "class_id": 7,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "艾瑞达潜藏者",
+      "text": "<b>连击，<b>法术迸发</b>：</b>获得+2攻击力和<b>潜行</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3ef32744c26a07e04cbcb9c4f786e39b82c4254cabb3f108ee762f34e5770f43.png"
+    },
+    {
+      "id": 111292,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "幸运彗星",
+      "text": "<b>发现</b>一张<b>连击</b>随从牌。你使用的下一张<b>连击</b>随从牌的<b>连击</b>会触发两次。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2209306bcadadd53880f5b5994f2dc4d51d633efa2e31cccd76bcb1bf97f8f86.png"
+    },
+    {
+      "id": 111300,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "神圣之星",
+      "text": "对一个随从造成 3点伤害。随机使你手牌中的一张随从牌获得+3生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2d76871abcd83fcfc3fc9a9adb2b4a77c6aee558a5b3e16a89e2f3a01cead0c1.png"
+    },
+    {
+      "id": 111304,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "水晶焊工",
+      "text": "<b>嘲讽</b>。<b>战吼：</b>如果你正在构筑<b>星舰</b>，获得+2/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/53769da692abd4d644084c80b9d8d27ed338ed96fb399fab9fee4231d45dbf65.png"
+    },
+    {
+      "id": 111313,
+      "class_id": 12,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "困窘的机械师",
+      "text": "<b>圣盾</b>。<b><b>法术迸发</b>：</b>抽一张德莱尼牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/32d0c903a3609fc43ffe067411232edd74f0ba52281b8285458a33a46eb6f619.png"
+    },
+    {
+      "id": 111320,
+      "class_id": 1,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "鲜血魔术师",
+      "text": "<b>战吼：</b>消耗一份<b>残骸</b>，<b>发现</b>一张鲜血符文牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/47099d18eb185ec356f3c67b1fce0eea4e54a948f699e4acc40116d5770405ff.png"
+    },
+    {
+      "id": 111321,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "活力分流",
+      "text": "使你手牌中的所有随从牌获得+1/+1。消耗2份<b>残骸</b>，再获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/74d323447ed8560b394851e989b1c0db4ce9b5fab74c9be67d9e72b5095aa1bd.png"
+    },
+    {
+      "id": 111327,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "吸血鬼之血",
+      "text": "使你的英雄获得+5生命值。消耗3份<b>残骸</b>，多获得5点并抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2d6dd8e6a5bca422387dda4b64edb10392660f5039f98d336fd1501523b773c8.png"
+    },
+    {
+      "id": 111328,
+      "class_id": 1,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "死灵殡葬师",
+      "text": "<b>战吼：</b>如果在你的上回合之后有友方亡灵死亡，<b>发现</b>一张邪恶符文牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/054c28dbd934b7b1e23a275782615e84081b39504b706722177cdbaccda18d4a.png"
+    },
+    {
+      "id": 111348,
+      "class_id": 14,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "游荡贤者",
+      "text": "<b>流放：</b>使你最左边和最右边的手牌法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/61004b919a9f0100f067acf46391db443a3b4d7fb1b14ebbdc2f0730d73e5866.png"
+    },
+    {
+      "id": 111362,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "冰霜陷阱",
+      "text": "<b>奥秘：</b>当你的对手施放一个法术时，改为将其移回拥有者的手牌，并且法力值消耗增加（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2e0e2461e4f46e45e64b71ba1d60efdf6901dc9a37ed2ee58682286c60f6438f.png"
+    },
+    {
+      "id": 111363,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "捕鼠陷阱",
+      "text": "<b>奥秘：</b>当你的对手在一回合中使用三张牌后，召唤一只6/6的老鼠。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3bdc22da3ec057ee0c6129099900719a2eb4adaba50c31149210db5cdb1e6a0c.png"
+    },
+    {
+      "id": 111365,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "寒冰箭",
+      "text": "对一个角色造成 3点伤害，并使其<b>冻结</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e48ee2301f0b82d897ee93bf2c7630458ac9aeaf764105e4537829b98da59382.png"
+    },
+    {
+      "id": 111366,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "远古雕文",
+      "text": "<b>发现</b>一张法术牌，使其法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/356376e3cb995ad4e961b7f48eb8cd7dae802644f290fbf9ba13c47d0c0bec64.png"
+    },
+    {
+      "id": 111386,
+      "class_id": 7,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "四处搜刮的造舰师",
+      "text": "<b>战吼：</b>随机获取 一张另一职业的 <b>星舰组件</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/fe649eded5bc5de12fabaecddd7001c6ddab0ccf0e3675a4fba0f4a91573f876.png"
+    },
+    {
+      "id": 111412,
+      "class_id": 12,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "太空生物学家",
+      "text": "<b>战吼：</b>在你的下个回合开始时，<b>发现</b>一张法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e22992332edb20821163d1b65313ae6a7d5a06dc472d36b379222aa9d1ba89c1.png"
+    },
+    {
+      "id": 111415,
+      "class_id": 12,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "脑鳃鱼人",
+      "text": "<b>战吼：</b>使所有友方鱼人获得“<b>亡语：</b> 抽一张牌。”",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8fe4fc1606dc5b4086cd0ec8942249ff8a093f8c4303ab1e856c3a2f26a8de74.png"
+    },
+    {
+      "id": 111485,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "灵魂检索",
+      "text": "从你的牌库中<b>发现</b>一张牌。消耗5份<b>残骸</b>，复制发现的牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d1b2988917e51814fe613b6912503af33b18e4aeaee328baca6a04cb802154f7.png"
+    },
+    {
+      "id": 111906,
+      "class_id": 14,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "沃罗尼招募官",
+      "text": "在你的回合结束时， 获取一张4/4并具有一项随机<b>额外效果</b> 的乘务员。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/08a7053f6b172ca9f8c11795504b9626c84584990507608b76e1349a07a0afb6.png"
+    },
+    {
+      "id": 112799,
+      "class_id": 0,
+      "health": 2,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "孵化池",
+      "text": "获取一张1/1的跳虫。<b>亡语：</b>在本回合中，你的异虫随从拥有<b>突袭</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d034853533e723b33e7bfb5927a386d838ec05384567fbfc810d363eaa28b188.png"
+    },
+    {
+      "id": 112856,
+      "class_id": 0,
+      "health": 2,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "星港",
+      "text": "召唤一个2/1并具有一项发射时效果的<b>星舰组件</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c6cb2ed17e52334617eda089e72933d1d13786e7743063545b5cdcf666177143.png"
+    },
+    {
+      "id": 112866,
+      "class_id": 5,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "超级电容器",
+      "text": "<b>星舰组件</b> <b>战吼：</b>每有一个其他友方随从，便获得+1/+1。发射时也会触发。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b25493a69647c6f27d8c06082c8febf785cd2c13abfaa443fa629c66a44fdcee.png"
+    },
+    {
+      "id": 112869,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "菌毯肿瘤",
+      "text": "你的异虫随从拥有+1攻击力和 <b>突袭</b>。持续3回合。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5a485b7378d5f71fadb9ad300a68aa26496dd6b4a4b186a14bb5724145dbecf2.png"
+    },
+    {
+      "id": 112872,
+      "class_id": 3,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "蟑螂",
+      "text": "当你抽到本牌时，获取一张它的复制。<b>战吼：</b>如果你控制着其他异虫随从，则获得+1/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/265a70a839ef01554fe29b85df1f42659c718e6ba1be58bb06e3ef88e19c572b.png"
+    },
+    {
+      "id": 113168,
+      "class_id": 0,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "光子炮台",
+      "text": "造成 3点伤害。 如果本牌消灭了一个随从，则在本局对战中，你的星灵随从牌的法力值消耗 减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ba78341f77ee63303895b06b92684fb94ebf6f1f519a0ecc4cc440ff1c19c3bd.png"
+    },
+    {
+      "id": 113178,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "护盾充能器",
+      "text": "获得6点护甲值。你的下一张星灵法术牌法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d47ab464ae2dc8c36a437eaaa23ad1210f1cc1d3f52acb8d1fa16e45b4957bec.png"
+    },
+    {
+      "id": 113192,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "闪现",
+      "text": "抽一张星灵随从牌。<b>连击：</b>其法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/691056a3ee4acd18769b800925241417ce0919c692c9c441471e4eec95ba7651.png"
+    },
+    {
+      "id": 113209,
+      "class_id": 8,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "飞弹舱",
+      "text": "<b>星舰组件</b> <b>战吼：</b>对所有敌人造成1点伤害。发射时也会触发。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3d92f3ca1c3047911de1d059f69a18b68951c86ba9e795d1b00d4f8bd0bc6efd.png"
+    },
+    {
+      "id": 113671,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "进化腔",
+      "text": "使你的随从获得+1攻击力，使你的异虫额外获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5be43c9f761a3f7b571dd8c8f7ce4e42f5e3ced6d435c5dcc43a7cf20dc6712c.png"
+    },
+    {
+      "id": 113673,
+      "class_id": 9,
+      "health": 6,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "脊针爬虫",
+      "text": "<b>嘲讽</b>。无法攻击。如果你控制着地标，则拥有+3攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e87694faeceb6c6f72f4061c0dccc26083cacd1db6bac8805498226203dc546e.png"
+    },
+    {
+      "id": 113738,
+      "class_id": 6,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "机械哨兵",
+      "text": "<b>吸血</b>。<b>亡语：</b>在本局对战中，你的星灵随从牌的法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e5fcc63279e4190ecc0123a996beff2d8632f20da770ef1aa5280e86aa48a1fb.png"
+    },
+    {
+      "id": 113973,
+      "class_id": 12,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "疯狂生物",
+      "text": "<b>战吼：</b><b>发现</b>一张具有<b>黑暗之赐</b>的法力值消耗为（3）的随从牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3c056956c3fe548ad29870687b606a3f324f103cd439ca372b6278e6552a8b4e.png"
+    },
+    {
+      "id": 114012,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "巫卜",
+      "text": "消灭一个 友方小精灵以 抽三张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5e4964250ef55eb23b6be8aa22f373b6e8745c687723051aff217b15afe478c9.png"
+    },
+    {
+      "id": 114018,
+      "class_id": 3,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "奇异训犬师",
+      "text": "<b>战吼：</b> 抽一张野兽牌。<b>灌注</b>你的英雄技能。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f06584264196743b6b29571f14b0e7f606a9b2744e5a75c08ef2a379f60e1251.png"
+    },
+    {
+      "id": 114080,
+      "class_id": 6,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "月翼信使",
+      "text": "<b>吸血</b>。<b>战吼：</b><b>灌注</b>你的英雄技能。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/19b18e209a35b0720f4923d9f3a509084fb30faea3d5fbe9fb998b3881351116.png"
+    },
+    {
+      "id": 114215,
+      "class_id": 10,
+      "health": 2,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "腐蚀之巢",
+      "text": "选择一条友方的龙。召唤一枚0/2的可以孵化成所选龙的复制的龙蛋。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/60fb5878fc6e9265b80f56a2853a88edb8b1793c211c91d3d61279750a1a69ea.png"
+    },
+    {
+      "id": 114219,
+      "class_id": 10,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "龙巢守护者",
+      "text": "<b>战吼：</b>如果你的手牌中有龙牌，装备一把2/2的剑。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3931bffdb50c783770a5f1745476b38f4173c11e8053ae5105c304a420815f36.png"
+    },
+    {
+      "id": 114281,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "翡翠厚赠",
+      "text": "抽两张牌。你无法在2回合内使用这些牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1d4891d352d82c6c2e507b025d7441e63c6ceeeeee215d56c6a7517f154a9ed7.png"
+    },
+    {
+      "id": 114304,
+      "class_id": 1,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "畸怪符文剑",
+      "text": "<b>战吼：</b>如果你使用的上一张牌拥有邪恶符文，则获得+1攻击力。依此法检定鲜血符文以获得+1耐久度。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/503252c9113a6503d70634b8ffe26a7f7fd57fc16de37e5dc0aa7e6a61bb6229.png"
+    },
+    {
+      "id": 114305,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "感染吐息",
+      "text": "造成 2点伤害。召唤一条0/2的水蛭。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/408f85abf10a11dd6f5fd0dbcda77b23e1b611c555f2fcb9f67aa4068ec5af49.png"
+    },
+    {
+      "id": 114310,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "暮光侵扰",
+      "text": "<b>抉择：</b>消灭一个攻击力小于或等于3的随从；或者随机召唤一个法力值消耗为（2）的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/546321df3591321334f8ead28108a8dcb3739f676c8fefa20d02dedb40d41782.png"
+    },
+    {
+      "id": 114337,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "跳脸惊吓",
+      "text": "<b>发现</b>一张法力值消耗大于或等于（5）点并具有<b>黑暗之赐</b>的恶魔牌。将其余两张洗入你的牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e1a528891765819a56812251c93b2a983f5bf98994686cefb360788d92f14597.png"
+    },
+    {
+      "id": 114346,
+      "class_id": 12,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "树皮盾哨兵",
+      "text": "<b>嘲讽</b>。在你使用你的英雄技能后，获得+2生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/96e2f3ebd860cf1db4ba4b55b9a0c28d3b64e7bad4d330e708afb345ee2bd4c2.png"
+    },
+    {
+      "id": 114367,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "守护巨龙之拥",
+      "text": "恢复 4点生命值。抽一张牌。<b>灌注</b>你的英雄技能。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/64b1ed12387097e3c42170ee8945ca793984d63383cce3111c202a6606828205.png"
+    },
+    {
+      "id": 114510,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "欺诈之网",
+      "text": "将一个友方随从移回你的手牌以召唤一只4/4并具有<b>潜行</b>的蜘蛛。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8de3a1672cab3856674673327d4db89277a153d420520c07b217fdab71114a90.png"
+    },
+    {
+      "id": 114630,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "乌索尔印记",
+      "text": "选择一个随从。如果是敌方随从，将其属性值变为1/1；如果是友方随从，改为将其属性值变为3/3。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/61f70a85231b58de91a87986168687f98a2c23c4a2f31dab3018017293763b4c.png"
+    },
+    {
+      "id": 114654,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "恐怖收割",
+      "text": "抽一张牌。随机召唤一个<b>休眠</b>的魔种。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/accf24b2070fa36121d9796e352b22f4ee3a3001eb42d94e05d4ddb6c20dc97b.png"
+    },
+    {
+      "id": 114848,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "森林再生",
+      "text": "<b>抉择：</b>抽一张法术牌；或者抽一张随从牌。<i>（本牌在你手中 回合即可同时拥有两种效果！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7f6185f85d602035c73580c49e837a998323fe914a9fe4b22e96dc72710227e3.png"
+    },
+    {
+      "id": 114935,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "苦花骑士",
+      "text": "<b>战吼：</b><b>灌注</b>你的英雄技能。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/10b9de6714e6b5d12bcab7161a6a499134f584155cff8b7d222f480b54e2e3b7.png"
+    },
+    {
+      "id": 115025,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "烂苹果",
+      "text": "为你的英雄恢复 12点生命值。在下2个回合中，每回合对你的英雄造成 3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f9a220df81cd63bcb511d24a89166561c86b6b28d29940a8d7208cbee4f66871.png"
+    },
+    {
+      "id": 115027,
+      "class_id": 12,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "扭曲的树人",
+      "text": "<b>亡语：</b>使每个玩家手牌中的随机一张随从牌获得-2攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5db68de28e26508bbbb9bb4252a4b1cb2747250ab20ca01de6644c49d7bacff6.png"
+    },
+    {
+      "id": 115033,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "破碎之力",
+      "text": "摧毁你的一个法力水晶。2回合后，获得两个。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9fc74ec49e2a75c0380e32283c733ecc4e2393369448dcf3b866fd7fccae6168.png"
+    },
+    {
+      "id": 115080,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "丰裕之角",
+      "text": "<b>发现</b>一张自然法术牌，其法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/36fcdc936dd3d4eb336104adacadb74a5d8cc48761d260341b6df1db945c60c3.png"
+    },
+    {
+      "id": 115086,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "前卫园艺",
+      "text": "<b>发现</b>一张具有<b>黑暗之赐</b>的<b>亡语</b>随从牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/059b2b308c6a95498ad0ac7b93dabe3bd34e7e6c6ba004aaf6b898c8a50defcb.png"
+    },
+    {
+      "id": 115191,
+      "class_id": 12,
+      "health": 4,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "鲜花商贩",
+      "text": "在你的回合结束时，随机使另一条友方的龙获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f0b30cc81fe8f5f2d3752e576a0b8bc1fd74fd275192f56f9611359a17e1154b.png"
+    },
+    {
+      "id": 115307,
+      "class_id": 9,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "荆棘大德鲁伊",
+      "text": "<b>战吼：</b>获得在本回合中死亡的你的随从的<b>亡语</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1c24c3bd1385ff30bdcf29bf39493cde8150a0e4eabb3c1ea85b2c43e0850829.png"
+    },
+    {
+      "id": 115364,
+      "class_id": 12,
+      "health": 4,
+      "attack": 0,
+      "mana_cost": 2,
+      "name": "痴梦树精",
+      "text": "在你的回合结束时，随机获取一张自然法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/51d98197c593cb76d65db94ea8858dba90dcf4f018845b9ba95c91344e4ba27d.png"
+    },
+    {
+      "id": 115612,
+      "class_id": 7,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "扭曲的织网蛛",
+      "text": "每当你使用其他的你已经使用过的随从牌，抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bcb41eeebfb68e1e6d69fdfb6ea8c4ea4c9f2b1c8b22e6510a41db782ea01419.png"
+    },
+    {
+      "id": 115626,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "燃薪咒符",
+      "text": "在你的下回合开始时，造成 6点伤害，随机分配到所有敌人身上。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/82aed738b46cb7740e5438524c7b21b511221c9ebeac2bb824ea6a7ef953552a.png"
+    },
+    {
+      "id": 115628,
+      "class_id": 14,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "邪火爆焰",
+      "text": "在你施放一个邪能 法术后，消灭本随从并对所有敌人造成 2点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9e9ad2c2ac2b0f3fac82e0ed2902cf24b4666dc988db6ac87c45a691589a53d1.png"
+    },
+    {
+      "id": 115633,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "爆裂射击",
+      "text": "随机对三个敌人造成 2点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/70e71908937c658f4997cf6147b4b818866a02af25f11c489160f7b586135651.png"
+    },
+    {
+      "id": 115635,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "焚火林地",
+      "text": "抽 张牌。 <i>（每回合都会升级，但本牌会在 回合后弃掉！）</i> 抽 张牌。<i>（本牌会在本回合弃掉！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/77fc980c6a986d4868fea46e96f372a1058df1c414dfe899e3e29f03cbe1535d.png"
+    },
+    {
+      "id": 115640,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "焚火飞升",
+      "text": "对所有敌方随从造成 点伤害。<i>（每回合都会升级，但本牌会在 回合后弃掉！）</i> 对所有敌方随从造成 点伤害。<i>（本牌会在本回合弃掉！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b8b77c940bb755a13298df17ffc62dbdf13c23255305277c2d0fcef86d9d153f.png"
+    },
+    {
+      "id": 115647,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "烟雾弹",
+      "text": "<b>发现</b>一张具有<b>黑暗之赐</b>的<b>连击</b>，<b>战吼</b>或<b>潜行</b>随从牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c062f134fbb2e84a2bb8248465ae94c7cf405833b1ce0af6e3d564db6585dbaf.png"
+    },
+    {
+      "id": 115650,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "炎魔之火",
+      "text": "随机对一个 敌方随从造成 4点伤害。如果你的手牌中有法力值消耗大于或等于（8）点的牌，改为造成 8点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b3d13716258a719252fab680dee196ec4de1b73283d999bcdf851c87aaa3c4aa.png"
+    },
+    {
+      "id": 115655,
+      "class_id": 12,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "活体烈焰",
+      "text": "<b>亡语：</b>抽一张火焰法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4ce67b28592d6ea74b91d9ca384b553683ad860e3e1dd1fe5be0af822e24db9b.png"
+    },
+    {
+      "id": 115688,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "影焰晕染",
+      "text": "造成 2点伤害。<b>发现</b>一张具有<b>黑暗之赐</b>的战士随从牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b0ddd2f83d1d3142432d1a49e8e2feb70e8d8ace0154758b0b923971663e4acc.png"
+    },
+    {
+      "id": 115972,
+      "class_id": 5,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "灰叶树精",
+      "text": "<b>战吼：</b>如果你的手牌中有法力值消耗大于或等于（5）点的法术牌，获得<b>圣盾</b>和<b>吸血</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/09d9478353f1dc8d0426d15d35975a7788669f17d22665bb9485b48227947ff8.png"
+    },
+    {
+      "id": 116292,
+      "class_id": 12,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "宁静树人",
+      "text": "<b>亡语：</b>双方玩家 各获得一个空的 法力水晶。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/da09103ba22dbd2821b6f70d5567e662aa54819ba0890b331e1486d1f48adc72.png"
+    },
+    {
+      "id": 116462,
+      "class_id": 4,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "灵体采集者",
+      "text": "<b>战吼：</b>获取 一张小精灵。<b>灌注</b>你的英雄技能。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/863bb210bcc326da5cd671de80450740302ae7f551cc754ad7fa27033b324f41.png"
+    },
+    {
+      "id": 116980,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "星体平衡",
+      "text": "获取一张月火术和一张星火术，使其获得<b>法术伤害+1</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5dd54fb101f5af3145b51c6198ec8218687ce61acfc979cc693519d691fd5d23.png"
+    },
+    {
+      "id": 117027,
+      "class_id": 1,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "死亡寒冰",
+      "text": "在你施放一个法术后，随机对两个敌人造成1点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dc78139fa4cf8ecd8078e7c36c261f363c7415b237b822a0235366bae230aeee.png"
+    },
+    {
+      "id": 117060,
+      "class_id": 9,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "粗俗的矮劣魔",
+      "text": "<b>嘲讽，战吼：</b>对你的英雄造成2点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b6618d1935d32d6e6ea9eb1174cf443d2725cdebd07505e7ba00c2e4a0ce3170.png"
+    },
+    {
+      "id": 117292,
+      "class_id": 6,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "卡多雷精魂",
+      "text": "<b>嘲讽</b>。<b>吸血</b>。<b>战吼：</b>如果你在本回合中使用过英雄技能，获得+3/+3。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7bd8337b79f6d3da73ad615d4da8b5de683b00df20b03637469ed483a73184a0.png"
+    },
+    {
+      "id": 117308,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "毒性吐息",
+      "text": "使一个友方亡灵获得<b>剧毒</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/300ec5dd4ebdf7939bb19a36b42f4b2317ea85e5fc8520565d58c231205c84ea.png"
+    },
+    {
+      "id": 117381,
+      "class_id": 12,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "抛石鱼人",
+      "text": "<b>战吼：</b>获取一张法力值消耗为（1）的石头。石头可以造成 3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/42f9cbb669d60ce14e46c1788c8e8409ae1c065191324794d468e08d67c990bf.png"
+    },
+    {
+      "id": 117574,
+      "class_id": 3,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "恐龙保育师",
+      "text": "在你的回合结束时，随机使你手牌中一张野兽牌的法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bd3d144703b397be89f3278e0613a8c3612b0dbf17adbe5cd4cb44fbf8d9b161.png"
+    },
+    {
+      "id": 117580,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "恐惧畏缩",
+      "text": "对一个随从造成 3点伤害。在本回合中，你使用的下一张野兽牌法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b8ad9b866770522496263d27e65449be8b83406b1ab73cffceaac32bb50895cb.png"
+    },
+    {
+      "id": 117599,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "卡纳莎的故事",
+      "text": "将十张法力值消耗为（1）的3/2的迅猛龙洗入你的牌库，这些迅猛龙具有“<b>战吼：</b>抽一张牌。”",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/278035b2bb46597e8a8097997d4e6de071c3b1227c8cf0e743f8d63b96d2769d.png"
+    },
+    {
+      "id": 117612,
+      "class_id": 8,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "烬鳍鱼人",
+      "text": "<b>亡语：</b>召唤一个2/1的炽烈烬火。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e858b8f49134a772f133b9f416e6066f2b3ffaab8472ffabd6fd0c0e557f3d79.png"
+    },
+    {
+      "id": 117648,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "班纳布斯的故事",
+      "text": "抽一张随从牌。如果其攻击力大于或等于5点，使其获得+5生命值并获得5点护甲值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ef7a94ac67496504e4fc0e44c384047a93a6e9971142e4d05b6573a75170bf8b.png"
+    },
+    {
+      "id": 117650,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "待哺群雏",
+      "text": "在你的下个回合开始时，召唤三只2/1的啸天龙宝宝。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6a5ab3bf47809dc1dfdd5a5b1fddd6b3585f1d38ed97abce0fa646b9b33dece3.png"
+    },
+    {
+      "id": 117685,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "烟雾熏蒸",
+      "text": "对一个随从及所有相同类型的其他随从造成 3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7e61bee4569727e953e346a35e8814629f9f0dc153a4ba315d9165b348278c4e.png"
+    },
+    {
+      "id": 117686,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "虫害侵扰",
+      "text": "获取两张法力值消耗为（1）的格里什毒刺虫。毒刺虫可以造成 2点伤害并召唤一只2/1具有<b>突袭</b>的异种虫幼体。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/75b121cd20710ed9bea6c6814f8e73af3bdf83b1ce8f3c5db91690179618ed36.png"
+    },
+    {
+      "id": 117697,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "异教地图",
+      "text": "从你的牌库中<b>发现</b>一张牌，如果你在本回合中使用该牌，再从其余选项中选择一张。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cd146225dd1b8acfc2ce5c2e6bf02b995e779c5be42516ed59acb9a088d2e39d.png"
+    },
+    {
+      "id": 117890,
+      "class_id": 9,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "洞穴专家",
+      "text": "<b>战吼：</b>你的下一张<b>临时</b>牌的法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1b523b9fd81d892ce8d6495db466666fd161ab402a7e7d726ca17e6f08d61f53.png"
+    },
+    {
+      "id": 118076,
+      "class_id": 12,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "迷宫向导",
+      "text": "<b>战吼：</b>随机召唤一个法力值消耗为（2）的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b86bf96b440182b32f37d4d353e1b05e571ef187a277dae57a74781b4ac112a7.png"
+    },
+    {
+      "id": 118177,
+      "class_id": 12,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "任务助理",
+      "text": "<b>战吼：</b>如果你在本局对战中使用过<b>任务</b>牌，造成2点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f70fb1dda30688fe124622cb4311d268d03bd678b6537d92e201bb0cefec167b.png"
+    },
+    {
+      "id": 118199,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "出土神器",
+      "text": "随机召唤一个法力值消耗为（2）的随从。如果你在本回合中<b><b>发现</b>过</b>，改为随机召唤一个法力值消耗为（4）的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e4ad92449e6300a846861e9e3943e76ad8c00b306726573ab3fc690e26c35699.png"
+    },
+    {
+      "id": 118223,
+      "class_id": 12,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "好奇的探险者",
+      "text": "<b>亡语：</b>使你对手的手牌中一张随从牌的 法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/624c9753a9b0c9191c481bcee1d8a118aee16bbcebe70a2db96d09c6a113f7bd.png"
+    },
+    {
+      "id": 118224,
+      "class_id": 12,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "远古迅猛龙",
+      "text": "<b>战吼：</b>从+3攻击力，<b>圣盾</b>或“<b>亡语：</b>召唤两个1/1的植物”中选择一项并获得。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/577b50f5ee359119e45201a88cc268def8dc3c44f3e4faf78f115f12c04c1550.png"
+    },
+    {
+      "id": 118257,
+      "class_id": 12,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 2,
+      "name": "讲故事的始祖龟",
+      "text": "在你的回合结束时，使每个不同类型的各一个友方随从获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/86babdec44f97fd230fa5ed42b5d3102eb6caa4b53cce976c998ff2213a7a801.png"
+    },
+    {
+      "id": 118259,
+      "class_id": 12,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "水晶养护工",
+      "text": "<b>可交易</b> <b>战吼：</b>获得空的法力水晶，直到双方玩家拥有的法力水晶相同。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/175986859655b8055017cb7f19a4751ef14f6342b7dd0f7a4e142b4efb5b5d94.png"
+    },
+    {
+      "id": 118265,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 2,
+      "name": "时空之门的故事",
+      "text": "使你手牌中套牌之外的牌的法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/fc0036869da22e1ee1912f04438165fb0ecaa4f6a448bd7f501554cfdf4396f8.png"
+    },
+    {
+      "id": 120172,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "虚空幽龙史学家",
+      "text": "<b>战吼：</b>如果你的手牌中有龙牌，便<b>发现</b>一张龙牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0245b3c39b907a493959dd88018fbb245ca88f3b9fd94d0fe8345920f8c0bb5a.png"
+    },
+    {
+      "id": 120429,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "奖品商贩",
+      "text": "<b>战吼，亡语：</b>每个玩家抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/885c53da621418c248741536a656449a678e3f16ed67445575109f4310477849.png"
+    },
+    {
+      "id": 120456,
+      "class_id": 5,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "赤鳞驯龙者",
+      "text": "<b>亡语：</b>抽一张龙牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8df2e933dcccdce85534f81f81ef0141180ef0be50d6117a7c2c29d612f2c9a5.png"
+    },
+    {
+      "id": 120460,
+      "class_id": 7,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "狐人老千",
+      "text": "<b>战吼：</b> 在本回合中，你的下一张<b>连击</b>牌法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/70a10c050ce1215898e8765f5f7ed47bb118008077ca79f92fcf9a227fdf4d7e.png"
+    },
+    {
+      "id": 120467,
+      "class_id": 9,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "黑市摊贩",
+      "text": "<b>战吼：发现</b>一张 法力值消耗为（1）的卡牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8926fd90f21ef0620c31afd5cf7749a47588bea3cab43acc2ab5c959fa345129.png"
+    },
+    {
+      "id": 120571,
+      "class_id": 7,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 2,
+      "name": "迪菲亚头目",
+      "text": "<b>连击：</b>召唤一个2/1的迪菲亚强盗。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9682d13b63f124f39772536b8dbb94a6454343562ac7ede1ca863e7d258bb3be.png"
+    },
+    {
+      "id": 120578,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "日怒保卫者",
+      "text": "<b>战吼：</b>使相邻的随从获得<b>嘲讽</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/47cf23cda7adbe944dfa09b8485523380fffdd4248f09add0516379ef1cc891f.png"
+    },
+    {
+      "id": 120880,
+      "class_id": 7,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "幽暗城商贩",
+      "text": "<b>亡语：</b> 随机获取一张<i>（你对手职业的）</i>卡牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0badcffc3a02d5b105067f5dd1975ffff477900e63330835298482bca8e9b827.png"
+    },
+    {
+      "id": 120883,
+      "class_id": 12,
+      "health": 4,
+      "attack": 0,
+      "mana_cost": 2,
+      "name": "游学者周卓",
+      "text": "每当一个玩家施放一个法术，复制该法术，将其置入另一个玩家的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/694291d87b398465e21f5308f26045ce95e06658592f1f674fec3c7832a21d8c.png"
+    },
+    {
+      "id": 120996,
+      "class_id": 3,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 2,
+      "name": "恐鳞追猎者",
+      "text": "<b>战吼：</b>触发一个友方随从的<b>亡语</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b0100d7b6ec1753de48b022f704c9dd1ad2e09daa1f4ac9f89e0d3983e11bf66.png"
+    },
+    {
+      "id": 64465,
+      "class_id": 14,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "甘尔葛战刃铸造师",
+      "text": "<b>流放：</b>在本回合中，使你的英雄获得+3攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4b57f4c108a1f99c17956f67ac5276a8ab6df1f07cd08f83705a3dc4b441614f.png"
+    },
+    {
+      "id": 69500,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "奥术智慧",
+      "text": "抽两张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cea63b79644b34b916200320becb069889e49933f625f6c8960fe6afc85ca05a.png"
+    },
+    {
+      "id": 69507,
+      "class_id": 14,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "奥达奇战刃",
+      "text": "<b>吸血</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cc3634f58e9521c11b3e49db3642985de072136daadeb48ab91067e593e29063.png"
+    },
+    {
+      "id": 69508,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "神圣新星",
+      "text": "对所有敌方随从造成 2点伤害，为所有友方角色恢复 2点 生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/51d46308b5e298aa5a794954c9f891d7638f34103026700f5914346797ffbd48.png"
+    },
+    {
+      "id": 69519,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "地狱烈焰",
+      "text": "对所有角色造成 3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5993a764b81ca35504d6d47087a01e2ddf60300aee482741b4a297880c60a6b9.png"
+    },
+    {
+      "id": 69532,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "奉献",
+      "text": "对所有敌人造成 2点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e3b5698cca510bdf72c6659cdbd097ff914c5e41c8872782d9724e6a099d6246.png"
+    },
+    {
+      "id": 69537,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "团队领袖",
+      "text": "你的其他随从拥有+1攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8c4fb61f0ac5a8251169b170e902a0c43609361604a95d4a59189293ea2a948e.png"
+    },
+    {
+      "id": 69551,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "妖术",
+      "text": "使一个随从变形成为一只0/1并具有<b>嘲讽</b>的青蛙。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9297cf14e822cec8de9c65cf395e37b41b1e552e1315e8bff95936240259ea89.png"
+    },
+    {
+      "id": 69605,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "致命射击",
+      "text": "随机消灭一个敌方随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6b405f2a9cee47ca94e90423d947fbf3e77e510ef51a2d474f91a07a532761f3.png"
+    },
+    {
+      "id": 69607,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "法术反制",
+      "text": "<b>奥秘：</b>当你的对手施放一个法术时，<b>反制</b>该法术。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5a547e77ab0522ceb5868b6b22ea909419438e7329aca24182306684c837ac71.png"
+    },
+    {
+      "id": 69608,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "寒冰护体",
+      "text": "<b>奥秘：</b>当你的英雄受到攻击时，获得8点护甲值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/68ebca85482ba58965e5651c2c6d94a1427544f45cc5735d2475d77dbf07e1ca.png"
+    },
+    {
+      "id": 69621,
+      "class_id": 7,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "军情七处特工",
+      "text": "<b>连击：</b>造成3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/39d038e281f2e1408effaf59a7d8d0ec9c8bcd0ec44605090281ecefd7bd5ecd.png"
+    },
+    {
+      "id": 69626,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "野性狼魂",
+      "text": "召唤两只2/3并具有<b>嘲讽</b>的幽灵狼。<b>过载：</b>（1）",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c781899dc86c7cd2d009f33b1757293b5d64e8cc17732c684723d802250af0ac.png"
+    },
+    {
+      "id": 69629,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "闪电风暴",
+      "text": "对所有敌方随从造成 3点伤害，<b>过载：</b>（1）",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2b39324512bfaa269132a91d6c49e3802b18c5d3677c47af35ae62fe706d5fb0.png"
+    },
+    {
+      "id": 69645,
+      "class_id": 10,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "暴乱狂战士",
+      "text": "每当一个随从 受到伤害，便获得+1攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ccd0237d4ca62766a00ca5dcf84513f6d10b50d23d7668ad5026e8daf9bf2e35.png"
+    },
+    {
+      "id": 69656,
+      "class_id": 12,
+      "health": 6,
+      "attack": 5,
+      "mana_cost": 3,
+      "name": "穆克拉",
+      "text": "<b>战吼：</b>使你的对手获得两根香蕉。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/608d20fd45edce994dcc0467bd8cf041a99e84f48e306576645a4ac7c9f4aaf5.png"
+    },
+    {
+      "id": 69666,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "寒光先知",
+      "text": "<b>战吼：</b>使你的其他鱼人获得+2生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1ebb87f84694d879a7746571173b256d954a25fd10c56ea82bbfbcce9455800a.png"
+    },
+    {
+      "id": 69679,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "南海船长",
+      "text": "你的其他海盗拥有+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6a0194cab3eba6a36352d9c4233d5b24641083405955bbf9dc4fadbe9beb68d2.png"
+    },
+    {
+      "id": 69688,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "野性之怒",
+      "text": "<b>抉择：</b>使你的英雄在本回合中获得+4攻击力；或者获得8点护甲值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6df92b8f9f3c63749faa83ad5e8f9444ba721e803a11fb640b0c473b33cc0d2c.png"
+    },
+    {
+      "id": 69740,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "眼棱",
+      "text": "<b>吸血</b>。 对一个随从造成 3点伤害。<b>流放：</b>法力值消耗为（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/81bc597507c86019b65f92d50ecf089329a82277f35878e0a4f966e7783a6707.png"
+    },
+    {
+      "id": 76270,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "鱼人领军",
+      "text": "你的其他鱼人拥有+2攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8b78b22871791c99851497da2ca63847ccfce92651a60bbda4f8c290b8fc6093.png"
+    },
+    {
+      "id": 76293,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "视界术",
+      "text": "抽一张牌，该牌的法力值消耗减少（3）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/84d2986f28900700cddd35408f82cd75bc57d046e45f9fc73f32a9c77f7f23a4.png"
+    },
+    {
+      "id": 76297,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "动物伙伴",
+      "text": "随机召唤一个野兽伙伴。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a11a7ebb32646b8aec9ba974a8a8f6337231ccf8ccbe7295801891bdd8c27909.png"
+    },
+    {
+      "id": 76316,
+      "class_id": 12,
+      "health": 4,
+      "attack": 1,
+      "mana_cost": 3,
+      "name": "苦痛侍僧",
+      "text": "每当本随从受到伤害，抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e77d194c93e04e9f56a98d8c718bc8d0a4aa27602b76ba1a248f49a63a5fbe59.png"
+    },
+    {
+      "id": 76319,
+      "class_id": 12,
+      "health": 5,
+      "attack": 1,
+      "mana_cost": 3,
+      "name": "焦油爬行者",
+      "text": "<b>嘲讽</b> 在你对手的回合拥有+2攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/047f0324da0552c73f5139c60cbdeb07f5b3a25ca604661cde9377ca25144833.png"
+    },
+    {
+      "id": 78342,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "反魔法护罩",
+      "text": "使你的所有随从获得+1/+1和<b>扰魔</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/41b4241314ce0686aca7e1ad3bd8dc8ca388b09d6131310f3dff6110e317a731.png"
+    },
+    {
+      "id": 80647,
+      "class_id": 1,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "堕寒男爵",
+      "text": "<b>战吼，亡语：</b>抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/98e35a6b2545518ac5ae194f22592a2312ea28713691b0377733e2aae6738931.png"
+    },
+    {
+      "id": 86235,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "爆炸符文",
+      "text": "<b>奥秘：</b>在你的对手使用一张随从牌后，对该随从造成 6点伤害，超过其生命值的伤害将由对方英雄 承受。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a0de8d29d1ac3e400aad4b7d00641f70ae60f4157bdce72c1058008264b76b68.png"
+    },
+    {
+      "id": 86545,
+      "class_id": 5,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "青铜龙探险者",
+      "text": "<b>吸血</b> <b>战吼：</b><b>发现</b>一张 龙牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/db6bc2ca4867cdf7f03590403f4bda2459b7188ef6e2279f41dc2564fbabeb9e.png"
+    },
+    {
+      "id": 86548,
+      "class_id": 12,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "A3型机械金刚",
+      "text": "<b>战吼：</b>如果你控制着其他机械，<b>发现</b>一张机械牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f2a77f75343a6c1b95f7aa1a7375e665a33cb3ca5fe3245604a8dd1e852a0091.png"
+    },
+    {
+      "id": 86551,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "狐人恶棍",
+      "text": "<b>战吼：发现</b>一张法术牌或选择一个 神秘选项。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b1ac0baff5ebeba3e39a0c4a21d71355572636d262eebf70381aea6c2a57c97a.png"
+    },
+    {
+      "id": 96916,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "作战动员",
+      "text": "召唤三个1/1的白银之手新兵，装备一把1/4的武器。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/aa536f64ac92cf062faa000d83760f904de101ac5f7a4f55af452340db5cc130.png"
+    },
+    {
+      "id": 97333,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "厚重板甲",
+      "text": "<b>可交易</b> 获得8点护甲值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c0bda99394d74179b87a4e82c55f12d9db8c4f35d3e8b3e45f1fcbe471bf95d4.png"
+    },
+    {
+      "id": 97343,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "荆棘帮暴徒",
+      "text": "在你的英雄攻击后，使本随从获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ab7f4f35d4b422103623653a6152c3dc8f4c7c697d8223afddd8c5258f838d6d.png"
+    },
+    {
+      "id": 102221,
+      "class_id": 12,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "锈烂蝰蛇",
+      "text": "<b>可交易</b> <b>战吼：</b>摧毁对手的武器。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/74525b65dddebbad79df5edadcfeeb8f1e61ae1feecf4d80ecf024ba71ab989d.png"
+    },
+    {
+      "id": 102463,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "超值惊喜",
+      "text": "<b>发现</b>一张法力值消耗为（4）的随从牌，将其攻击力和生命值变为7。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1d730499db1e5de31caa7ed1fb2088e6ecc96d03ceae636466415ea70d38f02f.png"
+    },
+    {
+      "id": 102472,
+      "class_id": 12,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "卡牌评级师",
+      "text": "<b>战吼：</b>如果你在此牌在你手中时施放过法术，从你的牌库中<b>发现</b>一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/57771ef0406a8bd006e84a689f7022b7f0e62192ce2d45f0d9aea6feb93442cf.png"
+    },
+    {
+      "id": 102784,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "甜蜜雪灵",
+      "text": "<b>微缩</b> <b>战吼：</b>随机获取2张<b>临时</b>冰霜法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9c16295e724003cadf5c4ada8842b16f4b43be5e590f707efbd3cfc6a78fcddd.png"
+    },
+    {
+      "id": 102790,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "愤怒之锤",
+      "text": "造成 3点伤害。抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/555d24a49a480c6197146fdab87bf6729b28187e7a572b824a6e916af616a478.png"
+    },
+    {
+      "id": 103327,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "恋旧的新生",
+      "text": "<b>微缩</b> 在你施放本随从登场后的第一个法术时获得+2/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/631836a06b2bb2130d8fb424384886baf93534c343a37a5bd408f4d8ccbf39c8.png"
+    },
+    {
+      "id": 103332,
+      "class_id": 8,
+      "health": 2,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "童话林地",
+      "text": "抽一张<b>战吼</b>随从牌，其法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a64f16e2bfce8e9f5d66fe05c11b9b9d848fa2da24f00229b5fb39a425cb0260.png"
+    },
+    {
+      "id": 103346,
+      "class_id": 7,
+      "health": 3,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "水晶海湾",
+      "text": "在本回合中，你召唤的下一个随从的属性值变为4/4。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8e7eb7743f2a65517a6bfd885bc7c8ff337fe0e7e2c0ceed8ce4c2ea77664756.png"
+    },
+    {
+      "id": 103350,
+      "class_id": 4,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "水彩美术家",
+      "text": "<b>战吼：</b>抽一张冰霜法术牌，在你的回合开始时，其法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4ce0d556a7da4ad67067df493d1e88f8f2e1ce365d607ed3fca9f3a3f19ad0e3.png"
+    },
+    {
+      "id": 103440,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "炮灰出动",
+      "text": "选择一个友方机械，召唤一个它的复制并使其攻击随机敌人然后死亡。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e548f3a7255dee8d3d28aad3da83d43137e89a04aaa51596425f0c257bda6e2f.png"
+    },
+    {
+      "id": 103444,
+      "class_id": 10,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "砰砰扳手",
+      "text": "<b>微缩</b> <b>亡语：</b>随机触发一个友方机械的<b>亡语</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c959a630fb6217a98280ad7d7fdd0f7ede38e7a9afbfa03e3ceb3d4dd2a3c69d.png"
+    },
+    {
+      "id": 103488,
+      "class_id": 7,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "折价区海盗",
+      "text": "<b>突袭</b>。<b>连击：</b>召唤一个本随从的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/108a0bd00a7628a5a5405dfc32a914fbbe1e29c48cb9950509b71aaf84e34cde.png"
+    },
+    {
+      "id": 103493,
+      "class_id": 6,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "粗心的匠人",
+      "text": "<b>亡语：</b> 获取两张法力值消耗为（0）的可以恢复3点生命值的绷带。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/96c47447d5bc9189b78ecd05eaca89a26caa4f89b6e787bb8336f5e48a6fca49.png"
+    },
+    {
+      "id": 103509,
+      "class_id": 12,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "清仓销售员",
+      "text": "<b>亡语：</b>使你手牌中两张法术牌的法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4c92e9a4447ee191ed58f7325ce1321218f852d727825ba9c79a1201bffc33f8.png"
+    },
+    {
+      "id": 103547,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "泼漆彩鳍鱼人",
+      "text": "<b>剧毒</b>。<b>战吼：</b>抽一张<b>突袭</b>随从牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/749ae98477015d49a24a34a8c1598a9567098ab1148f95c73c2df6de331fc42d.png"
+    },
+    {
+      "id": 103549,
+      "class_id": 12,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "秘迹观测者",
+      "text": "<b>战吼：</b> 随机施放2个<b>奥秘</b>。在你的回合开始时，摧毁这些奥秘。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9cef80fc530a0f7cbbc27fa2d864628be932eb2e3e998556da667fabeaaf3559.png"
+    },
+    {
+      "id": 103631,
+      "class_id": 12,
+      "health": 2,
+      "attack": 0,
+      "mana_cost": 3,
+      "name": "玩具兵盒",
+      "text": "<b>亡语：</b>召唤五个1/1并具有随机<b>额外效果</b>的士兵。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ddd968befa4a0427a2b2ed7ce64b5c878f87154754f4fd077d6ce74cf59c54f9.png"
+    },
+    {
+      "id": 104519,
+      "class_id": 12,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 3,
+      "name": "捣蛋林精",
+      "text": "<b>吸血</b>。<b>嘲讽</b> <b>亡语：</b>对所有敌人造成1点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dfaebbddbb1d3eaebb1703812103ae7bce0ecfabd494b87d3a9e3453cfe6f401.png"
+    },
+    {
+      "id": 104575,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "闪光试剂瓶",
+      "text": "造成 2点伤害。在本回合中，你的下一张牌减少与伤害量相同的法力值消耗。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0e8e6788b3905297e8d50ea673e21e343c170b91a57e9ee1707b6c11341d378d.png"
+    },
+    {
+      "id": 104617,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "缩小术",
+      "text": "使你牌库中随从牌的法力值消耗和攻击力减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5424681991d69a359d745fe9b6c3ab163271dedc9e2e18cd04d745f2202e77a6.png"
+    },
+    {
+      "id": 104633,
+      "class_id": 1,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "彩虹裁缝",
+      "text": "<b>战吼：</b>如果你的套牌中有鲜血，冰霜或邪恶符文牌，则对应获得<b>吸血</b>，<b>复生</b>或<b>突袭</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0987376f8a00ea63536f843c0b1e59b4d60df87bc3069ce4fae6493fde40bbaf.png"
+    },
+    {
+      "id": 104635,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "绝望线缕",
+      "text": "使所有随从获得“<b>亡语：</b>对所有随从造成1点伤害。”",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d5ba9dda52a62c0792d566abae64d2b1442cc4d01cdfe823f9b048cf73bf7b4a.png"
+    },
+    {
+      "id": 104858,
+      "class_id": 9,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "速写美术家",
+      "text": "<b>战吼：</b>抽一张暗影法术牌，获取一张它的<b>临时</b>复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9031fc72bd1ecce38d2021785a3d86aae14f46676bdfcdcf6125c7130d1b6429.png"
+    },
+    {
+      "id": 104860,
+      "class_id": 9,
+      "health": 6,
+      "attack": 5,
+      "mana_cost": 3,
+      "name": "凶魔城堡",
+      "text": "<b>战吼：</b>攻击<b>你的</b> 英雄。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3bd9ca8cf68f50fb5ad86e7d9bf18eae4baf65b1c77a6b8473f27d3cf54d5714.png"
+    },
+    {
+      "id": 104866,
+      "class_id": 12,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "伴唱机",
+      "text": "你的英雄技能会触发两次。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6420bc246d5cafced52bfc54aa54b384e27277affe91c549060dc564e21a0876.png"
+    },
+    {
+      "id": 104870,
+      "class_id": 5,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "装饰美术家",
+      "text": "<b>战吼：</b>抽一张<b>圣盾</b>随从牌和一张光环牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1c37efa1deda20d7b697bbd73402709c3aaf91c286faf415e0be3e20573742cf.png"
+    },
+    {
+      "id": 104987,
+      "class_id": 1,
+      "health": 2,
+      "attack": 4,
+      "mana_cost": 3,
+      "name": "毛绒暴暴狗",
+      "text": "<b>突袭</b> 在你施放一个冰霜法术后，获得<b>复生</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8e889513b379948cb3e43054f921bbda5a55bcd662f8c09d62d9449a9d2fc242.png"
+    },
+    {
+      "id": 105481,
+      "class_id": 12,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "扮装选手",
+      "text": "在你的对手使用一张随从牌后，变形成为它的3/4的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/62f3da06deaf76a7a5216f78c859c6e6fc3e88a89ed2eaa6861bd1bf30f3fb1c.png"
+    },
+    {
+      "id": 105495,
+      "class_id": 12,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "软软多头蛇",
+      "text": "<b>亡语：</b>将本随从的一张永久具有翻倍攻击力和生命值的复制洗入你的牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/16931cd7f0ef0176d31ba82bba1044de06023af70ee320a1e4d59ef11a550761.png"
+    },
+    {
+      "id": 105514,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "退货政策",
+      "text": "<b>发现</b>一张你在 本局对战中使用过的友方<b>亡语</b>牌。 触发其<b>亡语</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bf84d6620979162738db9da9906503e38f7e2cf270dd9a43fe1f39700053a6d6.png"
+    },
+    {
+      "id": 105516,
+      "class_id": 7,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "滚灰兔",
+      "text": "<b>战吼，亡语：</b>将一件垃圾置入你的手牌<i>（幸运币，石头，香蕉或短刀）</i>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/214dbed4d6aba7c3b3f0a94749c1fe4842166adb96d7b2c8103839962c6f8808.png"
+    },
+    {
+      "id": 105587,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "哈哈镜",
+      "text": "召唤一个敌方随从的一个复制并使其攻击本体。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a8d6e93324a4fa6feb7031a4fbe4a259367eba9762afa655eacdc179a230de11.png"
+    },
+    {
+      "id": 105891,
+      "class_id": 2,
+      "health": 3,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "远足步道",
+      "text": "<b>发现</b>一张<b>嘲讽</b>随从牌。在你获得护甲值后，重新开启本地标。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d9e615194e909b3b2fe94b32577c9fd950f898d8f3050f00c2d1f00ed40f308f.png"
+    },
+    {
+      "id": 105892,
+      "class_id": 2,
+      "health": 5,
+      "attack": 1,
+      "mana_cost": 3,
+      "name": "始祖龟旅行者",
+      "text": "<b>嘲讽</b>。<b>亡语： </b>抽一张其他<b>嘲讽</b>随从牌，其法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/261bbd9a98deb55d35d46eedbf8188dcad3d453f3f1b8e94ce094a177cd423c4.png"
+    },
+    {
+      "id": 106063,
+      "class_id": 1,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "玩具盗窃恶鬼",
+      "text": "<b>扩大</b> <b>战吼：</b><b>发现</b>一张亡灵牌，使其降低等同于本随从攻击力的法力值消耗。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/01580b91f0cd1cd888a3b2547b178f34980e80ffc17e5be1a7d61a39691c7321.png"
+    },
+    {
+      "id": 106092,
+      "class_id": 12,
+      "health": 5,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "大作战狂热玩家",
+      "text": "在你使用最左或最右边的一张手牌后，随机对一个敌人造成1点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2a1794e1071069a835ed58751c1d184d1cb9c1a558f82227bd582dec0915752c.png"
+    },
+    {
+      "id": 106372,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "笨拙的搬运工",
+      "text": "<b>嘲讽</b>。<b>战吼：</b>如果你的手牌中有法力值消耗大于或等于（5）点的法术牌，召唤一个本随从的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/afe1dd05fa41b5f739c994855457425815f5244af2590a121f708eaa88cb6e0d.png"
+    },
+    {
+      "id": 106373,
+      "class_id": 4,
+      "health": 3,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "潮汐之池",
+      "text": "<b>发现</b>一张法力值消耗小于或等于（3）点的法术牌。在你施放一个法术后，重新开启本地标。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/52a84f01a79b0dade7f9b2e7e5db2aae5343c89ac316057143cde3004d428d3c.png"
+    },
+    {
+      "id": 106374,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "混调师",
+      "text": "<b>战吼：</b>制造一张法力值消耗为（1）的自定义药水牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6735fdefcae5fb184157f38c57b62bf4c985e815956feaf379f2991c90b508f3.png"
+    },
+    {
+      "id": 106382,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "自助大餐",
+      "text": "抽取三张不同类型的随从牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7e11bec6695defda5a402d03c796468dd71ef16dff8b73e2a11fc2a3e0fa8889.png"
+    },
+    {
+      "id": 106444,
+      "class_id": 5,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "沙滩排槌",
+      "text": "在你的英雄攻击后，获取一张法力值消耗为（1）的防晒霜。防晒霜可以使随从获得+1/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/11d0e7d7f1a7d7c0858bb4b10ef1e9f4e4ad155d43c39c782d91bcb3ecbd79ed.png"
+    },
+    {
+      "id": 106497,
+      "class_id": 1,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "霜噬海盗",
+      "text": "<b>亡语：</b>随机<b>冻结</b>3个敌人，已被<b>冻结</b>的敌人改为受到5点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/427a10387d9afd58b8b4088456b2a4ff8f270629faaa3724e04b3d851dc0ab85.png"
+    },
+    {
+      "id": 106529,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "冰冷整脊师",
+      "text": "<b>战吼：</b>使一个随从获得+3/+3并使其<b>冻结</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/293d6a85439a1fe7fd1a59441f7dc9d7eb08913e463de29a3ca72c8ef4f93b93.png"
+    },
+    {
+      "id": 106534,
+      "class_id": 8,
+      "health": 8,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "消融元素",
+      "text": "<b>嘲讽</b> 本随从永久被<b>冻结</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7fbf4a6de8983b6895261c760f03c3f604e5bc1d611175fed8cbb8ea18d5a61e.png"
+    },
+    {
+      "id": 106536,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "自然天性",
+      "text": "随机获取纳迦牌和法术牌各一张， 其法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f02629ac787a2aadf18473c5e92ad1984fe68ae4c75ae19931bbec23a99c2c9b.png"
+    },
+    {
+      "id": 106571,
+      "class_id": 3,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "话痨鹦鹉",
+      "text": "<b>战吼：</b><i>（尽可能对一个随机的敌人）</i>重新施放你对一个敌人施放的上一个法术。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b0baecc9f43f9edb316d655a170ae896626c69a08a9621656b4ef1135baae6d9.png"
+    },
+    {
+      "id": 106591,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "飞翼滑翔",
+      "text": "双方玩家抽三张牌。<b>流放：</b>只有你抽牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/447932ae5628225bc6acdae8e6742d1f630003acda47b285057ef785a9d2430f.png"
+    },
+    {
+      "id": 106616,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "生死一线",
+      "text": "选择一个随从。在本回合中，你的英雄从该随从处偷取4点攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ead75f773ad470a2bb60e166089d4d3c96645d0edaad479f93c965e52354a455.png"
+    },
+    {
+      "id": 106640,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "炽热火炭",
+      "text": "对所有敌人造成 2点伤害。如果你的英雄在本回合受到过伤害，再造成 1点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/561d368869d8de6597027cc2a47527d798ea9f9417f165027df90aed26dbb8ae.png"
+    },
+    {
+      "id": 106675,
+      "class_id": 7,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "刀剑保养师",
+      "text": "<b>战吼：</b>将你的武器的攻击力和耐久度变为3。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6601a657169d6b48d668ba2b6ad535806f7b6f7e1893748acd7087b10326f373.png"
+    },
+    {
+      "id": 107114,
+      "class_id": 12,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "帆船舰长",
+      "text": "<b>战吼：</b>使一个友方海盗获得<b>风怒</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5d94b29197e4c5e8924ad7ea5cd42193ff14bd4da57cf292eee8a6a4bbc4fc39.png"
+    },
+    {
+      "id": 107181,
+      "class_id": 12,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "粗暴的猢狲",
+      "text": "每当其他友方海盗攻击时，使其获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3b48d6693b4572851b639053b66bcf927baed84631d852685af7dd21700e09e9.png"
+    },
+    {
+      "id": 107753,
+      "class_id": 7,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "金属探测器",
+      "text": "在你的英雄攻击 并消灭一个随从后，获取一张幸运币。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f881f1996f113aa40ed60deef6ccb5e5b0e9d345ba1a66160ed635f65de52770.png"
+    },
+    {
+      "id": 107757,
+      "class_id": 7,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "海滩导购",
+      "text": "<b>战吼：</b>你使用的下一张另一职业的牌法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/de969844bd8b25a1b595ac27950d7b7beeb35605ece5c2d7f45e93f7342455e4.png"
+    },
+    {
+      "id": 107762,
+      "class_id": 7,
+      "health": 4,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "小玩物小屋",
+      "text": "抽一张牌。如果你在本回合中使用抽到的这张牌，重新开启本地标。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6f7d6be665884b9b20019e8d4b922e76b54956e3ac9afbed341ef7f654f7acfe.png"
+    },
+    {
+      "id": 107766,
+      "class_id": 10,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "灶头厨师",
+      "text": "<b>可交易</b> <b>嘲讽</b>。当你抽到本牌时，获取一张它的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8091317dfb0ad1a3aeebd36d3d1a6b5170505b8320b8537cca592976c1da34d5.png"
+    },
+    {
+      "id": 107813,
+      "class_id": 9,
+      "health": 6,
+      "attack": 1,
+      "mana_cost": 3,
+      "name": "祭献小鬼",
+      "text": "<b>亡语：</b>如果此时是你的回合，召唤一个6/6并具有<b>嘲讽</b>的小鬼。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/643d091cd42c37ffb9ae5c73e1294ec1c0be68bd5a5bd567ebff09e4e43bffaa.png"
+    },
+    {
+      "id": 107822,
+      "class_id": 12,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "可怕的主厨",
+      "text": "<b>战吼：</b>召唤一个0/2的蛛魔之卵。<b>亡语：</b>消灭它。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bb160953d65418c37251787f7ab567a01a2f9ae902572245189926379187de84.png"
+    },
+    {
+      "id": 107878,
+      "class_id": 4,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "落难的大法师",
+      "text": "你每个回合使用的第一张法术牌的法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b02a44a89ad232c7ac4788741e806e22c8acc619e82c58918002eb34d81406f8.png"
+    },
+    {
+      "id": 107891,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "攀上新高",
+      "text": "将你的法力值上限提高3点，获得一个空的法力水晶。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/67ab9f42cc1e05c39a7d1d03dd6f352bb3f4c5de16bd599a207187e73e8d40a5.png"
+    },
+    {
+      "id": 107923,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "“健康”饮品",
+      "text": "<b>吸血</b> 对一个随从造成 3点伤害。<i>（还剩3杯！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/caa6dd8baa888089c2deab6b287c8fac5a6696fd80a2be30ea8502786bb5c994.png"
+    },
+    {
+      "id": 107931,
+      "class_id": 12,
+      "health": 5,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "海关执法者",
+      "text": "敌方套牌之外的敌方卡牌法力值消耗增加（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/03378b50e527a738036466d0b5496e1442d85534acd39432ab96a54484f6eb83.png"
+    },
+    {
+      "id": 108337,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "浪潮涌起",
+      "text": "对所有随从造成 2点伤害。如果没有随从死亡，再造成 2点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d19b1163df07a7afc4256d7d1e343d403869fddd6c6d3c16096acca6e3d7d3b5.png"
+    },
+    {
+      "id": 108431,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "规划狂人",
+      "text": "<b>战吼：</b>从你的牌库中选择三张牌，将其按顺序置于牌库顶。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/610ac907957c235f668146adb40de22ac8bf8c6a33bce2e336e0d892df6a91d0.png"
+    },
+    {
+      "id": 108615,
+      "class_id": 2,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "抱抱泰迪熊",
+      "text": "<b>扩大</b> <b>扰魔</b>，<b>吸血</b>，<b>嘲讽</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/808f1ba68d2a10a79499deecf9351876391ef984a0ee4f5b61dfa6334e12304f.png"
+    },
+    {
+      "id": 108617,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "豆蔓疯长",
+      "text": "召唤一个2/2的树人。你每控制一个树人，抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9f119135f24694a2fadf99d849bc6daba835b5a37e19b25f5acb847e4d17375f.png"
+    },
+    {
+      "id": 108619,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "买一冻一",
+      "text": "<b>冻结</b>一个随从，召唤一个它的<b>被冻结</b>的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/afaef29866b5dd8f261e310629669e1dcf291e327400df5b983dfc741737a98c.png"
+    },
+    {
+      "id": 108620,
+      "class_id": 4,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "暗月魔术师",
+      "text": "<b>扰魔</b>。在你施放一个法术后，随机施放一个法力值消耗增加（1）点的法术。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a2aa920ce0d5664cf9f2a195a0c6d47caaaa71db10e084ca9e455bc7c660b4d2.png"
+    },
+    {
+      "id": 108887,
+      "class_id": 6,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "惬意的沃金",
+      "text": "<b>猎人游客</b> <b>战吼：</b>选择2个随从，交换其属性值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5a0108e07bf81e6c7392d5c5be8ed3159a300f929343d294d168222ba318d853.png"
+    },
+    {
+      "id": 108965,
+      "class_id": 8,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "悠闲的曲奇",
+      "text": "<b>恶魔猎手游客</b> 在一个友方随从死亡后，随机召唤一个法力值消耗增加（1）点的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c3a67b5785b3013130a5285d8d7e1c6ec8ecc2ca03a4f40bf80a17f27e54e51c.png"
+    },
+    {
+      "id": 108980,
+      "class_id": 12,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "爆破工程师",
+      "text": "在你的回合结束时，将一张“炸弹” 牌洗入你对手的牌库。当抽到“炸弹”时，便会受到5点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/54b676b5284f82c4044818f5f658ed039671e624fe98d5305993a339c0221586.png"
+    },
+    {
+      "id": 109260,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "安息",
+      "text": "每个玩家分别召唤其在本局对战中死亡的法力值消耗最高的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8b07f120b0d652ee0ae780d6d00cd46d4fb551847f945223b15708eabe51fd53.png"
+    },
+    {
+      "id": 109323,
+      "class_id": 3,
+      "health": 2,
+      "attack": 1,
+      "mana_cost": 3,
+      "name": "可靠的鱼竿",
+      "text": "在你的英雄攻击后，从你的牌库中召唤一个法力值消耗为（1）的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bdb58f8cecc99b9819b0f708e8d5532fe40421671bb7c13751ce7e8a7c4c88ac.png"
+    },
+    {
+      "id": 109662,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "飞速离架",
+      "text": "对所有敌方随从造成 1点伤害。你手牌中每有一张龙牌，重复一次。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e97b98b2109cc42cf623b5f3567ec7bb4e57003ac4635a08a2b2f190c5cc1988.png"
+    },
+    {
+      "id": 110113,
+      "class_id": 9,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "邪火推进器",
+      "text": "<b><b>法术迸发</b>：</b>对2个随机敌方随从各造成等同于本随从攻击力的伤害。 <b>星舰组件</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6cbb5d4e05703120484e4bbc2691c20c5718ecc56c7313323ce96e8a7fcbc3f9.png"
+    },
+    {
+      "id": 110115,
+      "class_id": 14,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "破片炮塔",
+      "text": "<b>突袭</b>，<b>风怒</b> <b>星舰组件</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c1b6d2bdf5db620a78f611e28d92c304a4a79678244ef5213726c725fc55dcad.png"
+    },
+    {
+      "id": 110119,
+      "class_id": 3,
+      "health": 6,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "取样探爪",
+      "text": "在你的对手使用一张随从牌后，攻击该随从。 <b>星舰组件</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/29f480f76ffa3d051aaef4dc37d61a42201005a0e4765cfb433a892de9211211.png"
+    },
+    {
+      "id": 110233,
+      "class_id": 2,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "星光反应堆",
+      "text": "在你施放一个奥术法术后，再次施放该法术<i>（目标随机而定）</i>。 <b>星舰组件</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8e93562faba54b02acf3c7f7056ac1cf3e4a3baa254b698103ed6a6be87120c9.png"
+    },
+    {
+      "id": 110564,
+      "class_id": 12,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 3,
+      "name": "红衣指挥官",
+      "text": "<b>战吼，亡语：</b>使你手牌中的所有德莱尼获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f43340e868c815ab966b1dd35d13487d996c70c83a0830d1f294dd8dd144af1f.png"
+    },
+    {
+      "id": 110573,
+      "class_id": 5,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "斩星巨刃",
+      "text": "<b>战吼，亡语：</b>在本局对战中，你的圣契的法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/14e869300a0a2531b892259b9251a8b021089d46c001928544291e99f5a17f40.png"
+    },
+    {
+      "id": 110757,
+      "class_id": 7,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "拨号机器人",
+      "text": "<b>战吼：</b>抽取法力值消耗为 ， 和 的牌各一张。<i>（每回合随机拨号！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d7f15c6c6f47e64a6d8d294840b7d06d3712455bb92cd56d0db876e0ac323ed2.png"
+    },
+    {
+      "id": 110765,
+      "class_id": 8,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "湍流元素特布勒斯",
+      "text": "<b>猎人游客</b> <b>战吼：</b>使你手牌，牌库和战场上的所有其他<b>战吼</b>随从获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/286e5d8f6f601262c2f70abeef292d20b73e36045d8d7e8f4d8b1f8f3c2640dc.png"
+    },
+    {
+      "id": 110769,
+      "class_id": 14,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "狱火订书器",
+      "text": "在你的英雄攻击后，对你的英雄造成3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b42d4890413e28256f27cbbf10aed58dae5f075e2d5330a68da13eac742a715d.png"
+    },
+    {
+      "id": 110772,
+      "class_id": 3,
+      "health": 2,
+      "attack": 4,
+      "mana_cost": 3,
+      "name": "劳作老马",
+      "text": "<b>亡语：</b>召唤两匹2/1的小马。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f6a4a1e6337e6819506855b3b0d78af79a4b10692928f853c31a3615dbb4dc81.png"
+    },
+    {
+      "id": 110780,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "预留泊位",
+      "text": "使你手牌中一张随机随从牌获得+4/+4。如果其为手牌中唯一的随从牌，其法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a8c0c92cfd641d69b84b4dd17a1b6e1def84210018b5ee5bc3ba6acba373ec48.png"
+    },
+    {
+      "id": 110783,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "打卡",
+      "text": "在本回合中，使你的英雄获得+3攻击力和“同时对相邻随从造成伤害”。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5b204a7498f576fda80db3ad6d51d666cbc7c0819e168bf9cb07dfff298add26.png"
+    },
+    {
+      "id": 110795,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "失火",
+      "text": "抽三张牌并将其点燃。3回合后，摧毁其中仍在手中的牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/79f5b4f2fbc7b8d082feb3c5563df5c7c270c91508a397c8355f546ffab3bb19.png"
+    },
+    {
+      "id": 110796,
+      "class_id": 12,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "梦想策划师杰弗里斯",
+      "text": "<b>战吼：</b> 选择一条旅行路线，从中获取两张可能会表现完美的卡牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a453b2e5ff1fd3ea07572c864cbdbd71bb0c9ff28b9ca3975ae76c7c2d9a034b.png"
+    },
+    {
+      "id": 110840,
+      "class_id": 6,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "德莱尼学者",
+      "text": "每当另一个随从 被<b>过量治疗</b>时， 使其获得等量的额外生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1c4b0ace20f8e62bd5e7b399dcaa671cd71a2f6188c2816978f0a87b59c2260f.png"
+    },
+    {
+      "id": 110842,
+      "class_id": 6,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "克乌雷，圣光领域",
+      "text": "<b><b>法术迸发</b>： </b>随机召唤一个法力值 消耗为（3）的随从。 <i>（神圣法术不会移除此<b>法术迸发</b>。）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5918ab52950bb3f9c7af8c59a4de6eb3e0d9792ed190e94f9b7c19f472aa12d2.png"
+    },
+    {
+      "id": 110850,
+      "class_id": 6,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 3,
+      "name": "影随员工",
+      "text": "<b>战吼：</b>如果你的 英雄在本回合受到过伤害，召唤一个本随从的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/53f9a4cbc2e234260eaa1aa5f77140645dbf0df85b74f8e9371aa64a0dd08c9f.png"
+    },
+    {
+      "id": 110853,
+      "class_id": 12,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "笨拙的杂役",
+      "text": "在任意卡牌被抽到后，将其变为 <b>临时</b>卡牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/75add2f4475ddbb76ca7609c6d76e8444582ea944acb2329cefb8c03b9fcb8fd.png"
+    },
+    {
+      "id": 110870,
+      "class_id": 3,
+      "health": 12,
+      "attack": 12,
+      "mana_cost": 3,
+      "name": "吞世巨虫戈姆",
+      "text": "<b>休眠</b>5回合。在你的回合结束时，消灭本随从右边的随从以提前1回合唤醒。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5cdddf03aa80a7bca1d6aeab5eb4137ccbe9e872652b7ce60c9c36dbe34eb294.png"
+    },
+    {
+      "id": 110878,
+      "class_id": 1,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "魂缚尖塔",
+      "text": "<b>亡语：</b>召唤一个法力值消耗等同于本随从攻击力的随从<i>（最高不超过10点）</i>。 <b>星舰组件</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b23ac25d62217ca0a506f0fd6c4b4acac0708e89d2864cdb1ae3a79a45e7f2d4.png"
+    },
+    {
+      "id": 110904,
+      "class_id": 10,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "探险队中士",
+      "text": "<b>战吼：</b>你使用的下一个德莱尼会立即攻击一个随机敌人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5d33aaa3b660dd3e8e1694b98862752b3b1f2a8a31fd8ed8c90a52031555e591.png"
+    },
+    {
+      "id": 111068,
+      "class_id": 3,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "视差光枪",
+      "text": "如果你在本回合中 <b><b>发现</b>过</b>，则拥有+2攻击力。<b><b>法术迸发</b>：</b>在本回合中，你的英雄<b>免疫</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a10daae4c35bdf0956fc9cfed4f2e6006fd4b47a162e05c030490ef2d8799bdb.png"
+    },
+    {
+      "id": 111074,
+      "class_id": 3,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "大主教奈丽",
+      "text": "<b>战吼：</b>将你的 英雄技能替换为追踪术<i>（从你的牌库中<b> 发现</b>一张牌）</i>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3584b2b9cff90ee8dbae13fd410d7a0662a16ab3d985eb8b3f1a018ec3c847d0.png"
+    },
+    {
+      "id": 111139,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "狱火邪谋",
+      "text": "使一个随从获得+3/+3。如果该随从是恶魔，你的下一张恶魔牌法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9cf996ffb3854f47540f3bd65eb7816860876aa53b1e5275b8a55986104def52.png"
+    },
+    {
+      "id": 111179,
+      "class_id": 9,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "卡拉，黑暗之星",
+      "text": "<b><b>法术迸发</b>：</b>随机从一个敌人处偷取2点生命值。<i>（暗影法术不会移除此<b>法术迸发</b>。）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/43b04f3431ebbeeffb838db19744a92deff4f010f649f9a257383e820c5444d7.png"
+    },
+    {
+      "id": 111317,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "窒息",
+      "text": "消灭攻击力最高的敌方随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/41fda96ae9448a1052bb7477687d598af897d9fdae33c6088b68670a74bec3ed.png"
+    },
+    {
+      "id": 111318,
+      "class_id": 1,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "死亡侍僧",
+      "text": "在一个友方亡灵死亡后，抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/944c2d8cfa811fa1f1a12aa726cbc56ce4fbd2ca62ff259f4c5b326a3264f983.png"
+    },
+    {
+      "id": 111330,
+      "class_id": 12,
+      "health": 2,
+      "attack": 4,
+      "mana_cost": 3,
+      "name": "躁动的愤怒卫士",
+      "text": "<b>战吼：</b>对一个敌方随从造成2点伤害。如果该随从死亡，<b>发现</b>一张恶魔牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/894f098f9e4220f2626604d6f8f575970739b4abf3eb93efb48b1495b3c40820.png"
+    },
+    {
+      "id": 111332,
+      "class_id": 1,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "断魂",
+      "text": "在你的英雄攻击并消灭一个随从后，获得2份 <b>残骸</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/666344492ca387b9680199bd2f11dac2aaa47a593c5a6c1ca6d090443f1a0b35.png"
+    },
+    {
+      "id": 111351,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "横扫",
+      "text": "对一个敌人造成 4点伤害，并对所有其他敌人 造成 1点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b74cd46de1462b5e672fa2b287d04deebf6cf62f688232dc82377798497867ee.png"
+    },
+    {
+      "id": 111358,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "主人的召唤",
+      "text": "从你的牌库中<b>发现</b>一张随从牌。如果三张牌都是野兽，改为抽取全部三张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8f93dc123fcf7fbcb44d7ff18657f6cb729a32b6bb9441aacff60a022e165f11.png"
+    },
+    {
+      "id": 111364,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "天降蛛群",
+      "text": "召唤三只1/1并具有“<b>亡语：</b>随机获取一张野兽牌”的 结网蛛。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/991fb4b191f8995ebb69ba37fdc2ed5a8a22d1221ed9c6aced14870c71c761cb.png"
+    },
+    {
+      "id": 111367,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "银月城传送门",
+      "text": "使一个随从获得+2/+2。随机召唤一个法力值消耗为（2）的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/22ad34658b728ad4adaa45088c53a442035cb260cc4b8bda360c60faa19eade0.png"
+    },
+    {
+      "id": 111374,
+      "class_id": 6,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "拉祖尔女士",
+      "text": "<b>战吼：</b><b>发现</b>一张你的对手手牌的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/988ec5626d53b3a74bbc022a5ba415f4749e027d0d444681d82564a760713f54.png"
+    },
+    {
+      "id": 111377,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "团伙劫掠",
+      "text": "从你的牌库中抽两张海盗牌。 <b>连击：</b>并抽一张 武器牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1430976604aacb3b61cab0b72f4e30b3964cff6e3a4369b9ac45e71dd8316f6a.png"
+    },
+    {
+      "id": 111410,
+      "class_id": 12,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "逃生舱",
+      "text": "<b>突袭</b>。<b>亡语：</b> 使相邻的随从获得+1/+1和<b>突袭</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e90c26a6f729a1722eb9760334b5e0cdf85b9bc35ba44ad33db151a60941a593.png"
+    },
+    {
+      "id": 111475,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "正中要害",
+      "text": "对一个随从造成 3点伤害。使你手牌中的<b>连击</b>牌法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1b25f05e07894a0f4369926e94923239965d1bde672434869bc30bb8809d86cb.png"
+    },
+    {
+      "id": 111596,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "桶滚动作",
+      "text": "对一个未受伤的角色造成 5点伤害。如果你正在构筑<b>星舰</b>，则法力值消耗为（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a807eadb1b1fa0921e18757d9047d1be7751793757460ab391d36cee70b4acab.png"
+    },
+    {
+      "id": 111644,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "明澈圣契",
+      "text": "抽两张随从牌。如果本牌的法力值消耗为（0）点，使抽到的随从牌获得+2/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dfef019910ad984855e42c861575ec916b8a942ded3eba51cdd5da3569fdbc4c.png"
+    },
+    {
+      "id": 111897,
+      "class_id": 4,
+      "health": 1,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "吸积炽焰",
+      "text": "<b>战吼：</b>摧毁你牌库顶的3张牌，其中的火焰法术牌或元素牌会由摧毁改为抽取。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c6be77823ac93e9d60b7413aa48b689be4113c4cea7498c2a7e66dd3c087dc40.png"
+    },
+    {
+      "id": 111899,
+      "class_id": 4,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "爆炎流星",
+      "text": "<b>战吼：</b>随机将5张火焰法术牌洗入你的牌库，其法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5efce5e17167fb47d2654b9fe88ea1634d83d77b6b1f35ac047797e7465cac40.png"
+    },
+    {
+      "id": 111915,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "节点亲王沙法尔",
+      "text": "<b>法术迸发</b>：使你手牌中的一张随从牌获得+3/+3和此<b>法术迸发</b>效果<i>（除非其已经拥有这些效果）</i>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c468582694c6349ab0df28fdd905b2961b44af7daab0f85c6701683ea42ac64a.png"
+    },
+    {
+      "id": 111925,
+      "class_id": 7,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "塔尔加斯",
+      "text": "未受伤的敌方随从受到的伤害翻倍。<b>连击：</b>获取一张背刺。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d077a1ba5bc3d139a000bac3407ee7967ea70778c2739c448723da10d0ed575f.png"
+    },
+    {
+      "id": 111937,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "折跃驱动器",
+      "text": "抽两张牌。如果你正在构筑<b>星舰</b>，这些牌的法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/fc4db4083dcc7a9e97832442cf6a4955afcc994f7d1ce77109558d878be7b36e.png"
+    },
+    {
+      "id": 111973,
+      "class_id": 12,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "深空策展人",
+      "text": "<b><b>法术迸发</b>：</b>随机获取一张法力值消耗与法术相同的随从牌，并将其法力值消耗变为（0）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c065d429d5179f6f53af207e2b7273388b9668ae3d49b3067fc1b0c9a3adcf66.png"
+    },
+    {
+      "id": 112028,
+      "class_id": 12,
+      "health": 1,
+      "attack": 5,
+      "mana_cost": 3,
+      "name": "乌祖尔暴怒者",
+      "text": "<b>吸血</b> <b><b>法术迸发</b>：</b>随机攻击一个敌方随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/45e33d64b4fbaf944fd391a135a44d232c36308fffc47c71b91de1c2313fae99.png"
+    },
+    {
+      "id": 112084,
+      "class_id": 12,
+      "health": 5,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "混蒙畸体",
+      "text": "<b>突袭</b>。<b>嘲讽</b> <b>……<b>潜行</b>？</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/fad1cbadfa540563c9667eb418e0b1392ed18d9d750c1184f26417469826fc49.png"
+    },
+    {
+      "id": 112093,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "凋零同化",
+      "text": "<b>发现</b>并召唤一个法力值消耗为（3）的<b>亡语</b>随从，并使其具有<b>复生</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3e8de3cfa5cde33257729e0ee845d1b061ae9bcc058342532da8cc5d078a2337.png"
+    },
+    {
+      "id": 112830,
+      "class_id": 1,
+      "health": 2,
+      "attack": 4,
+      "mana_cost": 3,
+      "name": "感染者",
+      "text": "<b>亡语：</b>在本局对战的剩余时间内，你的异虫随从拥有+1攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4ad7ae72b409b49f331046e49ff592a7d5e7597474b5f0f1d1cdbbe2d8e5bc75.png"
+    },
+    {
+      "id": 112834,
+      "class_id": 0,
+      "health": 5,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "巢群虫后",
+      "text": "在你的回合 结束时，获取一张可以变形成为随机异虫随从的幼虫。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/aac82de1a770945fc203c391acefecbf6f52c37b9979092dda245800ac90f776.png"
+    },
+    {
+      "id": 112858,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "回收地堡",
+      "text": "召唤两个2/2并具有<b>嘲讽</b>的陆战队员。你的下一次<b>星舰</b>发射的法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/12e9667818b6e1ddb24cd2efdd42a39b20e0cda0d582cea723156def6c41b859.png"
+    },
+    {
+      "id": 112859,
+      "class_id": 3,
+      "health": 2,
+      "attack": 4,
+      "mana_cost": 3,
+      "name": "刺蛇",
+      "text": "<b>战吼：</b>随机对一个敌人造成2点伤害。你每控制一个其他异虫随从，重复一次。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/aee23e1c8344721a3ff6506f4956a7ad1e5b911e63e5c64f4efeed9c1892660e.png"
+    },
+    {
+      "id": 112923,
+      "class_id": 12,
+      "health": 5,
+      "attack": 1,
+      "mana_cost": 3,
+      "name": "石丘防御者",
+      "text": "<b>嘲讽</b>，<b>战吼：</b> <b>发现</b>一张具有<b>嘲讽</b>的随从牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4a900a92265937e7fbccccb23ab94df92345d14272d8915db1cb4a8f023b4218.png"
+    },
+    {
+      "id": 113117,
+      "class_id": 10,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "货物保镖",
+      "text": "在你的回合结束时，获得3点护甲值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1285b332daab4ab5e7412d5ad72f1dc519ccb0dd5451c90f8c76d15b647fa819.png"
+    },
+    {
+      "id": 113181,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "谐振盘",
+      "text": "对一个随从造成 5点伤害。随机获取一张星灵法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6dfeaf51f7843cfdb675d4fcdcae4dab9e3dbaf46cc7f5262e46eb4927936994.png"
+    },
+    {
+      "id": 113328,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "满怀希望的树妖",
+      "text": "<b>战吼：</b>随机获取一张梦境牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4283ecb21339c35aecada33cd2d83943a51810974bbc1faaf8b5c6bcb688c1b9.png"
+    },
+    {
+      "id": 113568,
+      "class_id": 3,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "牧人之杖",
+      "text": "在你的英雄 攻击后，召唤一只3/3并<b>休眠</b>2回合的羊。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9aa1d3838cedaf69d95f7cfae4878efbbc7cc03ffcaae4ad90fd510afea69186.png"
+    },
+    {
+      "id": 113576,
+      "class_id": 0,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "坑道虫",
+      "text": "抽两张异虫牌，这些牌的法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6dcf41a264963ec7ac56569846aeff409cc0ca46efadb755fc95ad6f5f85d5fc.png"
+    },
+    {
+      "id": 113664,
+      "class_id": 9,
+      "health": 3,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "雷兽窟",
+      "text": "对所有敌人造成1点伤害。<b>亡语：</b>召唤一只8/8并具有<b>突袭</b>的雷兽。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b5d7d3a7a45bb3f60addb65cd334e1a4dfb31df3b2bbc55db99df86f57e518f1.png"
+    },
+    {
+      "id": 113677,
+      "class_id": 8,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "极紫外破坏者",
+      "text": "<b>战吼：</b>对一个 敌方随从造成3点伤害。将3张小行星洗入你的牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8a9a4b3278fa20cfbac7a339ca2e5b50e104eb129c01f0529455b708014c3c0a.png"
+    },
+    {
+      "id": 113733,
+      "class_id": 0,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "虚空辉光舰",
+      "text": "<b>突袭</b>。<b>圣盾</b> <b>战吼：</b>如果本牌的法力值消耗为（0）点，获得+2/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d79bb9873a5d6ede4d2dea031c1fbe4163728d29a06fc32e5a878dcae4eeddea.png"
+    },
+    {
+      "id": 114081,
+      "class_id": 5,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "金萼幼龙",
+      "text": "<b>战吼，亡语：</b><b>灌注</b>你的英雄技能。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5210850b63883563a343c704c137c2b0d3417b4e3f92515c06b2c836a87c614d.png"
+    },
+    {
+      "id": 114217,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "屈从疯狂",
+      "text": "<b>发现</b>一条在本局对战中死亡的友方的龙，并再次召唤它。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ba560a9ef4f554c977005be489acced6757661a0b2481b8b4466b390c6d1e552.png"
+    },
+    {
+      "id": 114287,
+      "class_id": 4,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "亢祖",
+      "text": "<b>战吼：</b><b>发现</b>一张法术牌。你可以选择保留该牌，或者将其置于你对手的牌库顶。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3e5b6217dbf21f32a23a2e92e557d803fbd24bd4ba8047ecf2e6d2544e3cf667.png"
+    },
+    {
+      "id": 114289,
+      "class_id": 8,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "活体园林",
+      "text": "<b>战吼：</b><b>灌注</b>你的英雄技能。使你手牌中一张随从牌的法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/53a714eae0cda7cbaa2a58d3b9dae880ddad40e245ba53a59d84e21e50bc9317.png"
+    },
+    {
+      "id": 114299,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "新月祈愿",
+      "text": "对一个随从 造成 6点伤害。 <i>（施放 个法术 以获得<b>吸血</b>。）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/fd41513ce33accd010a26733c8cc98561aa264bfca89bea34c3f8c4b9cecd7de.png"
+    },
+    {
+      "id": 114306,
+      "class_id": 1,
+      "health": 5,
+      "attack": 0,
+      "mana_cost": 3,
+      "name": "尸魔花",
+      "text": "在你的对手召唤一个随从后，消耗2份<b>残骸</b>以对其造成3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4ffb57bc379ae1dc862290832a2a65bbe0014d11ecd7b681ef143bc260fa396c.png"
+    },
+    {
+      "id": 114373,
+      "class_id": 6,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "轮回编织者",
+      "text": "<b>战吼：</b>如果你的手牌中有法力值消耗大于或等于（5）点的法术牌，则造成3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/36ffe29a8f3a5efb370d9b6a2538a5f99f2db36e16697d8542eadceae9ea4dad.png"
+    },
+    {
+      "id": 114496,
+      "class_id": 14,
+      "health": 2,
+      "attack": 4,
+      "mana_cost": 3,
+      "name": "梦魇龙裔",
+      "text": "<b>亡语：</b>使你最右边的手牌法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/362105a17710670204fd4d30a586601d6a20b1815ea5e07e6dc73527f43663f9.png"
+    },
+    {
+      "id": 114505,
+      "class_id": 7,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 3,
+      "name": "狡猾的萨特",
+      "text": "<b>战吼：</b>获取你对手手牌中法力值消耗最低的牌的一张复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b82b2a2769b72f4a443dbc473636565ad97274ce37342c314abbad9fb2d38925.png"
+    },
+    {
+      "id": 114513,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "潜入",
+      "text": "选择一个随从。对所有其他随从造成 3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3c735f8d6033436d9ffad8522245f14dd42b5b9220f4136308711a87eecfd7cb.png"
+    },
+    {
+      "id": 114517,
+      "class_id": 7,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 3,
+      "name": "倒刺荆棘",
+      "text": "<b>抉择：</b>获得在本回合中的<b>剧毒</b>；或者获得“<b>亡语：</b>对所有敌人造成2点伤害。”",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c6c47baad1ebf5e10e333aa9358f9869aa8e78c3cb9808292ced09f03c1c12ac.png"
+    },
+    {
+      "id": 114518,
+      "class_id": 7,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "雷弗拉尔，恶念巨蛛",
+      "text": "<b>战吼：</b>随机使你对手手牌中的 张牌困住一回合。 <i>（你每使用过一次本随从都会提升。）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7f8412e9b36fe0e49326b2b6436d00e91f16f09bb635e3064cc650304e6fd850.png"
+    },
+    {
+      "id": 114533,
+      "class_id": 12,
+      "health": 4,
+      "attack": 1,
+      "mana_cost": 3,
+      "name": "活化月亮井",
+      "text": "在你施放一个法术后，获得等同于其法力值消耗的攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/63c3745230558c3855434a0120e51fa2d245e23c209dedbe5276d0f0bd6416a5.png"
+    },
+    {
+      "id": 114912,
+      "class_id": 2,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "梦缚信徒",
+      "text": "<b>战吼，亡语：</b>你的下一个英雄技能的法力值消耗为（0）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7510ca9c6194d618dd58d2c531f275a42baa663ac9518ceca17584161f7395f4.png"
+    },
+    {
+      "id": 114914,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "光合作用",
+      "text": "恢复 6点生命值。随机获取3张德鲁伊法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1fb5f1c586ec1e991ceca0e08b28dbe47f1268404c24b3917bf9368f2484fcdb.png"
+    },
+    {
+      "id": 115052,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "两栖之灵",
+      "text": "使一个随从获得+2/+2和“<b>亡语：</b>使一个友方随从获得+2/+2以及此<b>亡语</b>。”",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4824bcb8832ad9075e90116cf964dd30178a7da719e9acd4827f5788e415fecf.png"
+    },
+    {
+      "id": 115055,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "灵魂联结",
+      "text": "对一个随从造成 3点伤害。如果消灭该随从，召唤一只3/2并具有<b>突袭</b>的狼。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6e60fcd542d351632064ad5e5d8f5ab0e1a17be8eb906b94e46e4b07eccfc204.png"
+    },
+    {
+      "id": 115174,
+      "class_id": 12,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "血蓟幻术师",
+      "text": "<b>战吼：</b>召唤一个本随从的复制。本体和复制中会秘密区分出一个，在受到伤害时死亡。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a899b30fc5ea0e6b54760be82af6497a7170a8786cab972e79a72710f908ea93.png"
+    },
+    {
+      "id": 115176,
+      "class_id": 7,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "凋零先驱",
+      "text": "每当本随从从战场进入你的手牌时，随机召唤两个法力值消耗为（2）的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c89da450a514f58671c3aaed197ed77f35698adfe86580fe3462bb09d544c7d8.png"
+    },
+    {
+      "id": 115198,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "飞龙之眠",
+      "text": "<b>抉择：</b>召唤两个<b>休眠</b>的魔种；或者对所有随从造成 2点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/77b4b2b48cd9f3428b689c64f454164a78c260d7350fad5cead8ecb5609a9ce5.png"
+    },
+    {
+      "id": 115461,
+      "class_id": 6,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "卡多雷女祭司",
+      "text": "<b>战吼：</b>直到你的下个回合，使所有敌方随从获得-2攻击力。<b>灌注</b>你的英雄技能。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/68ed356bc452083b0374f006edbe2e2690bbfaba5cbe1ae73f936742b7471da7.png"
+    },
+    {
+      "id": 115624,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "火化",
+      "text": "<b>发现</b>一张 具有<b>黑暗之赐</b>的随从牌，其法力值消耗 减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/88715c2ee36de3c63523d16cba21a211687772fbe9972b07e2df0fddab177dd8.png"
+    },
+    {
+      "id": 115630,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "过热",
+      "text": "使你的随从获得+1/+1。随机弃一张自然法术牌以使其再获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c048d4f49336c209c21e8fac8fc0759559a4c491f0b2b9f541d5a6b6d7ef98c2.png"
+    },
+    {
+      "id": 115634,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "灼烧之风",
+      "text": "造成 3点伤害。随机弃掉一张火焰法术牌以再造成 3点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ea68f3e25c3dbfd9aad85da6db4f2811fc356420c926471673d87f33b0ef6a5e.png"
+    },
+    {
+      "id": 115642,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "新月辉光",
+      "text": "使一个随从获得+3/+3。<i>（施放 个法术，即可在使用时将本牌移回你的手牌）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5504c40d762c9a812eb5e4be9455e5421c81bba58826467bc50ce27e81142711.png"
+    },
+    {
+      "id": 115648,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "花木护侍",
+      "text": "<b>战吼：</b>如果你已<b>灌注</b>过你的英雄技能两次，抽两张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2b8c44b30e4d2d16702da824c1d9a2a24b6de07aba937f4ccc5086e8ba64e00f.png"
+    },
+    {
+      "id": 115656,
+      "class_id": 8,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "烬鳞雏龙",
+      "text": "<b>战吼：</b><b>发现</b>一张法力值消耗为（5）的牌。仅在下回合，获得1个法力水晶。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/68b421a3b60e80782e7e010306ee1a12d2683bff92a22c2b5d6ae92afa4b9708.png"
+    },
+    {
+      "id": 115754,
+      "class_id": 9,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "烬根毁灭者",
+      "text": "每当你的英雄在你的回合受到伤害，随机对一个敌方随从造成3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ae0db7d3ee9b25c5d0ac7f1397583a16e2d725b52933abec897cd3d69791d188.png"
+    },
+    {
+      "id": 115866,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "星涌术",
+      "text": "对一个随从造成 点伤害。<i>（每有一个在本局对战中死亡的友方随从都会提升。）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b714d872f7d5a3ac3d4ad09051cb970ed3a7029008c66b7394ced17735fb2712.png"
+    },
+    {
+      "id": 115971,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "拆迁修理工",
+      "text": "<b>可交易</b> <b>战吼：</b>摧毁一个敌方地标。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1fa5c65fe331339453a715996eda065b4d786c5026e2b791affdb3ff35420d98.png"
+    },
+    {
+      "id": 116672,
+      "class_id": 12,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "法夜欺诈者",
+      "text": "<b>亡语：</b>抽一张法力值消耗大于或等于（5）点的法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/440464a57854d42b535c6b79baf8e5c8718877c5e542794df8064dc6156d58f5.png"
+    },
+    {
+      "id": 116718,
+      "class_id": 10,
+      "health": 4,
+      "attack": 1,
+      "mana_cost": 3,
+      "name": "埃辛诺斯壁垒",
+      "text": "每当你的英雄即将受到伤害，改为埃辛诺斯壁垒失去1点耐久度。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a9e90cd7e848bf71683fc83aae11922feb87dae76a79e68defec027ad82f01b6.png"
+    },
+    {
+      "id": 117030,
+      "class_id": 14,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "邪能响尾蛇",
+      "text": "<b>突袭</b>，<b>亡语：</b>对所有敌方随从造成 1点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4f1994b2cafe651c20275869372839aabdae9932d1970c774d5f881f9ac32c16.png"
+    },
+    {
+      "id": 117307,
+      "class_id": 4,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "呓语魔橱",
+      "text": "<b>战吼：</b>随机 将2张法师法术牌置入你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e9d1115e7c8aa03e0e60393590046f59ebb461c6c78d733c66d17cb76b5c4d72.png"
+    },
+    {
+      "id": 117395,
+      "class_id": 1,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "死亡金属骑士",
+      "text": "<b>嘲讽</b>。在本回合中，如果你的英雄受到治疗，本牌改为消耗生命值而非法力值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/64cf601d99484159ede5d91fdb0c529978b8375cd62bebc53f767d0621106e58.png"
+    },
+    {
+      "id": 117420,
+      "class_id": 12,
+      "health": 1,
+      "attack": 5,
+      "mana_cost": 3,
+      "name": "梦境暴怒者",
+      "text": "<b>扰魔</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a05ea857906fbe8fc5265691d43a4df2a4a8ed38694cf191f49e371f26826b6a.png"
+    },
+    {
+      "id": 117430,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "古生物秘术",
+      "text": "<b>发现</b>一张亡灵牌。消耗5份<b>残骸</b>，改为保留全部三张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/915dfbfacf885c7f65a483cb85bdd7329a08a5ec36e283a246115a242bebd9fa.png"
+    },
+    {
+      "id": 117533,
+      "class_id": 8,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "火山长尾蜥",
+      "text": "<b>战吼：</b>抽一张火焰法术牌。<b>延系：</b>使其获得<b>法术伤害+2</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9a4991c15009dd3237335b4953639c121268a03b5cfeeafe05a7c0781ea8370b.png"
+    },
+    {
+      "id": 117535,
+      "class_id": 4,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "咒术图书管理员",
+      "text": "<b>亡语：</b>抽一张法术牌。<b>延系：</b>召唤一个本随从的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/728c4c5597793bd423785068302cf92590d97653b4e39b9153598b211f4cc04b.png"
+    },
+    {
+      "id": 117536,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "熔岩涌流",
+      "text": "对生命值最低的敌人造成 2点伤害，触发三次。<b>过载：</b>（1）。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/be1ddd47ee8d07a2d7259ca044202f671250171870425864a84b93bc546b2628.png"
+    },
+    {
+      "id": 117600,
+      "class_id": 3,
+      "health": 5,
+      "attack": 0,
+      "mana_cost": 3,
+      "name": "食草剑龙",
+      "text": "在你的回合结束时，获得+1攻击力<i>（即便在手牌或牌库中）</i>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/235187b0ea03b1469002858affaa6950e79ffbdc6db4e10535014c1552f4437b.png"
+    },
+    {
+      "id": 117606,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "火鹰飞翔",
+      "text": "抽两张不同类型的随从牌，使其获得+2/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/733e7394693e81bff9ead174a9d23e730655efa6a70bcc8bfeb0a853f30cc22f.png"
+    },
+    {
+      "id": 117617,
+      "class_id": 8,
+      "health": 5,
+      "attack": 1,
+      "mana_cost": 3,
+      "name": "布拉玛·灼石",
+      "text": "你的元素会额外造成1点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/603d7d1fa053b109ee2363a545e44e51c3955e060d24a69249feff2da7e40e7c.png"
+    },
+    {
+      "id": 117652,
+      "class_id": 2,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "孵化辅助师",
+      "text": "<b>战吼：</b>使你的其他攻击力小于或等于2的随从获得+1/+2和<b>嘲讽</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9c60cfc8885668501b7581ad45265baff969f223d09fa570b1acbb2ee4f1055c.png"
+    },
+    {
+      "id": 117657,
+      "class_id": 2,
+      "health": 2,
+      "attack": 0,
+      "mana_cost": 3,
+      "name": "啸天龙蛋",
+      "text": "<b>亡语：</b>召唤四只2/1的啸天龙宝宝。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e85a000f79ae2dffefcc7b5b240659268a9d872cc1e0e13756f276943c29fbc3.png"
+    },
+    {
+      "id": 117674,
+      "class_id": 12,
+      "health": 3,
+      "attack": 0,
+      "mana_cost": 3,
+      "name": "翼手龙蛋",
+      "text": "<b>亡语：</b>召唤一只3/3并会从所有其他随从处偷取1点生命值的翼手龙。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6e87bb3775d985221e79cae5095b7c780b8d243ac6558cd61d609dd064ec8a74.png"
+    },
+    {
+      "id": 117813,
+      "class_id": 14,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "昆虫利爪",
+      "text": "在你的英雄攻击后，召唤一只2/1并具有<b>突袭</b>的异种虫幼体。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bab653e19425e53e9c22ffbbe20e76f85436e6dd47fe298042119ac57350733b.png"
+    },
+    {
+      "id": 117889,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "遗宝挖掘工",
+      "text": "<b>战吼：</b>摧毁你牌库顶的牌，<b>发现</b>一张稀有度与其相同的牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4e06561a2fe269589b5eafbc5d79b0c6ceaf5a186ac89f62408b4b2d71b2367c.png"
+    },
+    {
+      "id": 118220,
+      "class_id": 12,
+      "health": 5,
+      "attack": 1,
+      "mana_cost": 3,
+      "name": "远古剑龙",
+      "text": "<b>战吼：</b>从<b>嘲讽</b>，<b>剧毒</b>或+1/+1中选择一项并获得。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d752e3e4003ac6879cda924319c9660e6e713723c89377aa0f416d61ccbaae08.png"
+    },
+    {
+      "id": 118241,
+      "class_id": 12,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "绞缠血藤",
+      "text": "<b>亡语：</b>使一个随机友方随从获得一项随机<b>额外效果</b>以及此<b>亡语</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/70b5383e6251d5fffb4533392ba62381d2a6851f6a3b7e785bef0969b0fe83bd.png"
+    },
+    {
+      "id": 118251,
+      "class_id": 12,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "蛮鱼挑战者",
+      "text": "<b>战吼：</b>你的下一个<b>延系</b>效果会触发两次。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5ce097f6f776d083bd56424dc2cf2938d34078e2d119d1d6c6cbf2a705d3ccb1.png"
+    },
+    {
+      "id": 118252,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "蚀解软泥怪",
+      "text": "<b>战吼：</b>消灭一个友方随从，将其骸骨置入你的手牌。骸骨可以使一个随从获得被消灭随从的攻击力和生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4f66ce43dd10a7212305468b62548f90a3924b9f96e13e16a8de63f9fb59964b.png"
+    },
+    {
+      "id": 118254,
+      "class_id": 12,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 3,
+      "name": "石化食人魔",
+      "text": "起始<b>休眠</b>状态。<b>休眠</b>状态下，在你的回合开始时，获得+2/+2。<i>（50%的几率改为唤醒。）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d130bc1aa41d88033963f6124ca64cd476c7283b037096d74a2ff45d0b176137.png"
+    },
+    {
+      "id": 118260,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "沼地蛇颈龙",
+      "text": "在你施放一个法术后，获得<b>圣盾</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/447edb8f974fe25b8fc23212f48a9279e65a2786a91e23e6098831db25fd6f2e.png"
+    },
+    {
+      "id": 118266,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "乱翻库存",
+      "text": "对一个随从造成 3点伤害。如果你在本回合中<b>发现</b>过，则本牌的法力值消耗为（0）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7bd6de0a5d51062f1d72a8c192dd70467d755b7f6368aa9ef604f63b5d4764fe.png"
+    },
+    {
+      "id": 118282,
+      "class_id": 9,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 3,
+      "name": "坑道恐怪",
+      "text": "<b>亡语：</b>随机获取两张<b>临时</b>的法力值消耗为（2）的随从牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3cba076b251ae6eee097aec9c7d5d5bf499d2a33bf3ef4a0f3734142bf7f44d4.png"
+    },
+    {
+      "id": 118765,
+      "class_id": 1,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "法瑞克",
+      "text": "你获得的<b>残骸</b>量为正常的两倍。<b>战吼：</b>抽一张消耗<b>残骸</b>的牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5c1081789737b004bfe40058e16ffbe1732a5dabcc4c083c44875976275d5606.png"
+    },
+    {
+      "id": 119637,
+      "class_id": 10,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "远祖之斧",
+      "text": "在你的英雄攻击后，对所有随从造成1点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1f61b2f25aff1ff1de9b1ffa9313a3e96d9a9b0c88db87f883d6edd008c39650.png"
+    },
+    {
+      "id": 119754,
+      "class_id": 14,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "格里什掘洞虫",
+      "text": "<b>潜行</b>。在本随从攻击后，对敌方英雄造成2点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/fbe09dd9079346cd44a5f1b6e20e1fddf5acd5773d96745d6eb8417916895f20.png"
+    },
+    {
+      "id": 119781,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "卧底教徒",
+      "text": "<b>嘲讽</b>。<b>复生</b>。受伤时拥有+3攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5d28e7b69ef25430c9a4969c7610a1d15cde15009e8b72cccf7fce0ae235b2c7.png"
+    },
+    {
+      "id": 119798,
+      "class_id": 12,
+      "health": 2,
+      "attack": 4,
+      "mana_cost": 3,
+      "name": "迅猛龙先锋",
+      "text": "<b>战吼：</b><b>发现</b>一张具有<b>黑暗之赐</b>的野兽牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5717bc698d0efe1029cba47ecea5781f9e1c96c6c482acfa34406a139eb0e967.png"
+    },
+    {
+      "id": 120352,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "展馆茶杯",
+      "text": "<b>战吼：</b>随机使三个不同类型的友方随从获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/75af73dea04d6dda663601fc5fd8ffc12477a635b873a1b2ad6e7fd5efa77257.png"
+    },
+    {
+      "id": 120392,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 3,
+      "name": "绿洲盟军",
+      "text": "<b>奥秘：</b> 当一个友方随从受到攻击时，召唤一个3/6的水元素。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/073f5324f48199c3a5aeb558d9876a42463efe3d455ca3a35d3261f3820238f6.png"
+    },
+    {
+      "id": 120433,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "喷灯破坏者",
+      "text": "<b>战吼：</b>你对手的下一个英雄技能的法力值消耗增加（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0600af61c4e0266aec33931858e55905e35c846fbea02f53692886bb5b9d6a9f.png"
+    },
+    {
+      "id": 120463,
+      "class_id": 7,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "收集者沙库尔",
+      "text": "<b>潜行</b>。每当本随从攻击时，随机将一张<i>（你对手职业的）</i>牌置入你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c7ba26f3c2688242e855ddfba572cb79fa960cfc016a99b7efe87fe18fc897b9.png"
+    },
+    {
+      "id": 120464,
+      "class_id": 8,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "沼泽之子",
+      "text": "<b>战吼：</b>如果你在上回合施放过法术，<b>发现</b>一张法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e6b180af30c9355393290d8a3b0aaa8990c4b97b87db64bee3f4d2bd25900de8.png"
+    },
+    {
+      "id": 120573,
+      "class_id": 10,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "暴虐食尸鬼",
+      "text": "<b>战吼：</b>对所有其他随从造成1点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7648ea705e32dd4e5880f7788d404b75562db3f04e75eff257db19d3f0cb604f.png"
+    },
+    {
+      "id": 120574,
+      "class_id": 10,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 3,
+      "name": "钩拳-3000型",
+      "text": "在你的英雄攻击后，获得4点护甲值并抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f078dade7c771a78cdd9a72b41a97524f9380d7d05a4e3276040b6ce629816fe.png"
+    },
+    {
+      "id": 120582,
+      "class_id": 4,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "宝库闯入者",
+      "text": "在你<b>发现</b>一张卡牌后，使其法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b215a760c5835fe5eb91b6323fd9060c870745e2bdb84b7c6ec612b70686b6d8.png"
+    },
+    {
+      "id": 120879,
+      "class_id": 5,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 3,
+      "name": "幽光鱼竿",
+      "text": "在你的英雄攻击后，随机将一张鱼人牌置入你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/777da7c1a7af55e496a8394616b98644a196ecbdd9133ced5f9c58fae2cbc469.png"
+    },
+    {
+      "id": 121029,
+      "class_id": 3,
+      "health": 5,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "环形山的尼利",
+      "text": "每当你使用一张法力值消耗为（1）的随从牌，使其属性值翻倍。每当你施放一个法力值消耗为（1）的法术，施放两次。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/459cdce224dd8766a12c834046d6955008c180be1e2c6ee366859ff70117ed07.png"
+    },
+    {
+      "id": 122547,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 3,
+      "name": "锐目侦察兵",
+      "text": "<b>战吼：</b>抽一张牌，在本回合中其法力值消耗减少（1）点。<i>（我认得那张牌！）</i> <b>战吼：</b>抽一张牌，在本回合中其法力值消耗减少（1）点。<i>（会抽到 ！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1bace4b30b157e54570b788fc8d4f0b4cf49029e1312a5adcf657390ac813020.png"
+    },
+    {
+      "id": 69501,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "火球术",
+      "text": "造成 6点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a4663e9a77e0e0b62bf3b9e2f3e17f7d6aec9e816ec9839a91817d20e281d5aa.png"
+    },
+    {
+      "id": 69525,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "刺杀",
+      "text": "消灭一个敌方随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d0af9423e599e479c67572be3029c1dd05f53ee2c3961f34692a19ea10c1df16.png"
+    },
+    {
+      "id": 69542,
+      "class_id": 12,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "森金持盾卫士",
+      "text": "<b>嘲讽</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5dc25e78fb6333267eadf25dcfa2d56b9605468eea101d898c9ef12707b445cc.png"
+    },
+    {
+      "id": 69588,
+      "class_id": 14,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "暴怒邪吼者",
+      "text": "<b>战吼：</b>你的下一张恶魔牌的法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0545348b0972a4c077efd1a4addadef56cfeaebe33ecd1e948af2cb9ed559ead.png"
+    },
+    {
+      "id": 69616,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "暗言术：毁",
+      "text": "消灭所有攻击力大于或等于5的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/07adeb1f4f2c039d960d7481d5e2c0b3028c762294ff754221bdd4a4627df4ab.png"
+    },
+    {
+      "id": 69634,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "灵魂虹吸",
+      "text": "消灭一个随从，为你的英雄恢复 3点生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bb49df0a4acd1b2e59a874fb7db75ea1220bad0ba5d3336950e5b9ca1bd49045.png"
+    },
+    {
+      "id": 69652,
+      "class_id": 12,
+      "health": 2,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "王牌猎人",
+      "text": "<b>可交易</b> <b>战吼：</b>消灭一个攻击力大于或等于7的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/18a1ee1545678674c19e088a9d22aa8daeb9cdfdd3bed21471b532cf310c6167.png"
+    },
+    {
+      "id": 76287,
+      "class_id": 2,
+      "health": 6,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "范达尔·鹿盔",
+      "text": "你的<b>抉择</b>牌和英雄技能可以同时拥有两种效果。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3d563826fe2a03ab49c262c3699dc37ce5e7b50f29268f620b6c01fbe3b1c7cc.png"
+    },
+    {
+      "id": 76303,
+      "class_id": 10,
+      "health": 6,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "血蹄勇士",
+      "text": "<b>嘲讽</b> 受伤时拥有+3攻 击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/41fc5bc1c5c4139edf6f05446748c4f3fdb1f4cd9e40a612a02d5ebe5702528f.png"
+    },
+    {
+      "id": 76320,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "吸血蚊",
+      "text": "<b>战吼：</b>对敌方英雄造成3点伤害。为你的英雄恢复 3点生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/81f183a3a1550a425b38ea644c5dfaa76e21ccc35eb535d84f3757eea8d743c4.png"
+    },
+    {
+      "id": 76325,
+      "class_id": 12,
+      "health": 1,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "暮光幼龙",
+      "text": "<b>战吼：</b> 你每有一张手牌，便获得+1生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/67fb82a3fd58a2d67e402278b77907e0577d4d034a5e5e4596a02c48889f311c.png"
+    },
+    {
+      "id": 78324,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "灵界打击",
+      "text": "<b>吸血</b> 对一个随从造成 6点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6464d8222d59d4e8d9be5ffd98a90b5aaf2639b62000158aaf38495fa72404aa.png"
+    },
+    {
+      "id": 80645,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "墓地之力",
+      "text": "使你的所有随从获得+1攻击力。消耗5份<b>残骸</b>，改为获得+3攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b76ff567dd152711df2576f0d106e7b48fa1dfe61decea07a2546b94285c5c87.png"
+    },
+    {
+      "id": 80648,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "冷酷严冬",
+      "text": "对所有敌人造成 2点伤害。抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3ce793bdc66c2371ddb15ff0ea8ee6421eb6878e0b19c26a528d4bd80b287c96.png"
+    },
+    {
+      "id": 86540,
+      "class_id": 7,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "荆棘帮蟊贼",
+      "text": "<b>战吼：</b><b>发现</b>一张另一职业的法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/085456270e1ffce2b0e8bcaadb5ad38207536a71b3c20960a18429c387baccd6.png"
+    },
+    {
+      "id": 86731,
+      "class_id": 1,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "萨萨里安",
+      "text": "<b>复生</b>。<b>战吼，亡语：</b>随机对一个敌人造成2点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5a34adc72af4d2071c99169b53d8521ba8c725ef05bd769797476587a1a73a5d.png"
+    },
+    {
+      "id": 96917,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "十字军光环",
+      "text": "每当一个友方随从攻击时，使其获得+2/+1。持续 回合。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/eabcfda25c01437b430f8cd773d85dc073457804daebd8c5aa34a53ca717151b.png"
+    },
+    {
+      "id": 102184,
+      "class_id": 14,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "凯恩·日怒",
+      "text": "<b>冲锋</b> 所有友方攻击无视 <b>嘲讽</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/44419feeced596ed788d44867e4052cdb0c4e24a506198618cc933b686851b3f.png"
+    },
+    {
+      "id": 102217,
+      "class_id": 12,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "黑骑士",
+      "text": "<b>可交易</b> <b>战吼：</b>消灭一个具有<b>嘲讽</b>的敌方随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/beafe33d357bd194083b9a2e302051158004be76a76674336f928f743fe8336b.png"
+    },
+    {
+      "id": 102222,
+      "class_id": 12,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "王室图书管理员",
+      "text": "<b>可交易</b> <b>战吼：</b><b>沉默</b>一个 随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8c4f443dc1957dc59f2fb7e1b19d666feb0022d3b5e628184a24a02b2ae6d0e0.png"
+    },
+    {
+      "id": 102230,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "恐怖海盗",
+      "text": "<b>嘲讽</b> 你的武器每有1点攻击力，本牌的法力值消耗便减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5209d3abeba6c4ec7e48d689fd710790c9eae91808aa38d2368f2fa64b724665.png"
+    },
+    {
+      "id": 102657,
+      "class_id": 12,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "艾泽拉斯的勇士",
+      "text": "选择联盟或部落，获取2张该阵营的<b>传说</b>勇士并使其法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/44e194ee02c27062bfefeea5cac7ad7292d6df135b127dde01cf3949de725586.png"
+    },
+    {
+      "id": 102799,
+      "class_id": 12,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "恋旧的侏儒",
+      "text": "<b>微缩</b> <b>突袭</b>。在本随从在你的回合中造成了刚好消灭目标的伤害后，抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9500a8e1adca273ccf5cae0bb80160e08c8b06117414ff9dd6f137b34ce2b1d9.png"
+    },
+    {
+      "id": 103079,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "苏打火山",
+      "text": "<b>吸血</b>。造成 10点伤害，随机分配到所有随从身上。<b>过载：</b>（1）",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1e1484a430c583b6f9f422c33ba50737b1f849b37195ec271886fd37a39097ef.png"
+    },
+    {
+      "id": 103124,
+      "class_id": 8,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "神秘女巫哈加莎",
+      "text": "<b>战吼：</b>抽两张法力值消耗大于或等于（5）点的法术牌，并将其变形成为会施放对应法术的泥浆怪。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2cf5b0929e972b395f0b05e272d9f61d984ee0a3ea3f38bb9b9a128da1ed08fb.png"
+    },
+    {
+      "id": 103144,
+      "class_id": 3,
+      "health": 3,
+      "attack": 0,
+      "mana_cost": 4,
+      "name": "神秘的蛋",
+      "text": "<b>微缩</b> <b>亡语：</b>获取你牌库中一张随机野兽牌的一张复制，其法力值消耗减少（3）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c8c53653f384bbc1ce55c56c2eed2fcb93ca7f8529ebbdf51a917b37b8989767.png"
+    },
+    {
+      "id": 103154,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "遥控狂潮",
+      "text": "召唤六只1/1的猎犬。每有一只放不下的猎犬，使其余猎犬获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/81a81248a49030218182b8799aa8f166bc593efc9a56347347d45f0ef42df32e.png"
+    },
+    {
+      "id": 103169,
+      "class_id": 14,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "希希集",
+      "text": "<b>战吼，流放， 亡语：</b>随机获取一张初版恶魔猎手卡牌<i>（品相完美）</i>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/eaefe361359a7a0af9e530d5e0c7b577f46206d5692c1962964987d575dbdacf.png"
+    },
+    {
+      "id": 103266,
+      "class_id": 4,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "三芯诡烛",
+      "text": "<b>战吼：</b>随机对一个敌人造成2点伤害，触发三次。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ff0fe02946bd932255b26e45057d4b6482b3f29221c448eda55e0767c543cb05.png"
+    },
+    {
+      "id": 103347,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "找不同",
+      "text": "<b>发现</b>并召唤一个法力值消耗为（3）的随从。如果你的牌库中没有随从牌，重复此效果。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d4aa0201d083a4eca0ca6e383f97e33197a7832b07bcfe5d4ddeffae62e049e9.png"
+    },
+    {
+      "id": 103352,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "霜巫十字绣",
+      "text": "对一个角色造成 3点伤害。如果该角色死亡，召唤一个3/6的可以<b><b>冻结</b></b>攻击目标的水元素。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6ba0e173f4fcf19ccae6fd04246aac15c5a65ef62b4783974619cd6e10da11fa.png"
+    },
+    {
+      "id": 103379,
+      "class_id": 8,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "沙画元素",
+      "text": "<b>微缩</b> <b>战吼：</b>在本回合中，使你的英雄获得+1攻击力和<b>风怒</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a8c7c6161902d258f4ff53031d2e190c8b7a0b49f1f3bd38b8418daaba6c0c04.png"
+    },
+    {
+      "id": 103434,
+      "class_id": 7,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "水上舞者索尼娅",
+      "text": "在你使用一张法力值消耗为（1）的随从牌后，获取一张它的法力值消耗为（0）点的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/eb08ebe6c6b2e8c6c7bdbea6c9166ae98cd6fe6c6b513b4b5ebeae108d370f2d.png"
+    },
+    {
+      "id": 103448,
+      "class_id": 10,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "实验室奴隶主",
+      "text": "每当你获得护甲值，召唤另一个实验室奴隶主<i>（每回合一次）</i>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d9ee210edefc9c176a0a4aeff4d24cc62d94d2c5e16bb4c817f9831e2f1b9979.png"
+    },
+    {
+      "id": 103520,
+      "class_id": 12,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "漫画美术家",
+      "text": "<b>战吼：</b>抽一张法力值消耗大于或等于（5）点的随从牌，给它画上滑稽的小胡子！",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/26f93bf82aea2a649fb7c5df2415e6d37a43e226ffff6fc7a3402970b227b611.png"
+    },
+    {
+      "id": 103566,
+      "class_id": 6,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "粉笔美术家",
+      "text": "<b>战吼：</b>抽一张随从牌，将其变形成为随机<b>传说</b>随从牌<i>（保留其原始属性值和法力值消耗）</i>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9ecd3ab188b16f1bab45a5264bb1c7095d778d02fc748b96cc26f1f6dd879d4d.png"
+    },
+    {
+      "id": 103627,
+      "class_id": 7,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "水弹枪",
+      "text": "在你的英雄攻击后，召唤一个1/1的海盗，并使其随机攻击一个敌人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2a72747713e38651ffbac33a59ce58879ace0f75c9c298ce9315dc0918670505.png"
+    },
+    {
+      "id": 103630,
+      "class_id": 5,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "纸板魔像",
+      "text": "<b>战吼：</b>使你手牌，牌库和战场上的光环持续时间提高1回合。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/87219739804dd9208567ff51f712ddeaba83c2c0233ab29673fe94a5feb360e3.png"
+    },
+    {
+      "id": 103632,
+      "class_id": 5,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "画师的美德",
+      "text": "在你的英雄攻击后，使你手牌中的随从牌获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8f86e21fb41740c1cb65cfc40a3826a3dbd0d4132e42cd4f4fa50600aa2d2f2a.png"
+    },
+    {
+      "id": 103633,
+      "class_id": 5,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "绒绒虎",
+      "text": "<b>微缩</b> <b>突袭</b>，<b>吸血</b>，<b>圣盾</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5cd1b4e7e8c72fa0ba33396b02ebb8e138c7f10ce63107b6edd95849b038db08.png"
+    },
+    {
+      "id": 104507,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "工坊事故",
+      "text": "对一个随从造成 5点伤害，相邻的随从均会受到超过其生命值的伤害。<b>流放：</b>获得<b>吸血</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/126c8efe38d827a7249c3ae0d9cc54dddc85ff3f0dbd15acab71f7d15a6b8917.png"
+    },
+    {
+      "id": 104510,
+      "class_id": 14,
+      "health": 2,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "裁判拳套",
+      "text": "<b>亡语：</b>抽一张恶魔牌，并使其法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/968c74478129e7a925d0d9666ec3bb7d09cb1d7627693dfcd3ae9dfa5b49584b.png"
+    },
+    {
+      "id": 104511,
+      "class_id": 14,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "球霸野猪人",
+      "text": "<b>吸血</b>。<b>战吼，亡语：</b>对生命值最低的敌人造成3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ab92a01b405d8b52b0ebfe0cddf5951654cc77351a286a34591cda255e1289cb.png"
+    },
+    {
+      "id": 104583,
+      "class_id": 2,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "绿植幼龙",
+      "text": "<b>微缩</b> <b>抉择：</b>获得<b>法术伤害+1</b>；或者抽一张法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f08a06ee22c77524d5f33684ff1c0ecc6e27f65f6d43b81b39b0be110d84403b.png"
+    },
+    {
+      "id": 104634,
+      "class_id": 1,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "黑棘针线师",
+      "text": "在你的回合结束时，造成等同于本随从攻击力的伤害，随机分配到所有敌人身上。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e91f5a308b75e079605a970fcb8b0129bccd9238f89022df1f5771a97e737804.png"
+    },
+    {
+      "id": 104819,
+      "class_id": 12,
+      "health": 5,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "酷炫的威兹班",
+      "text": "你改用威兹班的一副试验套牌来开始 对战！",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a40076e479684d846619ddd3cd246909de69926aa753bd16e5c127f450b15bfb.png"
+    },
+    {
+      "id": 104853,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "多米诺效应",
+      "text": "对一个随从造成 2点伤害。向左侧或右侧重复此效果，每次伤害增加1点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/175de4ea54a840f745d92277483010581e21a87bd9bae9d0b011f5cf7080cf21.png"
+    },
+    {
+      "id": 104855,
+      "class_id": 9,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "桌游角色扮演玩家",
+      "text": "<b>微缩</b> <b>战吼：</b>在本回合中，使一个友方恶魔获得+2攻击力和<b>免疫</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c2356d2eeddc6abf706a08adaee8949edb7e89d901099844816328e28d4e0ac6.png"
+    },
+    {
+      "id": 104862,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "诅咒之旅",
+      "text": "使一个友方随从获得“<b>亡语：</b>召唤本随从的两个<b>休眠</b>2回合的复制。”",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3b9d69ef1c48dd98a448d903cabf354eee33f4ca947e815ce3b448a9e087b4eb.png"
+    },
+    {
+      "id": 105112,
+      "class_id": 12,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "欢乐的玩具匠",
+      "text": "<b>亡语：</b>召唤两个1/2并具有<b>嘲讽</b>和<b>圣盾</b>的 机械。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8fcbe1df0c339f1879adc44b2c7509c342dbc0953c87e12db689ed93a525456a.png"
+    },
+    {
+      "id": 105142,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "可疑交易",
+      "text": "抽三张牌。<b>连击：</b>随机消灭一个敌方随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/be697f35aef55808626359697f033f335330860c5140db16b55721ebc12d22b7.png"
+    },
+    {
+      "id": 105257,
+      "class_id": 14,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "残次聒噪怪",
+      "text": "在你的英雄 攻击后，召唤另一个残次聒噪怪。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6fca7ef73081cc5a6c9e192f1fbab3f202b1035d6870433fccc6f6875ff0ddfe.png"
+    },
+    {
+      "id": 105282,
+      "class_id": 6,
+      "health": 2,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "木偶剧场",
+      "text": "选择一个敌方随从，获取一张它的1/1且法力值消耗为（1）点的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/13e136d7430fd5f41625206edb00f51c0517cf482421e5ca7883d03dffba0832.png"
+    },
+    {
+      "id": 105490,
+      "class_id": 12,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "套娃傀儡",
+      "text": "<b>亡语：</b>再次召唤本随从并具有-1/-1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/48f3a2cdbc47bf0d7af7c00b68c3ffc025e26a4c922b16917ed07627b7221344.png"
+    },
+    {
+      "id": 105493,
+      "class_id": 12,
+      "health": 1,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "折纸仙鹤",
+      "text": "<b>嘲讽</b>。<b>战吼：</b>与另一个随从交换生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/44b759b1ce1a4c37deacf9848e7456271e7d15453063fa09e830085878bce8e6.png"
+    },
+    {
+      "id": 105502,
+      "class_id": 9,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 4,
+      "name": "地狱火！",
+      "text": "<b>嘲讽</b>。<b>战吼：</b>将你的英雄的剩余生命值变为15。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/04be761762d7ceb4e8a855dcee5da0b13968d8b1145039b7107fc40d44761f61.png"
+    },
+    {
+      "id": 105511,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "屈辱头盔",
+      "text": "使一个随从获得-5/-5。使你手牌中的一张随从牌获得+5/+5。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c0149e829d86eaca89dc5970f9a013d226e313688a00dc26f8746963b3807a9c.png"
+    },
+    {
+      "id": 105543,
+      "class_id": 9,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "召唤师达克玛洛",
+      "text": "<b>死亡骑士游客</b> 你的<b>亡语</b>会触发两次。在你使用一张<b>亡语</b>随从牌后，将其消灭。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/401829c6d052d5b655784d910c79be44c9f89e48fab950840fd07db87ea3a9ea.png"
+    },
+    {
+      "id": 105556,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "圣光荧光棒",
+      "text": "<b>吸血</b>。对一个随从造成 4点伤害。如果你在本回合中施放过神圣法术，则法力值消耗为（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7d3f727c5b8d24f112a412b54c6e2b82d9ad19c6d617559a7147a4cbdcb9df0f.png"
+    },
+    {
+      "id": 105822,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "光速抢购",
+      "text": "召唤一个1/2并具有<b>圣盾</b>和<b>嘲讽</b>的机械。使你的随从获得+1/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9c7fe24e5eb2b12d645248c0d3b9858c4f962509e4cc03b1ce6c568173475e9d.png"
+    },
+    {
+      "id": 106375,
+      "class_id": 4,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "海潮之王泰德",
+      "text": "<b>战吼：</b>直到你的下个回合结束，双方玩家的法术的法力值消耗为（5）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/099a7fd16b9e3652f0b6f1fd12d1b6593a4f0d2fe19f1b922677bc6186f873e8.png"
+    },
+    {
+      "id": 106379,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "炭火",
+      "text": "对一个随从造成 7点伤害。使你手牌中的一张随从牌获得等同于超过目标生命值伤害的属性值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7814d124ea1ca4f09031fd6e6e7e8f08478bd153b82ddf98aa09f0c73f17300c.png"
+    },
+    {
+      "id": 106390,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "食物大战",
+      "text": "为你的对手召唤一份0/4的主菜。当它死亡时，从你的牌库中召唤一个随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e0b6df556abdb5a7377b853691e8e90fe3fa81817414292023a17fd26fcb146a.png"
+    },
+    {
+      "id": 106435,
+      "class_id": 5,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "烧烤大师",
+      "text": "<b>战吼：</b>抽取你法力值消耗最低的牌。<b>亡语：</b>抽取你法力值消耗最高的牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/56db5873f1571c9dca7a0ec0047de4a014b36e3ce234afa10d5b2182cf9798a0.png"
+    },
+    {
+      "id": 106439,
+      "class_id": 5,
+      "health": 7,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "救生员",
+      "text": "<b>嘲讽</b>。<b>战吼：</b> 你施放的下一个法术拥有<b>吸血</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c319ec562f58b93b500a1793851cfc45ffa87896ab29ddcc0fd65b1b74cf7847.png"
+    },
+    {
+      "id": 106535,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "统一着装",
+      "text": "将一个随从随机变形成为一个法力值消耗增加（1）点的随从，然后召唤一个它的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/88b10db7612127c99abc813fb9bbc8c5b02343a0b5740fb3b879656145b85944.png"
+    },
+    {
+      "id": 106542,
+      "class_id": 12,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "困倦的岛民",
+      "text": "<b>嘲讽</b>。<b>亡语：</b>所有其他随从陷入沉睡。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ca6708e5a01cba7221ca0a5d3485a33a2d7aba9e907c3f2db9734c6a72825eb8.png"
+    },
+    {
+      "id": 106614,
+      "class_id": 14,
+      "health": 3,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "惊险悬崖",
+      "text": "召唤两个1/1并具有<b>冲锋</b>的海盗。在你的英雄攻击后，重新开启本地标。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cf19b17964419c9b47762eee2f9cce46825d5cf36c68c95851bc94ba3a45a8d4.png"
+    },
+    {
+      "id": 106713,
+      "class_id": 6,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "纳瑞安·柔想",
+      "text": "<b>战吼：</b>获取两张预知命运。预知命运为你牌库顶的牌的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6a2cfcf0be3c9cba8e8fdd26dfe339452820460cc8badd3dfaf17688f15f7df1.png"
+    },
+    {
+      "id": 106715,
+      "class_id": 12,
+      "health": 4,
+      "attack": 5,
+      "mana_cost": 4,
+      "name": "随行肉虫",
+      "text": "<b>战吼：</b>获取一张法力值消耗为（1）的手提箱，将你牌库顶的2张牌装入其中。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4e05f4dc8aa62b29eadec5c044a0b673fb9badb906b185799611a7942f62a4ff.png"
+    },
+    {
+      "id": 106718,
+      "class_id": 12,
+      "health": 8,
+      "attack": 1,
+      "mana_cost": 4,
+      "name": "八爪按摩机",
+      "text": "对随从造成 八倍伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/df4cb6e96be6dcdd8dd3c608bfb7c50d0beb057b3b95213d3ab2dff64f39137e.png"
+    },
+    {
+      "id": 107187,
+      "class_id": 4,
+      "health": 6,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "沙滩塑形师蕾拉",
+      "text": "<b>圣骑士游客</b> 在你施放一个法术后， 随机召唤一个法力值消耗为（2）的随从并使其 获得<b>圣盾</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/746de22a1efc2cc29e137240530fd047df6e096759610018e00954e91f0e650b.png"
+    },
+    {
+      "id": 107719,
+      "class_id": 1,
+      "health": 5,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "大地之末号",
+      "text": "造成3点伤害，随机分配到所有敌人身上。在一个友方随从死亡后，重新开启本地标。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c4e10e0c93af5db841f53fa52a7a68eebf8856112d7cbc59f0614323e305fc7c.png"
+    },
+    {
+      "id": 107720,
+      "class_id": 1,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "伊丽扎·刺刃",
+      "text": "<b>亡语：</b>在本局对战的剩余时间内，你的随从拥有+1攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ffc66f8d8ed690d57b9521b1489c272639f5cbda067bc720939667c0044a645d.png"
+    },
+    {
+      "id": 107759,
+      "class_id": 7,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "蓄谋诈骗犯",
+      "text": "<b>战吼：</b>再次使用你使用过的上一张另一职业的牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7c81fe917413947da65c93ea7d1b52606168a0e574152db602e245ef8cddcf58.png"
+    },
+    {
+      "id": 107771,
+      "class_id": 10,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "断生鱿鱼",
+      "text": "<b>战吼：</b>消灭一个攻击力小于或等于本随从的敌方随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/10c0e394fca77e28f8c20db7a660b8fc49cae3a991433a0e27d071df7a900ca6.png"
+    },
+    {
+      "id": 107790,
+      "class_id": 1,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "滑雪高手",
+      "text": "如果有被<b>冻结</b>的角色，则法力值消耗为（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/49e3d259356873992b1bd8160fb29b29920b011d496b878c8e8c93535cd81b5e.png"
+    },
+    {
+      "id": 107824,
+      "class_id": 12,
+      "health": 5,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "波池造浪者",
+      "text": "<b>战吼：</b>使所有其他随从获得-1/-1。<b>亡语：</b>使所有其他随从获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ad2ec5f36e31abf9d24e20462f6a747d3c7b3f1d0e3117f8e7ba6089f438fa00.png"
+    },
+    {
+      "id": 107851,
+      "class_id": 12,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "景区代泊",
+      "text": "<b>战吼：</b><b>发现</b>一张最新扩展包的牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8d124411cebeb6df9c9240285d3aa75144dd3ad647da8b40eaaa850cc336914d.png"
+    },
+    {
+      "id": 107925,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "邪能篝火",
+      "text": "对一个随从造成 4点伤害。如果该随从死亡，你的下一个<b>亡语</b>随从的法力值消耗减少（3）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/907e41eaead1f97eac03316cae228eb61343d6a23b8206c259870b4682e0d395.png"
+    },
+    {
+      "id": 107926,
+      "class_id": 1,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "扣子",
+      "text": "<b>萨满祭司游客</b> <b>战吼：</b>抽取每个派系的法术牌各一张。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c00c68cc3fe14d1dafebf6d41d535a2a4df9c8d60d7f744cd99eb1e7bcf4d918.png"
+    },
+    {
+      "id": 108328,
+      "class_id": 12,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "燃灯元素",
+      "text": "<b>战吼：</b>如果你在上个回合使用过元素牌，则造成4点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3b45ce10604562b8c9e99e5f6ec69bed61cbd9bd8a2a6259e9e720c1a46f863c.png"
+    },
+    {
+      "id": 108338,
+      "class_id": 8,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "顶流主唱",
+      "text": "<b>战吼：</b>使你手牌中每个派系的各一张法术牌的法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/916f047df1081e3a656530ab2d526f1ee5daad2b2f41f99c5350dc57b53daafa.png"
+    },
+    {
+      "id": 108346,
+      "class_id": 12,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "戈贡佐姆",
+      "text": "<b>战吼：</b>获取一张 法力值消耗为（2）的奶酪。奶酪可以召唤三个法力值消耗为（1）的随从，且每回合都会升级。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/44d8e83c3bbc5c51b60f9c990d45f7f68f5d48b5e94e7806e52e5c1ab1708170.png"
+    },
+    {
+      "id": 108436,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "食尸鬼之夜",
+      "text": "召唤五个1/1的食尸鬼并使其攻击随机敌人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b4781429d5f8d7da241fb8f9e2aee09ba79057548e47a244307b2328075e79dd.png"
+    },
+    {
+      "id": 108622,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "产品延期",
+      "text": "<b>发现</b>并召唤一个法力值消耗大于或等于（8）点的随从，并使其<b>休眠</b>2回合。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d97b8fa522c8e1baacbb5f7cf9e6b85d19a40755fe77f3351c49537f64d5b0f8.png"
+    },
+    {
+      "id": 108967,
+      "class_id": 12,
+      "health": 5,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "诚信商家格里伏塔",
+      "text": "<b>战吼：</b><b>发现</b>一款神奇的护符，赠予双方玩家。<i>（敌人的护符为伪劣版本！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e00d280d49d70c23b94244e4dc8a17e0a9042eeb3c1fd27e67b1482e4f62663a.png"
+    },
+    {
+      "id": 109440,
+      "class_id": 12,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "前台礼宾",
+      "text": "你的其他职业的 牌法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/72aacf6153453362b0cff908969ef12e4b00dc94d2662783713dc9a571fbdceb.png"
+    },
+    {
+      "id": 110562,
+      "class_id": 5,
+      "health": 2,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "星际旅行者",
+      "text": "<b>圣盾</b>。<b>战吼：</b> 在本局对战中，你的圣契的法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6337584319bc355deda6963910943114fde730bb51f79a95df144b15f15f1c2b.png"
+    },
+    {
+      "id": 110743,
+      "class_id": 8,
+      "health": 6,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "流彩巨岩",
+      "text": "<b>战吼：</b>在本局对战中，你的小行星造成的伤害增加1点。<b><b>法术迸发</b>：</b>将3张小行星洗入你的牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/fd7c9693cfe2204472bf8f0217eb59c28a4983bdccd0e1f7d1cf1884edadeddc.png"
+    },
+    {
+      "id": 110753,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "假期规划",
+      "text": "恢复 4点生命值。召唤3个白银之手新兵。抽两张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4fc9a4d19a7ff9f87ee0ab2bdb76fa572596a047efc6755f91d715b738168fd3.png"
+    },
+    {
+      "id": 110754,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "旅社谍战",
+      "text": "将每个其他职业的各一张牌洗入你的牌库，其法力值消耗为（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/028e46ab43c9e58ac52d3c4845dbc10cb2e9febea6e964fa9e27ec37cd28a007.png"
+    },
+    {
+      "id": 110756,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "快刀快递",
+      "text": "使你的武器获得+2/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/26819331e86a6e448e323c4120b987c61c51debefbcff0415f634ecf7b73f069.png"
+    },
+    {
+      "id": 110760,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "合约细则",
+      "text": "对所有随从造成 4点伤害。<i>（超过其生命值的伤害会命中你的英雄。）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/89d85c1ae8963831911bf0abcfbab16004eb0741b01f32dc5251b66e49191e2c.png"
+    },
+    {
+      "id": 110776,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "业务支猿",
+      "text": "将8根香蕉置入你的手牌。放不下的香蕉会随机喂给场上的友方随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/243ce1abdb3a7a91bf3809a711878ae350fe78364d46265df128997e0bf08c6b.png"
+    },
+    {
+      "id": 110785,
+      "class_id": 10,
+      "health": 6,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "合金顾问",
+      "text": "<b>嘲讽</b> 每当本随从受到伤害，获得3点护甲值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/670c9a1714cc455bf061cb34a6f6152381a757ace25945185b13be06ae6d8df4.png"
+    },
+    {
+      "id": 110789,
+      "class_id": 2,
+      "health": 1,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "数据分析狮",
+      "text": "<b><b>突袭</b>。嘲讽</b>。<b>选择三次：</b>获得+2攻击力；或者+2生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/367876d156a3512f0888dd6bcf23456d16d6e9d77b17c4fdaeb87d1f268aad2e.png"
+    },
+    {
+      "id": 110839,
+      "class_id": 6,
+      "health": 2,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "迷惑生物图查",
+      "text": "<b>战吼：</b>如果双方英雄的生命值总和刚好为42，将你的英雄的生命值变为42。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/78ec55e814f7e2351b38870d93cd74c5e05ea547c4a987f52ce3c15dbc0b7480.png"
+    },
+    {
+      "id": 110844,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "信任背摔",
+      "text": "<b>发现</b>两张法力值消耗小于或等于（5）点的随从牌，并使其获得彼此的攻击力和生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2e1b26a1d8a243e01168a7bfdba2a6eb15ac740e681ffa50fa3d6c281c0f80bb.png"
+    },
+    {
+      "id": 110882,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "安戈洛宣传单",
+      "text": "抽两张随从牌，使其获得+2/+2。 <i>（每回合翻面。）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/19900675e9801cd340a1a53c958abefbb6b4e208c76255fa95b430375a541936.png"
+    },
+    {
+      "id": 110902,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "舰长日志",
+      "text": "抽两张牌。你每控制一个德莱尼，本牌的法力值消耗便减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/149a1f2fc452b9d0cc4a273c24e35d43294e668d89e3c97b48473c9076a08c9d.png"
+    },
+    {
+      "id": 110908,
+      "class_id": 14,
+      "health": 4,
+      "attack": 5,
+      "mana_cost": 4,
+      "name": "蒂尔德拉，反抗军头目",
+      "text": "<b>突袭</b>。<b>战吼：</b> 将全部8种乘务员洗入你的牌库。<b>亡语：</b>抽取两张乘务员。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/89c5f91b3ead13299594bdfc5e8c4f19fd0e90c93cacaa77a18d9d25fc4dd90d.png"
+    },
+    {
+      "id": 110910,
+      "class_id": 10,
+      "health": 2,
+      "attack": 7,
+      "mana_cost": 4,
+      "name": "坚定的复仇者",
+      "text": "攻击时<b>免疫</b>。 在每个回合结束时，本随从的攻击力和生命值互换。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/552154a115b5f34d0fa98ecf33805e981dd7c24220fdbb191fcef424a6a7ad36.png"
+    },
+    {
+      "id": 110914,
+      "class_id": 10,
+      "health": 4,
+      "attack": 5,
+      "mana_cost": 4,
+      "name": "不屈的守备官",
+      "text": "<b>战吼：</b>你使用的下一个德莱尼会使你的英雄在当回合获得该德莱尼的攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cf6cf8b2e0a0ecd0c08f83364961109d4d2099b8fd4c64556a9107eeed4b67f4.png"
+    },
+    {
+      "id": 110947,
+      "class_id": 12,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "王牌探路者",
+      "text": "<b>战吼：</b>随机获得两项 <b>额外效果</b>。你使用的下一个德莱尼也会获得这些效果。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c4d195165688d8f08070ae2c9b4da4555d69510a03364c8dd09a2ea6b41b5540.png"
+    },
+    {
+      "id": 111009,
+      "class_id": 2,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "大主教奥萨尔",
+      "text": "<b>战吼：</b>如果你正在 构筑<b>星舰</b>，获取3张不同的奥术法术牌并使其法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/37c9910b7d41ac6d6828de39a6cd55241fb5e28ccb4aedab22bbb29d55c0cc1e.png"
+    },
+    {
+      "id": 111020,
+      "class_id": 6,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "阿斯卡拉",
+      "text": "<b>战吼：</b>你使用的下一个德莱尼会召唤一个其自身的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5ef5f82c88f6f2bd5340f7a0fbcb1b87635ac0cd629d3b679af8e077349eb036.png"
+    },
+    {
+      "id": 111303,
+      "class_id": 12,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "末日女武神",
+      "text": "<b>战吼：</b>从你对手的牌库中抽一张牌。如果你未在本回合中使用该牌，将其置回。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6eb391a8c458503fdc65bdb075ae6a2996e52b9c344dcb64eef2a9f5fbe52f77.png"
+    },
+    {
+      "id": 111319,
+      "class_id": 1,
+      "health": 3,
+      "attack": 1,
+      "mana_cost": 4,
+      "name": "蛛魔护群守卫",
+      "text": "<b>嘲讽</b>。<b>战吼：</b>召唤本随从的两个复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/939ec91d708bacad7fd10e1629f4fb1af8e72c64feec7e365be288202173bf81.png"
+    },
+    {
+      "id": 111344,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "袖珍次元",
+      "text": "<b>发现</b>一张法术牌。重复此效果，直到你再次见到选项中见过的牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/48d0de1d3dfa4bfaa4d4ab88b141476c8b6738a42bf9e1fa58485ccf2e301025.png"
+    },
+    {
+      "id": 111354,
+      "class_id": 2,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "厚皮科多兽",
+      "text": "<b>嘲讽</b>，<b>亡语：</b>获得5点护甲值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7f0933e602ce8807a11252b2a29a305ce17f35f218edb1b84d8bbda297a230eb.png"
+    },
+    {
+      "id": 111355,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "橡树的召唤",
+      "text": "获得6点护甲值。从你的牌库中召唤一个法力值消耗小于或等于（4）点的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b6b7462f2a5a7560fe37806fec24be93b44cd819f97e93adf1f6b9146df67d62.png"
+    },
+    {
+      "id": 111356,
+      "class_id": 2,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "花园猎豹",
+      "text": "<b>突袭</b> 每当本随从攻击时，使你的英雄在本回合中获得+3攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c9f01cc223a996ddc49777c7edfc9aa62b2be917ffb399437662a57322ce826d.png"
+    },
+    {
+      "id": 111373,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "虚空碎片",
+      "text": "<b>吸血</b> 造成 4点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/abbdf84c56064d8e7085209c04681c83ed9adebfd2776c5480e9609008fb8678.png"
+    },
+    {
+      "id": 111454,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "暗巷契约",
+      "text": "召唤一个属性值等同于你的手牌数量并具有<b>嘲讽</b>的邪魔。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8606aef575de18ba6f5e5cf286319dbfc3327099838fdd1de138981c97b97ec1.png"
+    },
+    {
+      "id": 111647,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "神性圣契",
+      "text": "使一个随从获得+3/+3。如果本牌的法力值消耗为（0）点，在你的回合结束时将本牌移回你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5cec8abdf32e2c6b07c76fa1a8311067685ae9b7aa51b2f7d8c5a51688e0cbae.png"
+    },
+    {
+      "id": 111653,
+      "class_id": 5,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "伊瑞尔，希望信标",
+      "text": "<b>突袭</b>。<b>亡语：</b>获取来自更早时间线的三张不同圣契牌！",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c12a58fa17e7da98a21808c55a4e0738d626c4de6740706596bf5da6fcce6728.png"
+    },
+    {
+      "id": 111972,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "虚灵神谕者",
+      "text": "<b>法术伤害+1</b> <b><b>法术迸发</b>：</b>抽两张法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/646acf7cd85b193b2faf5694024e38ad17091632a44663479a145448b4de2243.png"
+    },
+    {
+      "id": 111979,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "难以喘息",
+      "text": "消灭一个随从。如果你正在构筑 <b>星舰</b>，还会消灭一个随机相邻随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7402280eaacd3fd14f9b9ed68c6a32ceacffc48d038b24fbb73f0cbe997d98d3.png"
+    },
+    {
+      "id": 112372,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "无限滞留",
+      "text": "使所有随从获得<b>复生</b>，然后消灭所有随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6027920b0d0446ef4c4552f8ab416c777244656fb33772588346b01d03db6311.png"
+    },
+    {
+      "id": 112862,
+      "class_id": 14,
+      "health": 6,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "潜伏者",
+      "text": "在一个友方随从攻击后，随机对一个敌人造成1点伤害<i>（如果你的随从为异虫则为2点）</i>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9afa57652346d5d93b259a291533ccdcd86f270a76ab13241f1343a64d25601b.png"
+    },
+    {
+      "id": 112873,
+      "class_id": 10,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "大和炮",
+      "text": "<b>星舰组件</b> <b>战吼：</b>随机消灭一个敌方随从。发射时也会触发。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5e9c586c053f4ad869c4cf1315ac161832115c04ac71b2ff6530cb3a6384f538.png"
+    },
+    {
+      "id": 112912,
+      "class_id": 0,
+      "health": 2,
+      "attack": 6,
+      "mana_cost": 4,
+      "name": "幽灵",
+      "text": "<b>潜行</b>。<b>战吼：</b>如果你正在构筑<b>星舰</b>，摧毁你对手手牌中法力值消耗最低的牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2efc56f44319d17681e7dbe0e279f5b6090cfa7195820d9932bfca80bf0862a3.png"
+    },
+    {
+      "id": 113164,
+      "class_id": 0,
+      "health": 3,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "折跃门",
+      "text": "你的下一张星灵随从牌的法力值消耗减少（3）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/da0c023d939a9889f85f66d2ef9bef134f7c2d663d3b1d7e872b5838ad9be844.png"
+    },
+    {
+      "id": 113211,
+      "class_id": 0,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "升空",
+      "text": "抽两张人族牌。召唤一个2/1并具有一项发射时效果的 <b>星舰组件</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2cd78ee5076c78118a237a75a2627900f05090345dc12334da98917115e6cbf3.png"
+    },
+    {
+      "id": 113663,
+      "class_id": 1,
+      "health": 3,
+      "attack": 5,
+      "mana_cost": 4,
+      "name": "飞蛇",
+      "text": "<b>战吼：</b>从你对手的手牌中召唤一个随从，你的其他异虫随从获得<b>复生</b>并攻击该随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cc2a470957175bf92f49b2665767ff27182321ef8a25a65b297f9bf697c804a9.png"
+    },
+    {
+      "id": 113672,
+      "class_id": 14,
+      "health": 2,
+      "attack": 5,
+      "mana_cost": 4,
+      "name": "异龙",
+      "text": "同时对其攻击目标 相邻的随从造成伤害<i>（如果某侧没有相邻随从，还会命中敌方英雄）</i>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/51ec0da61f9c861fde233c8eae7d750b25e6bf5f8662aa3472968ce4f85e31a6.png"
+    },
+    {
+      "id": 113822,
+      "class_id": 12,
+      "health": 4,
+      "attack": 5,
+      "mana_cost": 4,
+      "name": "狡诈拷问者",
+      "text": "<b>战吼：</b> <b>发现</b>一张具有<b>黑暗之赐</b>的<b>传说</b>随从牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/14b69c919beff998dc11a819c39eee071fdea97d03257e2e4d7801e3f53dede2.png"
+    },
+    {
+      "id": 113855,
+      "class_id": 5,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "恶火",
+      "text": "你的其他随从拥有+1攻击力。<i>（如果你在本局对战中发射过<b>星舰</b>，则会 变形。）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e086b3f73d629654f4267c57d7906e6b0af9c07c23e954b5148b7c9f6db35841.png"
+    },
+    {
+      "id": 114006,
+      "class_id": 12,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "振翅守卫",
+      "text": "<b><b>嘲讽</b>。圣盾</b> <b>战吼：</b><b>灌注</b>你的英雄技能。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/380df56a4930f3d5419cf86aee4dfebe1e9c8bb80811692ad6af20f8fc80cc7f.png"
+    },
+    {
+      "id": 114020,
+      "class_id": 3,
+      "health": 2,
+      "attack": 5,
+      "mana_cost": 4,
+      "name": "幽爪熊",
+      "text": "<b>突袭</b>。<b>亡语：</b><b>灌注</b>你的英雄技能。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b59b994ee99c68a7ac937054f8a475a77b3ffa6ca92ba78e4839c70c8bd0e142.png"
+    },
+    {
+      "id": 114076,
+      "class_id": 12,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "明耀织梦者",
+      "text": "<b>吸血</b>。<b>战吼：</b>如果你已<b>灌注</b>过你的英雄技能两次，对一个随从造成4点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3c7918f7b6ff3c03468d43da8758a3de54033fffe6a4d557f97385bb7f077fed.png"
+    },
+    {
+      "id": 114243,
+      "class_id": 10,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 4,
+      "name": "受难的毁灭者",
+      "text": "<b>战吼：</b>对所有其他友方随从造成3点伤害。<b>亡语：</b>对所有敌方随从造成3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b95e62794dba797d36fcb5da2245efc963590c119ee3c26d37dfbb80cc28c4f7.png"
+    },
+    {
+      "id": 114298,
+      "class_id": 3,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "神秘符文熊",
+      "text": "<b>嘲讽</b>。<b>战吼：</b>如果本随从的攻击力大于或等于4点，召唤一个它的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dada544150cdaaee04542cc27fa04b93c1ed1a24f5310d6e1b493cb0400104fe.png"
+    },
+    {
+      "id": 114308,
+      "class_id": 6,
+      "health": 6,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "逐月幼龙",
+      "text": "<b>扰魔</b>。在你的回合结束时，随机获取一张龙牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6137fb8cbd4869bf98dbf21c639f75e394350805bc545e06364aa50bb98ce8f6.png"
+    },
+    {
+      "id": 114514,
+      "class_id": 7,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "影蔽袭击者",
+      "text": "<b>战吼：</b>如果你的手牌中有一张与对手相同的牌，将对手的该牌洗入其牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4d7205ca87d8f1d1b69cd7d874dce33157c2ec235a16841e8bb477e85d6d9d2f.png"
+    },
+    {
+      "id": 114584,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "求救信号",
+      "text": "随机召唤两个 法力值消耗为（2）的随从。复原2个 法力水晶。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/471d4ada6abb15e43cb9b6fc0ad5f50a6dbb8f0bdc4673228c340ca5c4c27686.png"
+    },
+    {
+      "id": 114632,
+      "class_id": 5,
+      "health": 2,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "巨熊之槌",
+      "text": "在你的英雄攻击后，抽取你 法力值消耗最高的牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2d236e072a3c0ef228f3121f81b880527c20c07b998cba726e9524a7f8a15e23.png"
+    },
+    {
+      "id": 114663,
+      "class_id": 14,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "恐魂腐蚀者",
+      "text": "<b>战吼，亡语：</b>随机召唤一个<b>休眠</b>的魔种。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1133f60381518f8c3985c28d2f468de6c63acb609b44aa0c87e9e70e1255852e.png"
+    },
+    {
+      "id": 114844,
+      "class_id": 14,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "亵渎之矛",
+      "text": "在你的英雄攻击 一个敌人后，随机对另一个敌人造成等同于你的英雄攻击力的伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b7fd1b0a2b962eeb3920228522e6527b51940b9fcc5e11e357ac32ce56943d32.png"
+    },
+    {
+      "id": 114884,
+      "class_id": 12,
+      "health": 5,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "幻影绿翼龙",
+      "text": "<b>嘲讽</b>。<b>亡语：</b> 将两张<b>抽到时召唤</b>的4/5并具有<b>嘲讽</b>的龙洗入你的牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/09cf0543e2a8c331f6f90dab3c91ad0d03a700f768201da9825da7447d746e9c.png"
+    },
+    {
+      "id": 114966,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "血虫感染",
+      "text": "抽两张牌。召唤两条0/2的水蛭。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e587aaa6473047c14fcb48aa615a537fd3ed6bd34ea90c61a3fc06901dbca109.png"
+    },
+    {
+      "id": 115058,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "巨狼的恩赐",
+      "text": "<b>抉择：</b>对敌方英雄造成 4点伤害；或者召唤两只3/2并具有<b>突袭</b>的狼。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e3add3d4bcfcfe1c1d6219cc3f20d4de9ff8e2d50631b92182d20af37eeae733.png"
+    },
+    {
+      "id": 115139,
+      "class_id": 12,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "梦魇之王萨维斯",
+      "text": "<b>战吼：</b>从你的牌库中<b>发现</b>一张随从牌。使其获得<b>黑暗之赐</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ef6a30a111ad2b94415301383e47aab57b44d232311ac6b5a185bfbf00485de1.png"
+    },
+    {
+      "id": 115365,
+      "class_id": 12,
+      "health": 3,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "鸭妈妈",
+      "text": "<b>战吼：</b>召唤三只1/1并具有<b>突袭</b>的小鸭子。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1aa6af1370c8ebb3ac2cad900b36a1eb8c4906d8b664edb3e313ebf6cb0a5730.png"
+    },
+    {
+      "id": 115631,
+      "class_id": 2,
+      "health": 3,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "阿梅达希尔",
+      "text": "召唤一个法力值消耗为（ ）的随从。获得 点护甲值。抽 张牌。复原 个法力水晶。<i>（每使用此效果一次都会提升！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b4d68e24fd993f2deefb5f74a9a3068b0a7be7a09fe5682d7e9f725f4055ace3.png"
+    },
+    {
+      "id": 115637,
+      "class_id": 4,
+      "health": 6,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "地狱火先锋",
+      "text": "在你施放一个火焰法术后，随机获取一张元素牌，其法力值消耗减少（3）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0368a4ea29b833da504dbee866e00d35d4449e7a8ffdafe23df9326ec560e524.png"
+    },
+    {
+      "id": 115646,
+      "class_id": 7,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "永燃火凤",
+      "text": "在本回合中你每使用过一张牌，本牌的法力值消耗便减少（1）点。<b>亡语：</b>将本随从移回你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7beb2c7ece3e104d8b19859c504ba29c8522cdbcc334419060c925366a68c618.png"
+    },
+    {
+      "id": 115651,
+      "class_id": 9,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "影焰猎豹",
+      "text": "<b>战吼：</b><b>发现</b>一张具有<b>黑暗之赐</b>的恶魔牌，并获取一张它的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ef625d10e64b0b7edeba8a2a8f2a6ac1cf2e1bae877ca6842761aec476a92a0d.png"
+    },
+    {
+      "id": 115749,
+      "class_id": 14,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "灼热掠夺者",
+      "text": "<b>战吼：</b><b>发现</b>一张邪能法术牌。使你手牌中邪能法术牌的法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/20b160cd1512ba5e8f1ac950192403b29d5d721c977a8ef3622ae2fd2b0a5fe2.png"
+    },
+    {
+      "id": 115755,
+      "class_id": 10,
+      "health": 6,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "龙龟",
+      "text": "<b>战吼：</b>如果你的手牌中有具有<b>黑暗之赐</b>的随从牌，使你的英雄获得6点护甲值以及本回合中的+3攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c7f8dc855fec51ade6c9152e9722b2a41a46c8ded0c64615513e8d53c03249d4.png"
+    },
+    {
+      "id": 115759,
+      "class_id": 12,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "丁达尔·迅贤",
+      "text": "<b>亡语：</b>对所有敌人造成1点伤害。如果此时是你对手的回合，改为造成4点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/07ae17bf5299cf9a53993545bf30127bc187d25d1a13605ef79c50ca9eeddb84.png"
+    },
+    {
+      "id": 115805,
+      "class_id": 4,
+      "health": 6,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "喜悦的枭兽",
+      "text": "在你的回合结束时，获得 点护甲值。<i>（你每控制一个小精灵都会提升！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d536d341ccace61c377e84fcbb882a3e1cf33543dd50a26072e2b6c35b668ba1.png"
+    },
+    {
+      "id": 115867,
+      "class_id": 12,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "好奇的积云",
+      "text": "在你的回合 结束时，使你的英雄获得<b>圣盾</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/41f3a2d2e440017d2907a879942d924a846043616e6f6b0ec1297c9fde429586.png"
+    },
+    {
+      "id": 116293,
+      "class_id": 10,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "捣蛋狂魔",
+      "text": "<b>战吼：</b>对一个随从造成1点伤害，并使其获得+4攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8f2bc4a87b94b51d4ed404fdeea10e7346edf9208bff2a190460e7825defc532.png"
+    },
+    {
+      "id": 116495,
+      "class_id": 12,
+      "health": 6,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "林地特使",
+      "text": "<b>战吼：</b>将你牌库中的所有中立卡牌随机变形成为德鲁伊卡牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cc4d9979b6486fe0ff5305af577775a4c40a56875d95a4afad797952e72eab1d.png"
+    },
+    {
+      "id": 116667,
+      "class_id": 5,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "圣光抚愈者",
+      "text": "<b><b>嘲讽</b>。</b><b>抉择：</b> 获得+3攻击力和<b>圣盾</b>；或者获得+3生命值和<b>吸血</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/127748f2f1e949deecbabd5bd24a47c9b3cf6d318115bf62603e399e7068f558.png"
+    },
+    {
+      "id": 116674,
+      "class_id": 5,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "梦境卫士",
+      "text": "<b>嘲讽</b>。<b>战吼：</b>如果你的牌库中有对战开始时不在牌库中的牌，则抽取其中的一张并获得+2/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3ebea7c152ad084681589693e6ef378def8d69d33db8b7e99dbe6b426588b990.png"
+    },
+    {
+      "id": 117028,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "坟墓守卫",
+      "text": "召唤两个2/2并具有<b>嘲讽</b>的僵尸。消耗4份<b>残骸</b>，使其获得<b>复生</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/06fa8f2caa9043f9f30ff67302bc1c125424f69f246099d6c456a4e33c9e6d63.png"
+    },
+    {
+      "id": 117062,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "恶魔来袭",
+      "text": "造成 3点伤害。召唤两个1/3并具有<b>嘲讽</b>的虚空行者。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c81e18958129b646256577886f3f22ee837116c6fe44f9315e1a418347213473.png"
+    },
+    {
+      "id": 117316,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "墓晨虚空芽",
+      "text": "随机召唤一个法力值消耗为（4）的随从并使其获得<b>嘲讽</b>。<b>延系：</b>重复一次。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ef40a9611cd2136de491f1237320489c5961a94955f4ecf8723b89a19a66f481.png"
+    },
+    {
+      "id": 117317,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "墓晨太阳花",
+      "text": "抽两张牌。<b>延系：</b>本牌法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/516e796f69d8ec437e86d97f5023ad986f3b074be47fd69f7173dfa42b729d5b.png"
+    },
+    {
+      "id": 117383,
+      "class_id": 12,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "蒸鳍偷蛋贼",
+      "text": "<b>延系：</b>召唤两个1/1并具有<b>突袭</b>的鱼人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6738640c527a5e4e19fe22c85e03cf94cb165f2a4ee5b48db513588af9f868f9.png"
+    },
+    {
+      "id": 117531,
+      "class_id": 4,
+      "health": 5,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "扫页疾风",
+      "text": "在你召唤一个元素后，随机对一个敌人造成3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d1199a3fbe4c43d71381fa9c9834ebf98c813a809aadd4a43d29c0a7d778c00a.png"
+    },
+    {
+      "id": 117534,
+      "class_id": 8,
+      "health": 5,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "机械熔火",
+      "text": "每当你使用一张 火焰法术牌时，获得等同于其法力值消耗的属性值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2283a86839541d49e3b59795881343ec764ad3b2aac818ab85cc956dd0cdea04.png"
+    },
+    {
+      "id": 117598,
+      "class_id": 3,
+      "health": 4,
+      "attack": 5,
+      "mana_cost": 4,
+      "name": "暴掠龙女王",
+      "text": "<b>延系：</b>对一个敌方随从造成等同于本随从攻击力的伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f3e2eeca0927b61bc7b90e0e491d0d758634fe15c6efb7ccee0488b2dab01a52.png"
+    },
+    {
+      "id": 117653,
+      "class_id": 2,
+      "health": 1,
+      "attack": 5,
+      "mana_cost": 4,
+      "name": "永生血瓣花",
+      "text": "<b>亡语：</b>召唤一个0/1的永生花芽。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f8265b42a04819b07670514acde636765c4105470b9c458c0310eb5bc299c32a.png"
+    },
+    {
+      "id": 117762,
+      "class_id": 12,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "导航员伊莉斯",
+      "text": "<b>战吼：</b>如果你的套牌中的牌有10种不同的法力值消耗，制造一个自定义的地标。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b10e68827aff920a494a6ade075c809397ed2967a7626756304a83bdc2f16e9b.png"
+    },
+    {
+      "id": 117830,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "腐蚀焦油",
+      "text": "消灭一个敌方随从。<b>延系：</b>对所有随从造成 2点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dd8edb4bdb28307e331dd89e04afc1a77dadb6f2364640017139f8b994f33c57.png"
+    },
+    {
+      "id": 117848,
+      "class_id": 12,
+      "health": 7,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "托加",
+      "text": "<b>战吼：</b>抽一张<b>延系</b>牌以及另一张可以激活其效果的牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4ecde9e30bba6cda629c5f794ce53a1739a22dbb0543d2f8e99fb69baa253232.png"
+    },
+    {
+      "id": 117916,
+      "class_id": 12,
+      "health": 7,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "固执的守护者",
+      "text": "<b>嘲讽</b>。<b>亡语：</b>摧毁你牌库顶的三张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/949cc02165e121e4873c16089b10e95beb0651ba67940d9ecaaa6dace98675c8.png"
+    },
+    {
+      "id": 117950,
+      "class_id": 14,
+      "health": 3,
+      "attack": 5,
+      "mana_cost": 4,
+      "name": "害虫克星",
+      "text": "<b>战吼：</b>对一个具有随从类型的敌方随从造成6点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7ecbd832618605b390fe386f563489edcf9ebd5d956cfa7302864b952f076942.png"
+    },
+    {
+      "id": 118210,
+      "class_id": 9,
+      "health": 7,
+      "attack": 7,
+      "mana_cost": 4,
+      "name": "雷兹迪尔",
+      "text": "<b>战吼：</b>随机弃掉一张手牌。<b>延系：</b>改为对手的一张手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c74e751116c8098058d10e082be736a8a7da15cb9a2aaba5fe63e8d60a5a3b79.png"
+    },
+    {
+      "id": 118232,
+      "class_id": 12,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "远古翼手龙",
+      "text": "<b>战吼：</b>从<b>扰魔</b>，<b>风怒</b>或直到下回合<b>潜行</b>中选择一项获得。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/00bdd73c2f3fa708eb595e5753d3b30fdb18c30eea00efcf2951d498c1a7e2b8.png"
+    },
+    {
+      "id": 118235,
+      "class_id": 12,
+      "health": 3,
+      "attack": 5,
+      "mana_cost": 4,
+      "name": "原始剑齿豹",
+      "text": "<b>潜行</b>。在本随从攻击并消灭一个随从后，获取一张被消灭随从的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d9836f7d64721cae92ee2128ded5dab60458656b87d28a7799ce5a4daf0f9975.png"
+    },
+    {
+      "id": 118247,
+      "class_id": 12,
+      "health": 4,
+      "attack": 5,
+      "mana_cost": 4,
+      "name": "环形山鳄鱼",
+      "text": "<b>战吼：</b>直到你的下个回合开始，敌方英雄无法被治疗。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1f3772497e4f76a0cca6110e2ae8dfa420f4c4837b960d294692c4301cf1c8d0.png"
+    },
+    {
+      "id": 118250,
+      "class_id": 9,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "疯长的恐魔",
+      "text": "<b>嘲讽</b>。<b>战吼：</b>使你手牌中具有<b>黑暗之赐</b>的随从牌的法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/09137903bb26a2cdc4ad9541ef8a1921c3ce85b2022aa0e966b2fc03d9b617eb.png"
+    },
+    {
+      "id": 118279,
+      "class_id": 12,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "黏团焦油",
+      "text": "<b>剧毒</b>。<b>嘲讽</b>。<b>亡语：</b>召唤一个1/2并具有<b>剧毒</b>的黏团，以及一个1/2并具有<b>嘲讽</b>的黏团。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1890700696198217ceeda2fed7e444158b81d73731e5fc5d52a452fcfa5a7e5c.png"
+    },
+    {
+      "id": 120459,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 4,
+      "name": "强效治疗药水",
+      "text": "为一个友方角色恢复 12点生命值。抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7d3f20efb82dca68a8594c2306c14a1dab8aa29204d1d88d53eed5b830d16b5c.png"
+    },
+    {
+      "id": 120462,
+      "class_id": 7,
+      "health": 2,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "摇摆矿锄",
+      "text": "<b>亡语：</b>随机将一个友方随从移回你的手牌。它的法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/050be4eb9ce7245d96d5604a12c38335d1a72f772e221abced0b633d0fb4fc43.png"
+    },
+    {
+      "id": 120466,
+      "class_id": 8,
+      "health": 6,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "锦鱼人水语者",
+      "text": "<b>战吼：</b>恢复 6点生命值。<b>过载：</b>（1）",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7a7587e11f1f1caa2e1cf02063065c081b01e9b133c2ba7be7c78b02a462b8b1.png"
+    },
+    {
+      "id": 120523,
+      "class_id": 12,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 4,
+      "name": "火羽凤凰",
+      "text": "<b>战吼：</b>造成3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/48b2c263e41e59277748692fd1e00d5eccef50dc7f9f8663a01cc5db11433de1.png"
+    },
+    {
+      "id": 120876,
+      "class_id": 1,
+      "health": 4,
+      "attack": 2,
+      "mana_cost": 4,
+      "name": "恶毒恐魔",
+      "text": "<b>复生</b>。 在你的回合结束时，消耗4份<b>残骸</b>，召唤一个本随从的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ce293aa40abefeee21812fcd151ac92dbb9cfc12f8988c6f5ce2ee5abe8968b4.png"
+    },
+    {
+      "id": 122318,
+      "class_id": 12,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 4,
+      "name": "云端翔龙",
+      "text": "<b>战吼：</b>获取你手牌中另一张元素牌或龙牌的一张复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4ca043b7b480a0de645ab2b9da37b0acffb901b02225a7019ca1dc3c573e1135.png"
+    },
+    {
+      "id": 66856,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "泰兰·弗丁",
+      "text": "<b>嘲讽</b>，<b>圣盾</b> <b>亡语：</b>抽取你的法力值消耗最高的 随从牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c16e33b94138aef7e29937986ca79cc3e5414e694798fdb373a5c2a0eff988a3.png"
+    },
+    {
+      "id": 66858,
+      "class_id": 12,
+      "health": 6,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "伦萨克大王",
+      "text": "<b>突袭</b> 每当本随从攻击时，使你手牌中的所有随从牌获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/505b42d376cccc567d22915e1506df56b8a85db627996ba71f6f20b88fd3541d.png"
+    },
+    {
+      "id": 69627,
+      "class_id": 8,
+      "health": 9,
+      "attack": 7,
+      "mana_cost": 5,
+      "name": "土元素",
+      "text": "<b>嘲讽</b>，<b>过载：</b>（2）",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bee0e8712def086a3ef578a83601d87c324e50dbfdb52e3ec5f77d2e73bff930.png"
+    },
+    {
+      "id": 69640,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "绝命乱斗",
+      "text": "随机选择一个随从，消灭除了该随从外的所有其他随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4524db71760f93b0da25dda3e78d2a14dffb293f27a655111f8e707462a03973.png"
+    },
+    {
+      "id": 69658,
+      "class_id": 12,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "荆棘谷猛虎",
+      "text": "<b>潜行</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dc8651fe343dd5c9a8fa4e8105741df05c91b7a21afa5415f34ecec548cbc8d1.png"
+    },
+    {
+      "id": 78352,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "亡者大军",
+      "text": "将最多5份<b>残骸</b>复活为2/2并具有<b>突袭</b>的复活的食尸鬼。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a68b5be290b79566c68aed80ea5fa0d5a7ec797d3745abdf7b0778c0fc9b2176.png"
+    },
+    {
+      "id": 78644,
+      "class_id": 1,
+      "health": 6,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "死亡使者萨鲁法尔",
+      "text": "<b>嘲讽</b>。<b>亡语：</b>将本随从移回你的手牌，且本牌消耗生命值，而非法力值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b234a24de1e0628836cbcf8db804e6c919663c453bcfc6b23cb027f7c6bb159d.png"
+    },
+    {
+      "id": 95690,
+      "class_id": 9,
+      "health": 6,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "卑鄙的恐惧魔王",
+      "text": "在你的回合结束时，对所有敌方随从造成1点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dcc7d1a727fb3180d8fe74a47401720f471a0b7fc9f3f8f0881e16bd34a709ac.png"
+    },
+    {
+      "id": 102408,
+      "class_id": 10,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "焰火机师",
+      "text": "<b>亡语：</b> 召唤两个1/1的砰砰机器人。<i>警告：该机器人随时可能爆炸。</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b7967c48eaf3c1ef61f1c8520a75205e282ec713631a460034791fb49a79b597.png"
+    },
+    {
+      "id": 103156,
+      "class_id": 3,
+      "health": 6,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "绵弹枪神赫米特",
+      "text": "在一只友方野兽死亡后，随机获取一张来自过去的<b>传说</b>野兽牌，其法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b30424e2b7c2e619aedad381feb6b4900e27cf30b69ab55edb908e6d13e4288e.png"
+    },
+    {
+      "id": 103269,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "加工失误",
+      "text": "抽三张牌。如果你的牌库里没有随从牌，这三张牌的法力值消耗减少（3）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5fcf764b0e4a02baf4cb68f6c7211e224082b9635ebac952b6084f74da389bf1.png"
+    },
+    {
+      "id": 103333,
+      "class_id": 12,
+      "health": 5,
+      "attack": 6,
+      "mana_cost": 5,
+      "name": "恋旧的小丑",
+      "text": "<b>微缩</b> <b>战吼：</b>如果你在此牌在你手中时使用过法力值消耗更高的牌，造成4点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b47e75524731e14a8b3354ae89b8e7907b954659ba2b3933b1e4e6b8659f386b.png"
+    },
+    {
+      "id": 103343,
+      "class_id": 7,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "大盗金胡子",
+      "text": "在你召唤一个海盗后，召唤一个它的复制并使其攻击随机敌人然后死亡。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a374860f5b673bd955f36283efc4c2e465d2690cbacb4c7c67e85c9e5f5a31b4.png"
+    },
+    {
+      "id": 103348,
+      "class_id": 4,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "滑冰元素",
+      "text": "<b>微缩</b> <b>战吼：</b><b>冻结</b>一个敌方随从，获得等同于其攻击力的护甲值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4dd088ae209c603c26955d15cef8110cc771d4637d43d1cff7f86676ff3b9eca.png"
+    },
+    {
+      "id": 103439,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "化工泄漏",
+      "text": "从你的手牌中召唤法力值消耗最高的随从，然后对其造成 5点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7bb3d7e2fe94720a4500c1266b2b60c2d811d9c689a43d4d5749035a14f5a7ab.png"
+    },
+    {
+      "id": 103494,
+      "class_id": 6,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "重封者拉兹",
+      "text": "<b>战吼：</b>将本局对战中死亡的5个随机友方随从的复制洗入你的牌库，其法力值消耗为（0）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0502f50f1a4ae24ec11e1813763a5881e5e4c01377c23c1a232b8cc425c8e326.png"
+    },
+    {
+      "id": 103529,
+      "class_id": 6,
+      "health": 6,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "时空扭曲者扎里米",
+      "text": "<b>战吼：</b>每局对战限一次。如果你使用过8张其他龙牌，获得一个额外回合。 <i>（还剩 张！）</i> <i>（已经就绪！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0b1ef77483b866871ed7c2ba48c885ee50399bbe610535ea53f6a4944d756df6.png"
+    },
+    {
+      "id": 103603,
+      "class_id": 7,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "沙箱恶霸",
+      "text": "<b>微缩</b> <b>战吼：</b>在本回合中，你的下一张牌法力值消耗减少（3）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/79aacd1c86315520cc161f566445c50e9f822ccef33df4a36f8e5d20e9d58cec.png"
+    },
+    {
+      "id": 103628,
+      "class_id": 12,
+      "health": 6,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "废弃电子玩偶",
+      "text": "在你的回合结束时，消灭一个攻击力低于本随从的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6e0eaff39aefe98d161024ff75a361c029d107bcb4eebccc801c8ceefb2436ff.png"
+    },
+    {
+      "id": 103635,
+      "class_id": 5,
+      "health": 7,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "玩具队长塔林姆",
+      "text": "<b>微缩</b> <b>嘲讽</b>。<b>战吼：</b>将一个随从的攻击力和生命值变为与本随从相同。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ae9cdc6aeab844de18e30e6f8958ef18cd863083b215cfeb1ffb475131b362f1.png"
+    },
+    {
+      "id": 104615,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "林中奇遇",
+      "text": "召唤两只2/5并具有<b>嘲讽</b>的甲虫。如果你拥有<b>法术伤害</b>，本牌的法力值消耗减少（3）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/595d6337cdb5c4738f4cf0bd2dfce5fa2d87eedbaae0b1d20856b787f4fff411.png"
+    },
+    {
+      "id": 104618,
+      "class_id": 2,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "天空慈母艾维娜",
+      "text": "<b>战吼：</b>随机将10张<b>传说</b>随从牌洗入你的牌库，其法力值消耗为（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/95ae34b23635753da58ac8deb12073e647ff4b60b6d7ce9c32d557c1a2a1e159.png"
+    },
+    {
+      "id": 104652,
+      "class_id": 14,
+      "health": 5,
+      "attack": 6,
+      "mana_cost": 5,
+      "name": "橱窗看客",
+      "text": "<b>微缩</b> <b>战吼：</b><b>发现</b>一张恶魔牌，将其属性值与法力值消耗变为与本随从相同。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/96e76c091b18bf9f88e15ad55f531a822f5e8caac2f23952e97ef011085792df.png"
+    },
+    {
+      "id": 104694,
+      "class_id": 1,
+      "health": 6,
+      "attack": 2,
+      "mana_cost": 5,
+      "name": "业余傀儡师",
+      "text": "<b>微缩</b> <b>嘲讽</b>。<b>亡语：</b>使你手牌中的亡灵牌获得+2/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/209b9cabfa9c29a7dc6b0893d69de926ec49931cb18494c88f0b68dfb2b5e99a.png"
+    },
+    {
+      "id": 104852,
+      "class_id": 9,
+      "health": 6,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "游戏主持奈姆希",
+      "text": "<b>战吼：</b>抽一张恶魔牌。<b>亡语：</b>与其交换位置。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/74990c6b73d635fb3398fd16a6b48f2a91aa9c4718296aca7ec2b10c6cc4ebf4.png"
+    },
+    {
+      "id": 105260,
+      "class_id": 3,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "量产品9号",
+      "text": "<b>战吼：</b>再次施放本局对战中触发过的每个友方<b>奥秘</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e9dcb9f7d14a54dc8e2c4475e63e247e8ec1914560ab27109094c30e9b020f8b.png"
+    },
+    {
+      "id": 105281,
+      "class_id": 5,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "灯火机器人",
+      "text": "<b>扩大</b> 在本局对战中，你每施放一个神圣法术，本牌的法力值消耗便减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ff0506785f4d0533869c8d588c39d2ab714548051de985d61a860210e92fc0be.png"
+    },
+    {
+      "id": 105489,
+      "class_id": 12,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "工坊保洁员",
+      "text": "<b>战吼：</b>如果你控制着地标，抽两张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dd77b49423c54420e2007a765ce65390e502c53a4d7273a1a7d5570b1972cc54.png"
+    },
+    {
+      "id": 105491,
+      "class_id": 12,
+      "health": 4,
+      "attack": 1,
+      "mana_cost": 5,
+      "name": "折纸青蛙",
+      "text": "<b>突袭</b>。<b>战吼：</b>与另一个随从交换攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4db745095a1140e360ab35c2ab0e09558f783b03b9d8600b50890ea39832bce5.png"
+    },
+    {
+      "id": 105512,
+      "class_id": 1,
+      "health": 1,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "海绵斧",
+      "text": "每当你的英雄攻击时，消耗3份 <b>残骸</b>以获得+1耐久度。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7b3eaa7069feddd0ab8437b71dfbcc9dd47d83f86bcb3376c5fa788c9a4a00fe.png"
+    },
+    {
+      "id": 105540,
+      "class_id": 14,
+      "health": 6,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "极限追逐者阿兰娜",
+      "text": "<b>牧师游客</b> 你的英雄在你的回合中受到的伤害会转移给一个随机敌人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e1eb48ebb77cbec57523dd34962dbd91b1668049dacfa8b3d2c87016e7419a65.png"
+    },
+    {
+      "id": 105682,
+      "class_id": 5,
+      "health": 6,
+      "attack": 2,
+      "mana_cost": 5,
+      "name": "阳光汲取者莱妮莎",
+      "text": "<b>潜行者游客</b> 你的法力值消耗小于或等于（2）点的法术会施放两次。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5c7a3685baf5b715ca1f587909743c3d34dae352592dab744ecbf32568d5591e.png"
+    },
+    {
+      "id": 105810,
+      "class_id": 2,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "嗜睡巨龙",
+      "text": "<b>休眠</b>2回合。<b>休眠</b>状态下，在你的回合结束时召唤一条3/5并具有<b>嘲讽</b>的龙。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8f548808fa77844935b42e4806dbfb89944802d8d68fea894b3dfa9396227bab.png"
+    },
+    {
+      "id": 105893,
+      "class_id": 2,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "米斯塔·维斯塔",
+      "text": "<b>法师游客</b> <b>战吼：</b>3回合后，再次使用你在这三回合期间施放过的所有法术。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3608d0747ee9e71d5372f7d15e60d1dc7d337336c4ce5581050b3cb8b1173f7c.png"
+    },
+    {
+      "id": 106232,
+      "class_id": 12,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "复制鬼才",
+      "text": "<b>微缩</b>，<b>扩大</b> 在你使用一张攻击力与本随从相同的随从牌后，召唤一个它的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f4df318101f04afe262454335cf546ee6b72e0dd1fcd31de07b0daa231a9a032.png"
+    },
+    {
+      "id": 106307,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "冰霜摆件",
+      "text": "召唤两个2/4并具有<b>嘲讽</b>和“<b>亡语：</b>获得4点护甲值”的元素。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ca994259ecdce4b1bd008f84370373cc3bad175233751a3e1e39f03d7f65e91a.png"
+    },
+    {
+      "id": 106377,
+      "class_id": 10,
+      "health": 2,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "黑麦切割者",
+      "text": "<b>战吼，亡语：</b>获取一片面包。<i>（获取2片即可将随从夹进三明治！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/67c26d4581ec0a1f026b134fd3194fd3a93da102e4d554febe4b7a00b409e555.png"
+    },
+    {
+      "id": 106385,
+      "class_id": 12,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "游学生",
+      "text": "<b>战吼：</b>召唤一个友方地标的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f5b6ef5d1015b361369e737ba4235268c668cd6c70e1b7db216331d0ee130a0e.png"
+    },
+    {
+      "id": 106387,
+      "class_id": 12,
+      "health": 7,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "湾鳍健身鱼人",
+      "text": "在你的回合中，在你的对手召唤随从后，将其<b>沉默</b>并消灭。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dfdde7dbe5caab9d9eee178eed9a55fe1b1c473ded012e2e159198c4f68248fa.png"
+    },
+    {
+      "id": 106449,
+      "class_id": 5,
+      "health": 8,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "圣沙泽尔",
+      "text": "<b>突袭</b> 在本随从攻击后，变成地标。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d39c9f47f6fdc08709b5a83c86c9f88736d7e5618dccc19fa9a948b2c47efc4c.png"
+    },
+    {
+      "id": 106638,
+      "class_id": 3,
+      "health": 6,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "园林护卫者基利",
+      "text": "<b>战士游客</b> 在你的回合结束时，获取一张2/3的鳄鱼。<b>亡语：</b>使你手牌中的所有随从牌获得+2/+3。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/72fb4be83b2bba069be4b4e379dc25c31591c96e7355e36bd15b75fbfe878486.png"
+    },
+    {
+      "id": 106673,
+      "class_id": 12,
+      "health": 6,
+      "attack": 2,
+      "mana_cost": 5,
+      "name": "傀儡大师多里安",
+      "text": "在你抽一张随从牌后，获取一张它的1/1且法力值消耗为（1）点的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e3b458015e15f768edba6af136effdcfa28615e55ce24838c8d953a360a18cba.png"
+    },
+    {
+      "id": 106679,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "死亡翻滚",
+      "text": "消灭一个敌方随从。造成等同于其攻击力的伤害，随机分配到所有敌人身上。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/874a9c8199d219ea28591d96dd0cd97491f1278a5353e68e54e75d3c504340ae.png"
+    },
+    {
+      "id": 106708,
+      "class_id": 6,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "桑拿常客",
+      "text": "<b>嘲讽</b>。你的英雄每在你的回合受到一次伤害，本牌的法力值消耗便减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7cdaf973030ced0154abc0786267072d84f0a84b19ba4d2a7ce47a5a9dcea9bc.png"
+    },
+    {
+      "id": 106724,
+      "class_id": 6,
+      "health": 5,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "暮光灵媒师",
+      "text": "<b>嘲讽</b>。<b>战吼：</b>将你牌库顶的一张牌的法力值消耗变为（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bb9e43fa4da28976165f55b366531acb5453017b80466a63000ed2b53bf2cbf7.png"
+    },
+    {
+      "id": 107764,
+      "class_id": 7,
+      "health": 5,
+      "attack": 6,
+      "mana_cost": 5,
+      "name": "面具变装大师",
+      "text": "<b>术士游客</b> <b><b>战吼：</b>发现</b>一张来自过去的<i>（另一职业的）</i>英雄牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dddaca1f8cf6f248b7770b7287f36d8e407257a9b22f283dbc9c846455542cc7.png"
+    },
+    {
+      "id": 108348,
+      "class_id": 4,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "冲浪章鱼",
+      "text": "<b>战吼：</b>使你抽到的下一张法术牌获得<b>抽到时施放</b>效果。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1029f7389b70173c79e6038ea0cedc00aeca377a4fffa655d2abb94a95ee6d8f.png"
+    },
+    {
+      "id": 108499,
+      "class_id": 12,
+      "health": 5,
+      "attack": 0,
+      "mana_cost": 5,
+      "name": "挂机的阿凯",
+      "text": "在你的回合结束时，使所有其他未攻击的友方随从获得+2/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4a44f36949d29d9f6d510c5c6b9d1920a76818975fda19bc6e7db849559d4afa.png"
+    },
+    {
+      "id": 108624,
+      "class_id": 8,
+      "health": 10,
+      "attack": 10,
+      "mana_cost": 5,
+      "name": "火箭跳蛙",
+      "text": "<b>突袭</b>。<b>过载：</b>（4）",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9d0707115bc589bea34241ae31187cd5e950ef7633c890d0b73eafda90df397a.png"
+    },
+    {
+      "id": 108964,
+      "class_id": 8,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "歌唱明星卡瑞斯",
+      "text": "此牌在你的手牌中时，使用两种不同派系的法术牌即可变形。 <i>（还剩 种）</i> <i>（已经就绪！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/04c081569a914e047fa71c393b3d406f930c2fbcec5f5ca9bb6990d92bd6270d.png"
+    },
+    {
+      "id": 109150,
+      "class_id": 12,
+      "health": 3,
+      "attack": 6,
+      "mana_cost": 5,
+      "name": "积木魔像",
+      "text": "<b>突袭</b>。<b>亡语：</b>随机召唤三个法力值消耗为（1）的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3dc1024555d2cc6285c2b2785cf3af58476727b146d753d2533acb236ad5d37d.png"
+    },
+    {
+      "id": 109463,
+      "class_id": 7,
+      "health": 5,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "财宝猎人尤朵拉",
+      "text": "<b>战吼：</b>开启一项使用3张其他职业的牌即可完成的<b>支线任务</b>，<b>发现</b>神奇的战利品！",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1b2625159c7e123225e57e682e78ba04a09a6028d852da81780710fb0ada45ff.png"
+    },
+    {
+      "id": 110091,
+      "class_id": 12,
+      "health": 5,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "阿肯尼特防护水晶",
+      "text": "<b>嘲讽</b>。<b>亡语：</b>获得4点护甲值。 <b>星舰组件</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1d9abe5910ee88692beabe2ea669427e63f5199e21b2b471ef7b208e11c59285.png"
+    },
+    {
+      "id": 110775,
+      "class_id": 3,
+      "health": 7,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "摇钱金牛",
+      "text": "<b>嘲讽</b>。每当本随从受到伤害，获取一张幸运币。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5f14b0e533ed053f4d12f0c4527f1e653d2b33bd1f8a369ba5d284737e1abdcb.png"
+    },
+    {
+      "id": 110858,
+      "class_id": 12,
+      "health": 6,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "食肉格块",
+      "text": "<b>战吼：</b>消灭一个友方随从。在你的回合结束时，召唤一个它的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dbfe71ad361eaf9bee6af4ce184d532988b70246a84d1fbd7edca8a56b9227b3.png"
+    },
+    {
+      "id": 110876,
+      "class_id": 8,
+      "health": 4,
+      "attack": 6,
+      "mana_cost": 5,
+      "name": "预言者努波顿",
+      "text": "<b>亡语：</b>开启星系投影，投影会吸收你施放的下一个法术的能量。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3aac76d1f9777860ea9aeeea96caadbc42ea577f19887ce7a0de45b472bd28e0.png"
+    },
+    {
+      "id": 110889,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "大地庇护",
+      "text": "获得5点护甲值。随机召唤一个法力值消耗为（5）的随从并使其获得<b>嘲讽</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/99d83fe01c12b733655da76567000ddbdc38a233da3c610c18a5536e8eb0b6dc.png"
+    },
+    {
+      "id": 110896,
+      "class_id": 10,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "凶恶的入侵者",
+      "text": "<b>战吼，<b>法术迸发</b>， 亡语：</b>对所有其他随从造成2点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/aeed0f4d02cf644dfb738734a70067c82787f5e5ca3d1f3043341496698f59f9.png"
+    },
+    {
+      "id": 110922,
+      "class_id": 10,
+      "health": 6,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "大主教阿卡玛",
+      "text": "在本随从攻击后，所有其他友方随从可再次攻击<i>（大主教阿卡玛除外）</i>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bbe7121724613201257ed152f72768a2658dc1005a3e6aa8e7bb9a30d0b24f07.png"
+    },
+    {
+      "id": 110940,
+      "class_id": 2,
+      "health": 5,
+      "attack": 6,
+      "mana_cost": 5,
+      "name": "乌鲁，泛天巨兽",
+      "text": "本牌在你的手牌中时，每个回合随机获得两项<b>抉择</b>选项。 <b>抉择：</b> 或者",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/86070f7dc4e0ac82bb1c50868b578955b78cd496ab2854b2a91d2062d7f8caad.png"
+    },
+    {
+      "id": 111180,
+      "class_id": 12,
+      "health": 7,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "辰鳞星圣",
+      "text": "<b><b>法术迸发</b>：</b>本随从的攻击力翻倍。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/640b19a189c0a16b99877b6b72f60b2d98793c24c492d8ab63b86eaa1e01bf3a.png"
+    },
+    {
+      "id": 111183,
+      "class_id": 12,
+      "health": 4,
+      "attack": 6,
+      "mana_cost": 5,
+      "name": "月球开拓者",
+      "text": "<b>战吼：</b>将你手牌中一张随机法术牌的法力值消耗变为本随从的法力值消耗。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/eede1cd8210f7cbc1a6e36c79ca5c125c89737e542ac5863974d34c2a116b169.png"
+    },
+    {
+      "id": 111334,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "邪爆",
+      "text": "引爆一份<b>残骸</b>，对所有随从造成 1点伤害。如果有随从存活，重复此效果。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a01a25421aac934f4e7e5149a00fccf4dc81959c502d6c62ed3d00851280c6b4.png"
+    },
+    {
+      "id": 111346,
+      "class_id": 4,
+      "health": 6,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "聪明的技师",
+      "text": "<b>战吼：</b> 你使用的下一个德莱尼会复原等同于其攻击力的法力水晶。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cd895362dd83dc09b94501b738544b501b67f84ecc8ea2735fe09c3f9529bcb5.png"
+    },
+    {
+      "id": 111353,
+      "class_id": 2,
+      "health": 6,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "格雷布",
+      "text": "<b>嘲讽</b>，<b>亡语：</b>随机使一个友方随从获得“<b>亡语：</b>召唤格雷布。”",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4954f6006b50458b7838ce8488fd9683f4c538da7362884f928c5197c4433823.png"
+    },
+    {
+      "id": 111357,
+      "class_id": 3,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "巴拉克·科多班恩",
+      "text": "<b>战吼：</b> 抽取法力值消耗为（1），（2）和（3）点的法术牌各一张。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/155adff459b13ffd035f0b105d2979f1a8ff5c5307bcb2a7f173c0b346f8cb04.png"
+    },
+    {
+      "id": 111369,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "剑龙骑术",
+      "text": "使一个随从获得+2/+6和<b>嘲讽</b>。当该随从死亡时，召唤一只剑龙。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/89784d6af14391ac7b67e55980ca1088f182c216a2b849b9b9755bb999057aaa.png"
+    },
+    {
+      "id": 111457,
+      "class_id": 9,
+      "health": 7,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "末日守卫",
+      "text": "<b>冲锋</b>，<b>战吼：</b>随机弃两张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/526c098b5db92199e646900f551fd308509161bd80391656aee0fb5a2687b2fd.png"
+    },
+    {
+      "id": 111597,
+      "class_id": 7,
+      "health": 4,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "引力置换器",
+      "text": "<b>星舰组件</b> 当本随从被 发射时，召唤<b>星舰</b>的一个复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/44df226092362e1bb97ee369f854e915019a8a356d72319c6bcd941d05701989.png"
+    },
+    {
+      "id": 111893,
+      "class_id": 4,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "大主教哈塔鲁",
+      "text": "<b>战吼：</b><b>发现</b>一张法术牌并使其法力值消耗减少（1）点。如果你在本回合使用这张法术牌，重复此效果。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1042535837c9b35409886fdf9a377134fa744bf5b41bf778f168734b196b350d.png"
+    },
+    {
+      "id": 111967,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "阳炎耀斑",
+      "text": "对所有敌人造成 2点伤害。你每控制一个元素，本牌的法力值消耗便减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cd1513c6e5f53e248b387507a186e25c886836e5e7add86fd5110c5968207f44.png"
+    },
+    {
+      "id": 111982,
+      "class_id": 12,
+      "health": 8,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "变异生命体",
+      "text": "在本随从受到伤害并存活下来后，获得一项随机<b>额外效果</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bf30d131d805c33d6243fb3331613934adf384de891fc69d9e4479971e7a6493.png"
+    },
+    {
+      "id": 112045,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "接触异星生物",
+      "text": "召唤两只 2/4并具有<b>嘲讽</b>的野兽。 在本局对战中你每<b><b>发现</b>过</b>一张牌，本牌的法力值消耗便 减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e077e3fbaa44d6183820c90907dccd5322208329138cfef449b31a3ab5a3f4fd.png"
+    },
+    {
+      "id": 112060,
+      "class_id": 12,
+      "health": 5,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "星际狐人",
+      "text": "<b>可交易</b> <b>战吼：</b>消灭一个敌方<b>星舰</b>或<b>星舰组件</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c6d4d293d4c88ce836457bc1e1484a63775992883606aa6428c714e9c0421a56.png"
+    },
+    {
+      "id": 113163,
+      "class_id": 0,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "时空提速",
+      "text": "抽两张星灵牌。召唤一个3/4并具有<b>冲锋</b>的狂热者。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/88ff4df411475a722aa2611ae947dd70177b0abb9c0ccfa7b0be7353a33632df.png"
+    },
+    {
+      "id": 113371,
+      "class_id": 3,
+      "health": 7,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "茏葱梦刃豹",
+      "text": "<b>战吼：</b>如果本牌的法力值消耗小于或等于（3）点，随机攻击两个敌方随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1a9471a83ef6615ad1656824aa67a47dc1c7ffd325c86ce2a109d8b5a0db6880.png"
+    },
+    {
+      "id": 113864,
+      "class_id": 8,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "攻城坦克",
+      "text": "<b>战吼：</b>随机对一个敌方随从造成10点伤害。<i>（如果你在本局对战中发射过<b>星舰</b>，则会变形。）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/030bf3941e15f0ca4876d9134243133bc8506a4d565ef8ec6228a8f1fc0e74a8.png"
+    },
+    {
+      "id": 114280,
+      "class_id": 8,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "豆蔓蛮兵",
+      "text": "<b>战吼：</b>使你牌库中最上方的3张随从牌获得+4/+4。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/68510b0f2e0830a227eae90f5966ca56242090e50195c87b138660a7c8167036.png"
+    },
+    {
+      "id": 114292,
+      "class_id": 4,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "小精灵驾驭者",
+      "text": "<b>战吼：</b><b>灌注</b>并触发你的英雄技能。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c4627b1a8caa124e06bda0cf14cd0d57ded2a887cf80f6e88dfddae095b2926c.png"
+    },
+    {
+      "id": 114300,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "新月仪式",
+      "text": "随机召唤两个法力值消耗为（3）的随从。<i>（施放 个法术以改为召唤法力值消耗为6的随从。）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b043505d4a5a6086b78692a77e599710945bc49774a2337734be464caeb1edb1.png"
+    },
+    {
+      "id": 114369,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "森林之灵",
+      "text": "<b>抉择：</b>召唤三只2/3并具有<b>嘲讽</b>的狼；或者召唤两只4/3并具有<b>风怒</b>的猎鹰。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ab54b31bba25bae5950af6b77cdc454674f001628fc82948b2627462e2f4334e.png"
+    },
+    {
+      "id": 114497,
+      "class_id": 14,
+      "health": 3,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "贪婪的地狱猎犬",
+      "text": "<b>亡语：</b>复活一个法力值消耗小于或等于（4）点的友方<b>亡语</b>随从，并召唤一个它的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/16e41cc4743ae9af844eccd841126ff7c202ee77199b36a18fc6f65266db73c5.png"
+    },
+    {
+      "id": 114544,
+      "class_id": 5,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "坚韧的托雷斯",
+      "text": "<b>圣盾</b>。<b>嘲讽</b> 你的<b><b>圣盾</b></b>承受三次伤害才会破灭。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/58301f7d338cd8b3bc46489ba03d27d8ddb6d50c7409cf514e9eb076793ddc75.png"
+    },
+    {
+      "id": 114581,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "宇宙浑象",
+      "text": "召唤三个2/3并具有<b>嘲讽</b>的元素。如果你的面板已满，使你的随从获得+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cc28aebf64c195fce3a06e5eefd031d44d028f40773b8005f20acf217e5b46ca.png"
+    },
+    {
+      "id": 114857,
+      "class_id": 3,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "布罗尔·熊皮",
+      "text": "在你施放一个法术后，随机召唤一个动物伙伴。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e8828c27ab13d2c505ca1b3aa99c60b06c652a11a7bf7d30018dde9fb2f4572a.png"
+    },
+    {
+      "id": 114858,
+      "class_id": 2,
+      "health": 6,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "哈缪尔·符文图腾",
+      "text": "<b>对战开始时：</b> 如果你套牌中的每张法术牌均为自然法术，<b>灌注</b>你的英雄技能。你每施放2个法术，重复此效果。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b8cf7b141f4bfd77d028ec9630123b6c509c9f39b48578ac6c4184c599da1c8d.png"
+    },
+    {
+      "id": 115215,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "麻痹睡眠",
+      "text": "<b>抉择：</b>召唤两个3/6并具有<b>嘲讽</b>且无法攻击的恶魔；或者消灭一个敌方随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/92c512c14e1f716365e0503d60a964070f66b30c1847156cde931e9c410eeec9.png"
+    },
+    {
+      "id": 115625,
+      "class_id": 1,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "霜灼巢母",
+      "text": "<b>战吼：</b>如果你的手牌中有具有<b>黑暗之赐</b>的随从牌，召唤两条4/4并具有<b>嘲讽</b>的龙。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/552ce3d399dc81cca4b410858af8e1cfcc185be7503be83599209b77cf6a5e90.png"
+    },
+    {
+      "id": 115652,
+      "class_id": 12,
+      "health": 5,
+      "attack": 1,
+      "mana_cost": 5,
+      "name": "孢子尖牙怪",
+      "text": "<b>剧毒</b>。<b>亡语：</b>随机对一个敌方随从造成1点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8f551b1479d4682f76ce9b1898027fc9ca5606a2717960e8938b95dc0cc8b813.png"
+    },
+    {
+      "id": 115653,
+      "class_id": 10,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "烈焰守护者",
+      "text": "<b>战吼：</b>使你手牌中的所有随从牌获得+3/+3，这些牌会在3回合后摧毁。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8a6fecf73a72331673b36b3b3dc018f2e0dea680f4f12ed8ed30756d11b0915d.png"
+    },
+    {
+      "id": 115809,
+      "class_id": 2,
+      "health": 6,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "林地塑型者",
+      "text": "在你施放一个自然法术后，召唤一个2/2并具有“<b>亡语：</b>获取该法术的一张复制”的树人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/860127714d44e9443dbab7b5f605674ad4c62f2180088ed42059b934f41c0c9a.png"
+    },
+    {
+      "id": 115928,
+      "class_id": 14,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "阿莱纳希",
+      "text": "<b>战吼：</b>随机使你手牌中的所有随从牌变形成为恶魔牌。<i>（保留其原始属性值和法力值消耗。）</I>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9f2eca4201e9832856795fef5f9b7b3ed2cdaeb057e2f185bc3336ee93108886.png"
+    },
+    {
+      "id": 115960,
+      "class_id": 3,
+      "health": 4,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "龙裔护育师",
+      "text": "<b>战吼：</b>复制你手牌中法力值消耗最低的野兽牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6ac19cc9c3164a09834455a5908fc08469b23f3277e31908ddaf983d169f9d3d.png"
+    },
+    {
+      "id": 116673,
+      "class_id": 12,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "受难的恐翼巨龙",
+      "text": "<b>亡语：</b>抽两张龙牌，其法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c48cf0b339da3edd843ecf5219e2a34f6ff3e72d86b1b288a9a2cc0a663ac025.png"
+    },
+    {
+      "id": 117037,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "划水好友",
+      "text": "<b>抉择：</b>召唤一只6/6并具有<b>嘲讽</b>的虎鲸；或者六只1/1并具有<b>突袭</b>的海獭。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2382517e661971ad7e21544620dc80186baab16e2a9b52cff50af7688f0bdf89.png"
+    },
+    {
+      "id": 117302,
+      "class_id": 12,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "昔时古树",
+      "text": "<b>休眠</b>2回合。<b>休眠</b>状态下，在你的回合结束时，获得5点护甲值并抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1a4a226c52af7b6a0952b2b7e4d118798d7a225d4940526364c612bf869aa8eb.png"
+    },
+    {
+      "id": 117602,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "顶级恐龙学",
+      "text": "使你手牌，牌库和战场上的所有野兽获得+2/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2e786bfcd4f278d205ab8a9134e19248fb213a572dd424e8a3dc8acbdf088b65.png"
+    },
+    {
+      "id": 117646,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "树群来袭",
+      "text": "选择一个随从。召唤四个2/2的树人攻击该随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a96355a4a9550d94f17342fcd6f0e4544bf2018ba6563b6193ab3d710a9c11d3.png"
+    },
+    {
+      "id": 117656,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "杂交育种",
+      "text": "抽取法力值消耗为（1），（2），（3），（4）的随从牌各一张。<b>延系：</b>其法力值消耗减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8e1c8ba56acfae7a161defa8ede947c60ebbe274297a6e45b5e138f652fe066e.png"
+    },
+    {
+      "id": 117687,
+      "class_id": 14,
+      "health": 2,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "异种虫女王",
+      "text": "<b>突袭</b>。<b>延系：</b>在本回合中，使你的英雄获得+5攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f426d82bc4eb1a135ad688688553074bacd63c29235a290f4463e605a4eb3584.png"
+    },
+    {
+      "id": 117874,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 5,
+      "name": "萨弗拉斯的故事",
+      "text": "将你的英雄技能替换为“随机对一个敌人造成8点伤害。”使用两次后，换回原技能。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/368bc5287d766272cce7b67e31804b1171af6405d1518dbd85b17903a7cb08ea.png"
+    },
+    {
+      "id": 117885,
+      "class_id": 12,
+      "health": 6,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "聚积旋风",
+      "text": "每当本随从攻击时，先对目标造成3点伤害。<b>延系：</b>获得<b>突袭</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b5f50bcae8953d094755f4d6ac231714fae529b578cf6307fba10c9112f27556.png"
+    },
+    {
+      "id": 118163,
+      "class_id": 12,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "蒸汽清洁器",
+      "text": "<b>战吼：</b>摧毁双方玩家牌库中所有套牌之外的牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d5f26eac26f523e11e847591a34f62ed7fe3c86ff01a7a2f1c3c7e7091c76133.png"
+    },
+    {
+      "id": 118267,
+      "class_id": 6,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 5,
+      "name": "灵魂向导",
+      "text": "<b>嘲讽</b>，<b>亡语：</b>抽一张神圣法术牌和一张暗影法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5950dc804dbda74c36ece4b12369d380043b763359f357b12a56b2f11bd9b2da.png"
+    },
+    {
+      "id": 118277,
+      "class_id": 9,
+      "health": 8,
+      "attack": 0,
+      "mana_cost": 5,
+      "name": "低语之石",
+      "text": "<b>嘲讽</b>。<b>亡语：</b>随机获取2张邪能法术牌。这些牌会消耗生命值，而非法力值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e9042c344487b1f065da8833b9e054f3dc2ced51596a065aa04de6f204842d29.png"
+    },
+    {
+      "id": 120180,
+      "class_id": 12,
+      "health": 6,
+      "attack": 4,
+      "mana_cost": 5,
+      "name": "馆长",
+      "text": "<b>嘲讽，战吼：</b>从你的牌库中抽一张野兽牌、龙牌和鱼人牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f634336b0a44bec11281d5e13eb904b7510dafc23ca3864b252b4a19da0dc123.png"
+    },
+    {
+      "id": 120344,
+      "class_id": 8,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "熔爪巨龙",
+      "text": "<b>战吼：</b>召唤两个2/1的炽烈烬火。<b>延系：</b>触发你的炽烈烬火的<b>亡语</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e2db3158d8b8d7438d0b1fc53b3f77a7abad023b5b6ba0d532c0ace9f7d9d478.png"
+    },
+    {
+      "id": 120354,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "展馆茶壶",
+      "text": "<b>战吼：</b>随机使三个不同类型的友方随从获得+3/+3。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dc355b7648ab74f5bd55967ac3cc94499cd26c35b50de3a846b795466f477711.png"
+    },
+    {
+      "id": 120428,
+      "class_id": 12,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 5,
+      "name": "飞火流星·芬杰",
+      "text": "<b>潜行</b> 每当本随从攻击并消灭一个随从，便从你的牌库中召唤两个鱼人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e514fd7b5780084c85859c0cf4b07aee34caa24c84785feb747d8ad304bf638f.png"
+    },
+    {
+      "id": 120570,
+      "class_id": 14,
+      "health": 4,
+      "attack": 6,
+      "mana_cost": 5,
+      "name": "扎依，出彩艺人",
+      "text": "<b>战吼：</b> 复制你手牌中最左边和最右边的牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b059ad4ffdbb8936273e7c5548527dc0974b87fed0354025c1d304387e829b53.png"
+    },
+    {
+      "id": 69516,
+      "class_id": 8,
+      "health": 5,
+      "attack": 6,
+      "mana_cost": 6,
+      "name": "火元素",
+      "text": "<b>战吼：</b>造成4点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a20e8a9a3c6d29d5c4c3bfbf9f2df2156041a66044cb07bb94cfa210f48920ae.png"
+    },
+    {
+      "id": 69667,
+      "class_id": 12,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 6,
+      "name": "凯恩·血蹄",
+      "text": "<b>嘲讽</b>。<b>亡语：</b>召唤一个5/5的贝恩·血蹄。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f7218f27103e90a0de05bbf5ef7d24d882beccff0cda943c6a52057903449663.png"
+    },
+    {
+      "id": 76273,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 6,
+      "name": "暴风雪",
+      "text": "对所有敌方随从造成 2点伤害，并使其<b>冻结</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/224de7bf130c1aaebe86c8a1f4bb8aedf85e8af7756cfba0e7c629bf1664b4ce.png"
+    },
+    {
+      "id": 80819,
+      "class_id": 1,
+      "health": 6,
+      "attack": 5,
+      "mana_cost": 6,
+      "name": "侏儒嚼嚼怪",
+      "text": "<b>嘲讽</b>，<b>吸血</b>。在你的回合结束时，攻击生命值最低的敌人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f8c179ac222a413bbb860e94c502231bb7c81fe9973df3487900ea1acbac64dd.png"
+    },
+    {
+      "id": 86534,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 6,
+      "name": "圣光炸弹",
+      "text": "对所有随从造成等同于其攻击力的伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9dac69948fcc1fee1be33cf9a7ecb8c351385e7a99356f5d21a716691ebde4c8.png"
+    },
+    {
+      "id": 87920,
+      "class_id": 8,
+      "health": 6,
+      "attack": 4,
+      "mana_cost": 6,
+      "name": "卡格瓦，青蛙之神",
+      "text": "<b>战吼：</b>将你上回合使用的所有法术牌移回你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9c08271faa76f5e763ccd964ec307f7e0be0d14b767f0536809150e91e9dae6d.png"
+    },
+    {
+      "id": 103080,
+      "class_id": 8,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 6,
+      "name": "沙德木刻",
+      "text": "<b>微缩</b> <b>战吼：</b>你的下一个<b>战吼</b>会触发3次，但无法伤害敌方英雄。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e9a5461ac1f09d86b4a736551790c141f89bfa303998f29fa850f309fee6858b.png"
+    },
+    {
+      "id": 103330,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 6,
+      "name": "很久以前……",
+      "text": "随机召唤法力 值消耗为（3）的野兽，龙，元素和鱼人各一个。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/72642e65e79cfadcf6d426d2283069517abd38d1530624b6fdec1a986422694e.png"
+    },
+    {
+      "id": 103340,
+      "class_id": 12,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 6,
+      "name": "发条演奏家",
+      "text": "<b>可交易</b> <b>战吼：</b>对所有敌方随从造成 点伤害。<i>（<b>交易</b>后升级！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cba5559f643b23e7befcf77012587e111ff573bc45d3f88515d85786b446dc60.png"
+    },
+    {
+      "id": 103442,
+      "class_id": 10,
+      "health": 8,
+      "attack": 4,
+      "mana_cost": 6,
+      "name": "测试假人",
+      "text": "<b>嘲讽</b>。<b>亡语：</b>造成8点伤害，随机分配到所有敌人身上。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8b1f00b6b5572a60e74f08e7415a7e8d1df08fe29cbf50856c200ab48bc38801.png"
+    },
+    {
+      "id": 103491,
+      "class_id": 6,
+      "health": 7,
+      "attack": 3,
+      "mana_cost": 6,
+      "name": "黏土巢母",
+      "text": "<b>微缩</b> <b>嘲讽</b>。<b>亡语：</b>召唤一条4/4并具有<b>扰魔</b>的雏龙。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ee8cb2283aab8db38c67521da78e341faf67fa9840e6b9e5184880ce523b7e0a.png"
+    },
+    {
+      "id": 104637,
+      "class_id": 1,
+      "health": 30,
+      "attack": null,
+      "mana_cost": 6,
+      "name": "无头骑士",
+      "text": "<b>战吼：</b>消灭攻击力最高的敌方<i>随从</i>！将我的头洗入牌库，你必须找到它的<i>行踪</i>！",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/57ec6f98241773eed18fccaf720a56c995c5a72bd7ab1d032ec331dc07042c41.png"
+    },
+    {
+      "id": 104641,
+      "class_id": 1,
+      "health": 4,
+      "attack": 6,
+      "mana_cost": 6,
+      "name": "玩具医生斯缔修",
+      "text": "<b>战吼：</b><b>发现</b>法力值消耗为（5），（3）和（1）点的随从各一个，缝合到本随从上。<b>亡语：</b>召唤发现的法力值消耗为（5）的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/67938d87d973961dce9a9680a5a226ff7844fabcca0e76e64e0f03a1ac1a1fd5.png"
+    },
+    {
+      "id": 104796,
+      "class_id": 5,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 6,
+      "name": "发条执行者",
+      "text": "<b>可交易</b> <b>战吼：</b>召唤本随从的 个复制。<i>（<b>交易</b>后升级！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ddec1eaf04a01799a2c7ba0339bed614880794f711e4682d156fe8e0de378f5c.png"
+    },
+    {
+      "id": 104977,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 6,
+      "name": "商店经理莉娜",
+      "text": "每当你施放一个法术，用法力值消耗相同的随机随从填满你 的面板。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ce6be45ce1ec0dc2d7127a6187e1dff3684f9573f1e8a17eca6a8c2b5c239b8f.png"
+    },
+    {
+      "id": 105494,
+      "class_id": 12,
+      "health": 1,
+      "attack": 1,
+      "mana_cost": 6,
+      "name": "折纸巨龙",
+      "text": "<b>圣盾</b>，<b>吸血</b> <b>战吼：</b>与另一个随从交换属性值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/eaf21bba54837f5edbb14ab422d940c85d666575cf01e0e70d2118b391baa547.png"
+    },
+    {
+      "id": 105500,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 6,
+      "name": "恋旧风潮",
+      "text": "将所有随从变形成为来自过去的随机<b>传说</b>随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8f3da31e0d8331dab22068fa2ffc75f018fa8ba0b2a32e86dc01dc21c5a4cc36.png"
+    },
+    {
+      "id": 105546,
+      "class_id": 2,
+      "health": 5,
+      "attack": 4,
+      "mana_cost": 6,
+      "name": "巡游船长萝拉",
+      "text": "<b>战吼：</b>随机召唤 2个地标。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dabd6631ab5acba047167664d70cdc6672fb25d45aa724d6c9e240bbfdbd6815.png"
+    },
+    {
+      "id": 105582,
+      "class_id": 2,
+      "health": 7,
+      "attack": 7,
+      "mana_cost": 6,
+      "name": "模玩泰拉图斯",
+      "text": "<b>嘲讽</b>，<b>扰魔</b> <b>战吼：</b>如果你有十个法力水晶，获得+7/+7。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6dd83b74db37d368461d9d2859fd8d1c849ec83eb85d6c9dcc15862f3f527eaa.png"
+    },
+    {
+      "id": 106432,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 6,
+      "name": "大力扣杀",
+      "text": "造成 4点伤害。随机使一个友方随从获得+4/+4。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cfc010afd8283bec717b2f908648371fbfa0b3b1886df7e6b5ea787fcd4b1538.png"
+    },
+    {
+      "id": 106580,
+      "class_id": 12,
+      "health": 4,
+      "attack": 6,
+      "mana_cost": 6,
+      "name": "武器寄存员",
+      "text": "<b>战吼：</b> 如果你控制着其他海盗，随机从你的牌库中装备一把武器。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dd68182e6a059c56dcee889a5ea7f2537387fa88a1acfb6cd929cfc6a59ce907.png"
+    },
+    {
+      "id": 106585,
+      "class_id": 3,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 6,
+      "name": "猛禽狂怒",
+      "text": "选择一个敌人。召唤两只3/3并具有攻击时<b>免疫</b>的小鸟，攻击选中的敌人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ae9506f9c5d218ac0c6ac0e38da17f235d33a6046cd5f03dcc85c8c07729706e.png"
+    },
+    {
+      "id": 106618,
+      "class_id": 14,
+      "health": 2,
+      "attack": 5,
+      "mana_cost": 6,
+      "name": "登山钩爪",
+      "text": "当你控制着攻击力大于或等于5的随从时，不会失去耐久度。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2a26c3df01c841202fd88a500990264d740edc76c8df3a5764baac9e118a53fd.png"
+    },
+    {
+      "id": 106705,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 6,
+      "name": "感官侵夺",
+      "text": "召唤一个敌方随从的一个复制。如果你的生命值小于或等于20点，消灭本体。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/906876249458dfa3840dba162ceeb16e21513a521813488a89bf5bd4aad42f68.png"
+    },
+    {
+      "id": 107770,
+      "class_id": 10,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 6,
+      "name": "饥饿食客哈姆",
+      "text": "<b>德鲁伊游客</b> <b>嘲讽</b>。在你的回合结束时，吃掉敌方牌库中的一个随从以获得+2/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d2e2824aacce254c07440c5894d99d878e3fbda60fe7e14e4ef60adf77f4cf03.png"
+    },
+    {
+      "id": 107816,
+      "class_id": 9,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 6,
+      "name": "派对策划者沃娜",
+      "text": "<b>战吼：</b>如果你在你的回合中受到过8点伤害，召唤乌洛波斯。 <i>（还剩 点！）</i> <i>（已经就绪！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/388e4e71e61f4c2ac1f15a6a443b436ca77a9e2f29b9e26fac0e7e0e98352299.png"
+    },
+    {
+      "id": 107850,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 6,
+      "name": "畅游海底",
+      "text": "抽一张与本牌不同的法术牌，随机召唤一个法力值消耗与其相同的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/848852708013454e3ce1630ce8dd387c48010982fad79d86e8ea1c63d735db27.png"
+    },
+    {
+      "id": 107933,
+      "class_id": 12,
+      "health": 7,
+      "attack": 6,
+      "mana_cost": 6,
+      "name": "包裹分拣工",
+      "text": "在你抽牌后，有50%的几率再抽一张。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/427d6e0eb30e979ee024dc4655e48634aad66c2c6f2e0764c56552cc7aeeefa5.png"
+    },
+    {
+      "id": 108357,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 6,
+      "name": "紧壳商品",
+      "text": "<b>可交易</b> 召唤两只2/7并具有<b>嘲讽</b>的龟。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4aa78f0d5915c68ed1cdee77f92d03cbf5b502717546e552874281b25d652ccf.png"
+    },
+    {
+      "id": 108515,
+      "class_id": 4,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 6,
+      "name": "益智大师卡德加",
+      "text": "<b>战吼：</b>装备一个会施放有用的法师法术的0/6的魔法智慧之球！",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7ef6143aa576455c0cfbaa09cf57483ff86a1d376d8b5bd895cb2690e7a73e72.png"
+    },
+    {
+      "id": 108612,
+      "class_id": 12,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 6,
+      "name": "恐惧的逃亡者",
+      "text": "如果本随从不在 你的套牌中，则拥有<b>冲锋</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dfe2bb0160c315daaf93b2e14dc90bc4effff57f509fd3414b98cea1f3b6caf5.png"
+    },
+    {
+      "id": 110762,
+      "class_id": 1,
+      "health": 2,
+      "attack": 2,
+      "mana_cost": 6,
+      "name": "行程保安",
+      "text": "<b>嘲讽</b>。<b>亡语：</b>随机召唤一个法力值消耗为（8）的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/73145980a37db373663b82e34bf2ea048cc890fba7c3c10db71afcbc20451115.png"
+    },
+    {
+      "id": 110768,
+      "class_id": 14,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 6,
+      "name": "精魂商贩",
+      "text": "<b>突袭</b>。<b>亡语：</b>随机使你手牌中的一张随从牌的法力值消耗减少（6）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/466115fda7f2a0c5ed703411ab5a10603c0fc15fdb4cc44d7490a8e01493b558.png"
+    },
+    {
+      "id": 110872,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 6,
+      "name": "陨石风暴",
+      "text": "对所有随从造成 5点伤害。将5张小行星洗入你的牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f90db7a890706685ddfe3f8019f7c3c7c2487793d6c17c4ab0c81d6f490375e6.png"
+    },
+    {
+      "id": 110880,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 6,
+      "name": "气闸破损",
+      "text": "召唤一个5/5并具有<b>嘲讽</b>的亡灵，并使你的英雄获得+5生命值。消耗5份<b>残骸</b>，重复一次。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f265e84441ca2fb488189d8a2415fd021d4dd5d4558705a16dc4b2c4a6c749e9.png"
+    },
+    {
+      "id": 110921,
+      "class_id": 10,
+      "health": 7,
+      "attack": 6,
+      "mana_cost": 6,
+      "name": "孢子女皇摩尔达拉",
+      "text": "<b>对战开始时：</b> 将7张复制孢子洗入你的牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e8a5595ba4da9a82cca7f7273b75d30fa6706f5de7bde7fd7db28c47290be0a6.png"
+    },
+    {
+      "id": 110923,
+      "class_id": 14,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 6,
+      "name": "佐托斯，星辰毁灭者",
+      "text": "<b>战吼：</b>将两张星球牌从两侧置入你的手牌。当两颗星球相撞时，对所有敌人造成5点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/db0389b49738e4b100f5ede346ca9593c31c9d4f61ee724e2b0ae9f0950f5054.png"
+    },
+    {
+      "id": 110965,
+      "class_id": 4,
+      "health": 5,
+      "attack": 4,
+      "mana_cost": 6,
+      "name": "传送门操控师斯奇拉",
+      "text": "<b>潜行者游客</b> <b>战吼：</b>使你手牌中法力值消耗最低和最高的法术牌的法力值消耗互换。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ac5a2dab1c089eafb03465ca74767636706543070405d7ae63beb4cdea47bff3.png"
+    },
+    {
+      "id": 110973,
+      "class_id": 6,
+      "health": 8,
+      "attack": 4,
+      "mana_cost": 6,
+      "name": "阿斯卡拉之盾",
+      "text": "<b>嘲讽</b> <b>吸血</b>。<b>圣盾</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c0711d830dec3abad4f104bfb9fd184d2072391d32481e876991b1d362b5f553.png"
+    },
+    {
+      "id": 111176,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 6,
+      "name": "恶兆",
+      "text": "2回合后，召唤两个6/6并具有<b>嘲讽</b>的恶魔。如果你正在构筑 <b>星舰</b>，改为现在召唤。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0f17d15365541209f72fc77fee2b6f09be21e19e4867561a835cc7874b3a735f.png"
+    },
+    {
+      "id": 111316,
+      "class_id": 1,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 6,
+      "name": "霜之哀伤",
+      "text": "<b>亡语：</b>召唤被该武器消灭的所有 随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cbffbae98f289f115b05dfb057f9129ec893687731c3f45fd3169fcfa1960d9f.png"
+    },
+    {
+      "id": 111323,
+      "class_id": 1,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 6,
+      "name": "髓骨使御者",
+      "text": "<b>战吼：</b>消耗最多5份<b>残骸</b>。每消耗一份残骸，随机对一个敌人造成2点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3688aa7d23de5ab8debbd3cc4702f250fb044e7d5ba6c45d7ab8702d14708b9f.png"
+    },
+    {
+      "id": 111650,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 6,
+      "name": "信仰圣契",
+      "text": "召唤三个3/3并具有<b>圣盾</b>的德莱尼。如果本牌的法力值消耗为（0）点，使其获得<b>突袭</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a0ee4f0eb93ac243239ced4fe48d7ef0790dced060f69a1a8af4954168c9d3ae.png"
+    },
+    {
+      "id": 111651,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 6,
+      "name": "星空光环",
+      "text": "当你的场上仅有1个随从时，其攻击力和生命值为10。持续 回合。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5582f6ebbcbf1ab62426f54a1e9caf4bb7da296d193d5fd4d18b425ec60c5997.png"
+    },
+    {
+      "id": 111682,
+      "class_id": 1,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 6,
+      "name": "大主教玛拉达尔",
+      "text": "<b>战吼：</b>在本回合中，你使用的下一张牌会消耗<b>残骸</b>而非法力值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/afca0c3dbd79f11a7c8745199db31282c98003cd6c443e6509c8bede6fdbd309.png"
+    },
+    {
+      "id": 111918,
+      "class_id": 5,
+      "health": 9,
+      "attack": 9,
+      "mana_cost": 6,
+      "name": "露米娅",
+      "text": "<b>吸血</b>。在一方英雄 受到伤害后，使其在该回合的剩余时间 内<b>免疫</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8dfc35ea0b59c9b31989541505ff142554baf5fc3a1c698bf0c3295a65c204c2.png"
+    },
+    {
+      "id": 111938,
+      "class_id": 4,
+      "health": 6,
+      "attack": 7,
+      "mana_cost": 6,
+      "name": "恒星之火萨鲁恩",
+      "text": "<b>战吼：</b>使你牌库中的所有元素获得<b>火焰法术伤害+1</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/302b043db95f0becab8511927f687d8c9bc55362df949b37b10ea1f28a3c6f72.png"
+    },
+    {
+      "id": 111991,
+      "class_id": 12,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 6,
+      "name": "光注魔刃豹",
+      "text": "<b>突袭</b>。<b><b>法术迸发</b>：</b>获得<b>圣盾</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8a41fa30dc219fb14239e85ed4fa5c356a526292ebec65d6103f5a13449c7304.png"
+    },
+    {
+      "id": 112097,
+      "class_id": 12,
+      "health": 2,
+      "attack": 4,
+      "mana_cost": 6,
+      "name": "侏儒飞行员诺莉亚",
+      "text": "<b>突袭</b>。同时对其攻击目标相邻的随从造成伤害。<b>亡语：</b>对所有敌人造成2点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e9f59b239ea664f71ac4c1a7e1f652c64acfa3e79ecffa44768a7adba5d913ff.png"
+    },
+    {
+      "id": 112924,
+      "class_id": 12,
+      "health": 7,
+      "attack": 6,
+      "mana_cost": 6,
+      "name": "石拳食人魔",
+      "text": "",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5cad9028fa324140fa845cd427343336988b60b1c93806c9944461e7136597c7.png"
+    },
+    {
+      "id": 112925,
+      "class_id": 12,
+      "health": 4,
+      "attack": 5,
+      "mana_cost": 6,
+      "name": "辟法巨龙",
+      "text": "<b>突袭</b>。<b>圣盾</b>。<b>扰魔</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/943f2f8d68acb0ee4c7ea67ba73b26250a67c94849b089fdb30a919f0655f9fc.png"
+    },
+    {
+      "id": 113165,
+      "class_id": 7,
+      "health": 3,
+      "attack": 5,
+      "mana_cost": 6,
+      "name": "黑暗圣堂武士",
+      "text": "<b>潜行</b>。<b>战吼：</b>消灭一个敌方随从。<i>再使用一张圣堂武士即可融合为执政官！</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/04fb8798507bced29bbae0876255bc0b02b6358e7892ae7fb46167b251baaaf9.png"
+    },
+    {
+      "id": 113739,
+      "class_id": 7,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 6,
+      "name": "高阶圣堂武士",
+      "text": "<b>战吼：</b>对所有敌人造成2点伤害。<i>再使用一张圣堂武士即可融合为执政官！</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/450d3af7a57a6dfcb678a8296657ae970c28e1db75c04bd79326fe42383c227a.png"
+    },
+    {
+      "id": 114284,
+      "class_id": 8,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 6,
+      "name": "麦琳瑟拉",
+      "text": "<b>战吼：</b>复活所有 法力值消耗大于或等于（8）点的不同的友方随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b95cba651ff4fbc7e5ffec20efdf5c5e3600d5d74ce7d03b5aebd10c5289121d.png"
+    },
+    {
+      "id": 114301,
+      "class_id": 1,
+      "health": 5,
+      "attack": 3,
+      "mana_cost": 6,
+      "name": "丑恶的残躯",
+      "text": "你的水蛭从其宿主处 偷取的生命值增加1点。<b>战吼：</b>召唤两条0/2的水蛭。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4a039516a8ff299936acba3dee91ae73bd44789721a6e6a91395f3fc3119a0d0.png"
+    },
+    {
+      "id": 114920,
+      "class_id": 8,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 6,
+      "name": "明根捕食花",
+      "text": "<b>嘲讽</b>。在本局对战中，你每使用一次英雄技能，本牌的法力值消耗便减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8ec0a7e8e49ffc322fb7d10138bad0ffda3509038a40db273c116db1a184cd68.png"
+    },
+    {
+      "id": 115654,
+      "class_id": 12,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 6,
+      "name": "扎卡利驭焰者",
+      "text": "<b>战吼：</b>如果你每张手牌的法力值消耗各不相同，使其法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/15647fd7f9b25675c6141ad11b790d7201b64aabd0f50794991f403ecd3cd748.png"
+    },
+    {
+      "id": 115873,
+      "class_id": 2,
+      "health": 7,
+      "attack": 6,
+      "mana_cost": 6,
+      "name": "常青雄鹿",
+      "text": "<b>扰魔</b>。<b>吸血</b>。<b>嘲讽</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1b2ee7e9351e3edeccd3ea05c688c679e41a97851748fd2b4e56628b8ca96ee3.png"
+    },
+    {
+      "id": 117532,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 6,
+      "name": "炽火缠身",
+      "text": "造成 3点伤害，召唤相同数量的2/1的炽烈烬火。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b5a78ad4c95ead06dc5f4c80763a8fc00466c44ddb08703155425376e0302ad0.png"
+    },
+    {
+      "id": 117723,
+      "class_id": 12,
+      "health": 5,
+      "attack": 4,
+      "mana_cost": 6,
+      "name": "调酒师鲍勃",
+      "text": "<b>战吼：</b>选择一项酒馆战棋绝技！",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/49a542b370392417e1e1ba3c2abe5b1e4898088b1ba36ab59060275769c11767.png"
+    },
+    {
+      "id": 117869,
+      "class_id": 14,
+      "health": 8,
+      "attack": 2,
+      "mana_cost": 6,
+      "name": "格里什异种虫",
+      "text": "每当本随从受到伤害，获取一张法力值消耗为（1）的格里什毒刺虫。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d49f48453d21e42fba29c75162376411ca494d9a9677b1f3ed8299608afc46a5.png"
+    },
+    {
+      "id": 118182,
+      "class_id": 12,
+      "health": 6,
+      "attack": 3,
+      "mana_cost": 6,
+      "name": "鳞皮科多兽",
+      "text": "<b>战吼：</b>消灭攻击力最低的敌方随从。<b>延系：</b>改为消灭攻击力最高的敌方随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8f2c8f1e14db27af51db727fb14accbd2c0e13b2b4b72a87b5229de869bfd3d2.png"
+    },
+    {
+      "id": 118269,
+      "class_id": 3,
+      "health": 5,
+      "attack": 7,
+      "mana_cost": 6,
+      "name": "掠食飞翼龙",
+      "text": "<b>突袭</b>。<b>延系：</b>法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/16e28330a281c014926a2117b8d3f23d2d8f0efc0cfb754909e3d0da9332014e.png"
+    },
+    {
+      "id": 119789,
+      "class_id": 9,
+      "health": 8,
+      "attack": 2,
+      "mana_cost": 6,
+      "name": "死烂巨口",
+      "text": "<b>嘲讽</b>。<b>亡语：</b>随机召唤一只邪能野兽。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/58c139e7307b48c837f9ec2995f571f5fa69f65bb5dd6898e8f3869be771350c.png"
+    },
+    {
+      "id": 120425,
+      "class_id": 3,
+      "health": 6,
+      "attack": 7,
+      "mana_cost": 6,
+      "name": "维拉努斯",
+      "text": "<b>战吼：</b>将所有敌方随从的生命值变为1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ce5a1045632ce68bc8b52bb96ee0df8f4f7a8ed479c013d1b97a0336ee70fd61.png"
+    },
+    {
+      "id": 120787,
+      "class_id": 6,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 6,
+      "name": "光沐元素",
+      "text": "<b>嘲讽</b>，<b>亡语：</b>为所有友方角色恢复 8点生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0e48c10fb04b7f90c45ee405e98bb0ca45e29619f0eb1e0616b0a58a85ed5980.png"
+    },
+    {
+      "id": 120882,
+      "class_id": 12,
+      "health": 5,
+      "attack": 4,
+      "mana_cost": 6,
+      "name": "考内留斯·罗姆",
+      "text": "在每个玩家的回合开始和结束时， 抽一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1d7e0799025d690b4739fec03945eb4c0cc77c19aefc52594abb0be2fff68028.png"
+    },
+    {
+      "id": 121026,
+      "class_id": 12,
+      "health": 7,
+      "attack": 5,
+      "mana_cost": 6,
+      "name": "城市首脑埃舒",
+      "text": "<b>战吼：</b>如果你牌库中的随从牌均属于同一随从类型，使你的其他随从获得+2/+2<i>（无论它们在哪）</i>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/55d5a96a30f4803d2572122ea846cc133c83212788f40d45719d0a49c2728268.png"
+    },
+    {
+      "id": 66870,
+      "class_id": 12,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 7,
+      "name": "永恒者诺兹多姆",
+      "text": "<b>对战开始时：</b>如果双方玩家的套牌中都有这张随从牌，则每个回合只有15秒。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f1d3fb706aa0f3689e8efc58e6a1727690779bbe3f43510413da8de27a9de8ca.png"
+    },
+    {
+      "id": 69502,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 7,
+      "name": "烈焰风暴",
+      "text": "对所有敌方随从造成 5点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/de2049431a614c083aced95f4f5f2d842b9a5f37d7cf1a1ab8f9df8bad0c773b.png"
+    },
+    {
+      "id": 69544,
+      "class_id": 12,
+      "health": 7,
+      "attack": 7,
+      "mana_cost": 7,
+      "name": "暴风城勇士",
+      "text": "你的其他随从拥有+1/+1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9fc12dbbd8af42697a62bcf5454f244240a170277330f2dcf26307deb6eff942.png"
+    },
+    {
+      "id": 69617,
+      "class_id": 6,
+      "health": 1,
+      "attack": 7,
+      "mana_cost": 7,
+      "name": "娜塔莉·塞林",
+      "text": "<b>战吼：</b>消灭一个随从并获得其生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9315eb5da878fb3056cfb436cf09602d902c4494b4c5deea3b06d613ba630b8a.png"
+    },
+    {
+      "id": 86539,
+      "class_id": 7,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 7,
+      "name": "苔丝·格雷迈恩",
+      "text": "<b>战吼：</b>重新使用在本局对战中你所使用过的另一职业的卡牌<i>（目标随机而定）</i>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0dd3fa31797735ee7d3d4acfa0a6ed4c1075bfb91a1088b1264caafdb9375e1a.png"
+    },
+    {
+      "id": 97375,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 7,
+      "name": "火焰之地传送门",
+      "text": "造成 6点伤害。随机召唤一个法力值消耗为（6）的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f12194970792f01ff4c5810258f7a8847005a4a3a10bbc6753c24423dbc0c426.png"
+    },
+    {
+      "id": 103119,
+      "class_id": 8,
+      "health": 7,
+      "attack": 3,
+      "mana_cost": 7,
+      "name": "闪岩哨兵",
+      "text": "<b>嘲讽</b>。<b>扰魔</b> <b>战吼：</b>召唤一个本随从的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/434f9504bc8914735048b395b770497e0eba442213901e1653b4bb518dee0a7c.png"
+    },
+    {
+      "id": 103162,
+      "class_id": 3,
+      "health": 7,
+      "attack": 7,
+      "mana_cost": 7,
+      "name": "玩具暴龙",
+      "text": "<b>突袭</b> <b>亡语：</b>随机对一个敌人造成7点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2ea5b456be51569eb83bae24483fa2a1fe259a467f212940d3cfed7f5704cb77.png"
+    },
+    {
+      "id": 103629,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 7,
+      "name": "工匠光环",
+      "text": "在你的回合结束时，随机召唤一个法力值消耗为（6）的随从。持续 回合。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a4d1cacd7f973f2bd5028221f2983cce00c187184275350968b124835cca0b70.png"
+    },
+    {
+      "id": 103634,
+      "class_id": 5,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 7,
+      "name": "皮普希·彩蹄",
+      "text": "<b>亡语：</b>随机从你的牌库中召唤<b>圣盾</b>，<b>突袭</b>和<b>嘲讽</b>随从各一个。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/07308c006e2eb38d92993a42ee2c579a3429aa5c0d90a431933d6cff03321609.png"
+    },
+    {
+      "id": 104619,
+      "class_id": 2,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 7,
+      "name": "欧洛尼乌斯",
+      "text": "<b>法术伤害+1</b>。你的法术受到的<b>法术伤害</b>增益效果翻倍。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/33288e86c74c2a62f07f94613dfa499652f30b76e115b2958d91322de932ef24.png"
+    },
+    {
+      "id": 105472,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 7,
+      "name": "重新打包",
+      "text": "将所有随从封入一个法力值消耗为（2）的箱子，然后将其洗入对手的牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f5dedf2535b60de30e25935d588853fbf6e94dc6a951ebddd281fea6455ad310.png"
+    },
+    {
+      "id": 105473,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 7,
+      "name": "星空祈愿",
+      "text": "使你手牌，牌库和战场上的所有随从获得+2/+3。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1912cb4b259c81a13648483f988c8f16c54513af6dec561a504e07944184124c.png"
+    },
+    {
+      "id": 106301,
+      "class_id": 12,
+      "health": 10,
+      "attack": 2,
+      "mana_cost": 7,
+      "name": "伊辛迪奥斯",
+      "text": "在你的回合结束时，你的爆发升级。 <b>战吼：</b>将5张爆发洗入你的牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/73f0787021b24b8b9105c0d606c47f7a0ea048d499ca01c22607411edbef503d.png"
+    },
+    {
+      "id": 106303,
+      "class_id": 8,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 7,
+      "name": "炫目演出者",
+      "text": "<b>战吼：</b>随机召唤一个法力值消耗为（5）的随从。在本局对战中你每施放过一个派系的法术，重复一次。 <i>（重复 次）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a321d8a453c655d988e680972318eddb5f0952a32b7dbb02b302abd6dbfded19.png"
+    },
+    {
+      "id": 106583,
+      "class_id": 14,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 7,
+      "name": "高崖跳水",
+      "text": "从你的牌库中召唤2个随从并使其获得<b>突袭</b>。在你的回合结束时，它们会返回牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9a69fcef7762a88f7752d335f1b58fe54fad2bbc2dd2a5ac408723e9283b6ac6.png"
+    },
+    {
+      "id": 106615,
+      "class_id": 14,
+      "health": 8,
+      "attack": 5,
+      "mana_cost": 7,
+      "name": "全地形虚空猎犬",
+      "text": "每当本随从攻击时，使你的英雄在本回合中获得+5攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/61d0f3ed4675ef536d6657cd1b1bb859cc60fd488d57348bc84a4cff9f902e0a.png"
+    },
+    {
+      "id": 106671,
+      "class_id": 3,
+      "health": 5,
+      "attack": 4,
+      "mana_cost": 7,
+      "name": "大叫巨鹦萨考克",
+      "text": "<b>战吼：</b>重复你在上回合使用的每一张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c1f3a3b9c7a64675fc68bcdec9d9fea2d68dfdcb468a2c3ce7c9e5f81409abff.png"
+    },
+    {
+      "id": 106682,
+      "class_id": 12,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 7,
+      "name": "经理马林",
+      "text": "<b>战吼：</b>选择一张神奇宝藏。将其余3张洗入你的牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/010460b0097df9d4a8048c4407151de159ac4ddf13f3a28b54e09d5766c90220.png"
+    },
+    {
+      "id": 106714,
+      "class_id": 12,
+      "health": 20,
+      "attack": 4,
+      "mana_cost": 7,
+      "name": "搁浅巨鲸",
+      "text": "<b>嘲讽</b>。<b>战吼：</b>对本随从造成10点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7bb617ec52107199816ada934dfcfebba47e5f91c7dc43e602bd9f041e0f90f8.png"
+    },
+    {
+      "id": 106720,
+      "class_id": 12,
+      "health": 8,
+      "attack": 5,
+      "mana_cost": 7,
+      "name": "打盹的动物管理员",
+      "text": "<b>战吼：</b>为你的对手 召唤一只8/8的野兽，使其攻击所在方的 所有随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bd6161aa49b3ee63da8f0c022725e487573a8f54da5b8d864d8388f251a09af2.png"
+    },
+    {
+      "id": 107892,
+      "class_id": 2,
+      "health": 7,
+      "attack": 6,
+      "mana_cost": 7,
+      "name": "抱石伙伴",
+      "text": "<b>突袭。嘲讽</b> 如果你拥有至少十个法力水晶，则法力值消耗为（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/911200888a3bfb32d7a7d4cd45d0cf131a11cf2e29f657d2105deb4d8acc7b2d.png"
+    },
+    {
+      "id": 110326,
+      "class_id": 12,
+      "health": 8,
+      "attack": 6,
+      "mana_cost": 7,
+      "name": "埃索达",
+      "text": "<b>战吼：</b>如果你正在构筑<b>星舰</b>，将其发射并选择一项指令！",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9a4c0f302d65d4777a11dd3ac38025b7b1ddfc4def61fd23af28ac4eab000caf.png"
+    },
+    {
+      "id": 110794,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 7,
+      "name": "抱团",
+      "text": "用随机纳迦填满你的面板。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/977d905463a13a222e8a176343589fc5a85181a2b60362f62e41fe264193cdcf.png"
+    },
+    {
+      "id": 110852,
+      "class_id": 8,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 7,
+      "name": "宇航员",
+      "text": "<b>战吼：</b>从你的牌库中 <b>发现</b>一张法术牌，其法力值消耗减少（5）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/33c9962366d4a7a1e73b0085d2775b9662b872a8fa3a7e37ddc40b0d4b3c74cf.png"
+    },
+    {
+      "id": 110881,
+      "class_id": 8,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 7,
+      "name": "摩摩尔",
+      "text": "你的<b>战吼</b>随从牌的 法力值消耗为（1）点，但会在被使用后 立即死亡。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d5e1864aef3a9e27532ffdc014b4a716e5a4ac839e787575031ad7ba3651c078.png"
+    },
+    {
+      "id": 111008,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 7,
+      "name": "究极边境",
+      "text": "<b>发现</b>一张来自过去的法力值消耗为（10）的随从牌，将其法力值消耗变为（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f7738244e431e4d870bb5f16e1fe7efabf827060a003fdeb88a19faa463f8df9.png"
+    },
+    {
+      "id": 111182,
+      "class_id": 12,
+      "health": 9,
+      "attack": 3,
+      "mana_cost": 7,
+      "name": "星系远征军",
+      "text": "<b>嘲讽</b>。<b>亡语：</b>随机获取两张神圣法术牌，其法力值消耗减少（3）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/21f78a248b27b0a809890c214f47883620565a914bba01192f9f771440eed20f.png"
+    },
+    {
+      "id": 111301,
+      "class_id": 9,
+      "health": 7,
+      "attack": 7,
+      "mana_cost": 7,
+      "name": "阿克蒙德",
+      "text": "<b>战吼：</b>召唤你在本局对战中使用过的你套牌之外的所有恶魔。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/16bf96ba63139971cec35b3823bcee461be96d0d96635fbdd430ba9b4fee2a3d.png"
+    },
+    {
+      "id": 111306,
+      "class_id": 12,
+      "health": 7,
+      "attack": 7,
+      "mana_cost": 7,
+      "name": "维伦，流亡者领袖",
+      "text": "<b>嘲讽</b>。<b>亡语：</b>触发你在本局对战中使用过的所有其他德莱尼的 <b>战吼</b>和<b>亡语</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/35ab0ad0b4a9f1e609955190c9dc63d6941ec7544f4d9bb69697563162238dba.png"
+    },
+    {
+      "id": 111326,
+      "class_id": 1,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 7,
+      "name": "冰霜巨龙之怒",
+      "text": "造成 5点伤害。<b>冻结</b>所有敌方随从。召唤一条5/5的冰霜巨龙。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a2fac4cd66dec3ee99bfc9d3787300d7b6d06b1cac4edc3e911a5b767d545fdc.png"
+    },
+    {
+      "id": 111345,
+      "class_id": 4,
+      "health": 3,
+      "attack": 4,
+      "mana_cost": 7,
+      "name": "阿肯飞翼驾驶员",
+      "text": "在你的回合结束时，随机对一个敌人造成3点伤害。 <b><b>法术迸发</b>：</b>召唤一个阿肯飞翼驾驶员。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/328eca2be8ae1a389357e03f9fc59806ffc650cf5a1c433a1b0f231e23cd3bf6.png"
+    },
+    {
+      "id": 111464,
+      "class_id": 12,
+      "health": 7,
+      "attack": 7,
+      "mana_cost": 7,
+      "name": "希亚玛特",
+      "text": "<b>战吼：</b>从<b>突袭，嘲讽，圣盾</b>或<b>风怒</b>中获得两种效果<i>（由你选择）</i>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a0e66b0130ac7fa4a5e975fee7434e4ee871935f7817220cbddee12090f28c4b.png"
+    },
+    {
+      "id": 111981,
+      "class_id": 12,
+      "health": 6,
+      "attack": 5,
+      "mana_cost": 7,
+      "name": "艾瑞达蛮兵",
+      "text": "<b>嘲讽</b>。<b>吸血</b> 每有一个敌方随从，本牌的法力值消耗便减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/fc7990eda7ecb71be97919bfb8496e8a8a5c74e1d57a5a479f08b36b679a6dc1.png"
+    },
+    {
+      "id": 112361,
+      "class_id": 12,
+      "health": 7,
+      "attack": 7,
+      "mana_cost": 7,
+      "name": "基尔加丹",
+      "text": "<b>战吼：</b>将你的牌库替换成一座无尽的恶魔传送门。每个回合，这些恶魔都会额外获得+2/+2。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5fbb426344d047f3f52a83cdbf9a319a50bb0eb2c7b313ce4084924badf9ac34.png"
+    },
+    {
+      "id": 113735,
+      "class_id": 2,
+      "health": 8,
+      "attack": 5,
+      "mana_cost": 7,
+      "name": "不朽者",
+      "text": "<b>嘲讽</b>。<b>圣盾</b>。<b>战吼：</b>消耗4点法力值以使本随从的属性值翻倍。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/53503e057936809d006af471f51a5f20318127f6557a989feed88c57f99a1b7f.png"
+    },
+    {
+      "id": 114307,
+      "class_id": 1,
+      "health": 7,
+      "attack": 7,
+      "mana_cost": 7,
+      "name": "尼珊德拉",
+      "text": "<b>嘲讽</b>。<b>亡语：</b>分裂为1/1的甲虫。在你的回合开始时，剩余的甲虫会重组为尼珊德拉。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f224323e33948afa379d5b7951dbf5bfec71f8331d9b7a97d70f78559ab5dfe0.png"
+    },
+    {
+      "id": 114326,
+      "class_id": 6,
+      "health": 7,
+      "attack": 5,
+      "mana_cost": 7,
+      "name": "泰兰德",
+      "text": "<b>战吼：</b> 你使用的下三张法术牌会施放两次。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a763246b0eadfb3a82d1786888beec55654a1f03a41771b70e866427a31b6d00.png"
+    },
+    {
+      "id": 114340,
+      "class_id": 10,
+      "health": 5,
+      "attack": 8,
+      "mana_cost": 7,
+      "name": "伊森德雷",
+      "text": "<b>嘲讽</b>。<b>亡语：</b>在本局对战中伊森德雷每死亡过一次，随机召唤一条龙。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7538124092da689de74112e5528cde246b1a7bb5ccaca111845f74b4a6f39723.png"
+    },
+    {
+      "id": 114498,
+      "class_id": 14,
+      "health": 5,
+      "attack": 7,
+      "mana_cost": 7,
+      "name": "残暴的魔蝠",
+      "text": "<b>亡语：</b>复活一个不同的法力值消耗大于或等于（5）点的友方<b>亡语</b>随从，并召唤一个它的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/80b891524d004bfaaad512766bd0dd838df87df72e2ecf1dfa7697261f16ddfc.png"
+    },
+    {
+      "id": 114543,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 7,
+      "name": "复苏烈焰",
+      "text": "<b>吸血</b>。对生命值最低的敌人造成 5点伤害，触发两次。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/41f30283194a44c1fbff4672f060fcd10b379f0931cb270e809a70e22f5e49f1.png"
+    },
+    {
+      "id": 114627,
+      "class_id": 6,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 7,
+      "name": "月亮井",
+      "text": "对所有敌方 角色造成 4点伤害。为所有友方角色恢复 4点生命值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2086da0a19f6f410943006baf228d1a98fd7a45a5f8a0024bd5f7335070211b0.png"
+    },
+    {
+      "id": 114849,
+      "class_id": 12,
+      "health": 7,
+      "attack": 7,
+      "mana_cost": 7,
+      "name": "纳拉雷克斯，龙群先锋",
+      "text": "你每个回合使用的第一张龙牌法力值消耗为（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/b4f71c78968a114a76ff9c09baf9401f1d32e1b8a9798d6e5ad990e149fc8080.png"
+    },
+    {
+      "id": 115037,
+      "class_id": 12,
+      "health": 7,
+      "attack": 2,
+      "mana_cost": 7,
+      "name": "食腐捕蝇草",
+      "text": "在一个随从死亡后，获得其攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d8c2aa4c8b62782c8826524918633673be924a7e237c6ba99fbd846317edc446.png"
+    },
+    {
+      "id": 115044,
+      "class_id": 9,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 7,
+      "name": "瓦洛，污邪古树",
+      "text": "当本牌在你的手牌或牌库中时，会获得你的随从获得的每项<b>黑暗之赐</b>的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2b8af0878ce2bb71821c8539e0668c9e7c5531cedabd1447d507b51c1bed0d37.png"
+    },
+    {
+      "id": 115776,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 7,
+      "name": "烧灼映像",
+      "text": "抽一张随从牌，召唤一个它的8/8并具有<b>圣盾</b>的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1496d9a270b3013875a66614933e004c327d836417ebd380c26e3ff0f226e93c.png"
+    },
+    {
+      "id": 116713,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 7,
+      "name": "永存石中",
+      "text": "召唤具有<b>嘲讽</b>的4/8，2/4，1/2的元素各一个。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5151a11595e7fc152702b151d0724b7796b9655fd2514a6ec623f201cee8ae53.png"
+    },
+    {
+      "id": 117038,
+      "class_id": 3,
+      "health": 6,
+      "attack": 5,
+      "mana_cost": 7,
+      "name": "山岭野熊",
+      "text": "<b>嘲讽</b>，<b>亡语：</b>召唤两只2/4并具有<b>嘲讽</b>的山熊宝宝。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/948c1416bb13d20ac09f7a27e1abc1a782d717819d778fdeab46055af2c3ff06.png"
+    },
+    {
+      "id": 117610,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 7,
+      "name": "饥饿的魔暴龙",
+      "text": "<b>战吼：</b>消灭一个随从。<b>延系：</b>获得被消灭随从的属性值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ada8b93de7a0e0e3c07ad0184b87b8dff5e6ea913040cf06fdbb929db80e9893.png"
+    },
+    {
+      "id": 117877,
+      "class_id": 12,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 7,
+      "name": "末日使者安布拉",
+      "text": "<b>战吼：</b>触发本局对战中死亡的5个友方随从的<b>亡语</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cc7bb8de6d79288c8a3321e2a64155c5b2d771eff5144e8341171f446bfbc15f.png"
+    },
+    {
+      "id": 117956,
+      "class_id": 4,
+      "health": 7,
+      "attack": 7,
+      "mana_cost": 7,
+      "name": "泰坦考据学家欧斯克",
+      "text": "在你的手牌中时，随机获得一项<b>泰坦</b>技能。该技能每回合都会改变。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/940b96dbd4c670f0cd43c8695597818fa0088be7f8252e9d48a3c0f6c5125d3e.png"
+    },
+    {
+      "id": 118243,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 7,
+      "name": "拉卡利的故事",
+      "text": "在你的回合结束时，弃一张牌并用3/2的小鬼填满你的面板。持续3回合。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8b2caa030bab0faf3689985e395ba7736eacaf3870dd69848e1c78ef1d6a343f.png"
+    },
+    {
+      "id": 118575,
+      "class_id": 2,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 7,
+      "name": "洛，在世传奇",
+      "text": "<b>战吼：</b>在本局对战中，你的随从牌的法力值消耗为（5）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2a9a245afa586e8464a5704b89c7d12e448b2a4c7c4d78a1bc8eaa93d22f864d.png"
+    },
+    {
+      "id": 118616,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 7,
+      "name": "列王遗宝",
+      "text": "<b>发现</b>一张法力值消耗大于或等于（8）点的任意职业法术牌，其法力值消耗为（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f8e57470a46efd07a1cdb1fd5331746cdf6b009cce6a5b30dcf5c499a6876f11.png"
+    },
+    {
+      "id": 120426,
+      "class_id": 4,
+      "health": 7,
+      "attack": 5,
+      "mana_cost": 7,
+      "name": "大法师安东尼达斯",
+      "text": "每当你施放一个法术，将一张“火球术”法术牌置入你的手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/6d73b9a747f44ec2fe9697dfb0aa4162ba4484d4ccde0a94cd9273effabd2bb1.png"
+    },
+    {
+      "id": 120427,
+      "class_id": 5,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 7,
+      "name": "阿纳克洛斯",
+      "text": "<b>战吼：</b> 将所有其他随从送入2回合后的未来。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/312fa2ac892ede4bda2296269409c41d808d40663483e841c68df3f16559ace1.png"
+    },
+    {
+      "id": 120524,
+      "class_id": 12,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 7,
+      "name": "冰喉",
+      "text": "<b>嘲讽，亡语：</b> 如果你的手牌中有龙牌，则对所有随从造成3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dacd8a1497d215c3e2bd34e9f91d4dd218e4006b94c036294817ee2303062d7d.png"
+    },
+    {
+      "id": 120575,
+      "class_id": 12,
+      "health": 7,
+      "attack": 5,
+      "mana_cost": 7,
+      "name": "斯尼德的伐木机",
+      "text": "<b>亡语：</b>随机召唤一个<b>传说</b>随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cc60835befcd53ea5bade29282f7d5b1f383af17aaca9bf05332a98c639aeb2a.png"
+    },
+    {
+      "id": 120878,
+      "class_id": 14,
+      "health": 7,
+      "attack": 6,
+      "mana_cost": 7,
+      "name": "愤怒的女祭司",
+      "text": "在你的回合结束时，造成6点伤害，随机分配到所有敌人身上。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8e83bb555ec8df46790977f8d304a3e871fd2c900634792bee121b72a498bb47.png"
+    },
+    {
+      "id": 66176,
+      "class_id": 14,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 8,
+      "name": "伊利达雷审判官",
+      "text": "<b>突袭</b> 在你的英雄攻击一个敌人后，本随从也会攻击该敌人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/abf72d75e2bbb79c00a849e87ca0885c84db3ee335bc77cb53d0643ddeeeeb23.png"
+    },
+    {
+      "id": 69613,
+      "class_id": 5,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 8,
+      "name": "提里奥·弗丁",
+      "text": "<b>圣盾</b>，<b>嘲讽</b>，<b>亡语：</b>装备一把5/3的 灰烬使者。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7c9ecef6fa0b3d2a3b367e993c39619a0df913ea92e93b3df9f18ef9cf2a75e8.png"
+    },
+    {
+      "id": 69632,
+      "class_id": 8,
+      "health": 6,
+      "attack": 3,
+      "mana_cost": 8,
+      "name": "风领主奥拉基尔",
+      "text": "<b>冲锋，圣盾，嘲讽，风怒</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5474447429aa550d3b1704b4c8b11de7342f64390175e53991a15283fd3c57c7.png"
+    },
+    {
+      "id": 69637,
+      "class_id": 9,
+      "health": 30,
+      "attack": null,
+      "mana_cost": 8,
+      "name": "加拉克苏斯大王",
+      "text": "<b>战吼：</b>装备一把3/8的血怒。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/744266749ce5ed1d6965f7f6613334b0f12e2bf0b9bdf59fb6e74a1344fcd23c.png"
+    },
+    {
+      "id": 69643,
+      "class_id": 10,
+      "health": 9,
+      "attack": 4,
+      "mana_cost": 8,
+      "name": "格罗玛什·地狱咆哮",
+      "text": "<b>冲锋</b> 受伤时拥有+6攻 击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/60a4a92e93f9cc9c0d5602b6a4a3aebb8da8a2114bc8e3be23a6ecef0cae40ab.png"
+    },
+    {
+      "id": 76271,
+      "class_id": 4,
+      "health": 12,
+      "attack": 4,
+      "mana_cost": 8,
+      "name": "卡雷苟斯",
+      "text": "你每个回合使用的第一张法术牌的法力值消耗为（0）点。<b>战吼：</b><b>发现</b>一张法术牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/dedd7f07fe735920217dac472cfa68e8b2464093a55fe6a7d9fe36bdd9fe89cb.png"
+    },
+    {
+      "id": 76327,
+      "class_id": 12,
+      "health": 8,
+      "attack": 4,
+      "mana_cost": 8,
+      "name": "始生幼龙",
+      "text": "<b>嘲讽，战吼：</b> 对所有其他随从造成2点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/220b74c8e005a0a979e592b228ec7beee0e37ffb12cab1926039b798f27d2699.png"
+    },
+    {
+      "id": 97346,
+      "class_id": 9,
+      "health": 7,
+      "attack": 5,
+      "mana_cost": 8,
+      "name": "改进型恐惧魔王",
+      "text": "<b>嘲讽，亡语：</b>召唤一个5/5并具有<b>吸血</b>的恐惧魔王。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/847487ecfb1fd0c1ba7b8e24ead7f879bb280a9fc570a46f0bef242866750e43.png"
+    },
+    {
+      "id": 102272,
+      "class_id": 12,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 8,
+      "name": "炎魔之王拉格纳罗斯",
+      "text": "无法攻击。在你的回合结束时，随机对一个敌人造成8点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cafce73c18bc3438dadc10eaebba6cbca55cccb9cc006968326d1b1b35dbbf85.png"
+    },
+    {
+      "id": 103270,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 8,
+      "name": "匣中古神",
+      "text": "随机施放5个法术。如果你的牌库里没有随从牌，则这些法术的法力值消耗大于或等于（5）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a1c4c650ccf67b24615e43cac674b977131c1367ba49fe9144f2ec6b1eac816e.png"
+    },
+    {
+      "id": 103443,
+      "class_id": 10,
+      "health": 7,
+      "attack": 7,
+      "mana_cost": 8,
+      "name": "发明家砰砰",
+      "text": "<b>战吼：</b>复活两个不同的法力值消耗大于或等于（5）点的友方机械，并使其随机攻击敌人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5aa1b2d27a5e91bab5df0d183c758322b9a870b71f0832142133e1bc6da192b7.png"
+    },
+    {
+      "id": 104521,
+      "class_id": 14,
+      "health": 12,
+      "attack": 12,
+      "mana_cost": 8,
+      "name": "玛瑟里顿（未发售版）",
+      "text": "<b>休眠</b>2回合。<b>休眠</b>状态下，在你的回合结束时，对所有敌人造成3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/76445690c34f445260ae6be5da05b92edea2f518f557427d65515cbd1b7092f5.png"
+    },
+    {
+      "id": 104854,
+      "class_id": 9,
+      "health": 4,
+      "attack": 4,
+      "mana_cost": 8,
+      "name": "邪鬼皇后",
+      "text": "<b>嘲讽</b> <b>亡语：</b>召唤两个4/6并具有<b>嘲讽</b>的骑士。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a8c3cf8f53fc9fad083d26671a9a558e27ae7a2fd880607eec05a02610ef2652.png"
+    },
+    {
+      "id": 104938,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 8,
+      "name": "死亡轮盘",
+      "text": "摧毁你的牌库。5回合后，消灭敌方英雄。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/969198ea3592570cef1c4d6e4cd538d48f6bdfde5e55356de0d8847c028730ef.png"
+    },
+    {
+      "id": 105098,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 8,
+      "name": "抓娃娃",
+      "text": "召唤你牌库中两个恶魔的各一个复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d0a32846195f26f97a7200b306086cc26a3d0b6ff7522196fd8c7a1f769dc8f2.png"
+    },
+    {
+      "id": 105522,
+      "class_id": 12,
+      "health": 5,
+      "attack": 6,
+      "mana_cost": 8,
+      "name": "美术家可丽菲罗",
+      "text": "<b>战吼：</b>抽一张随从牌，将所有其他友方随从变形成为它的复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/004a58c1f6f8e9aee13c3e12a7266ac71674e3b6182e5c4847d486892c703e4b.png"
+    },
+    {
+      "id": 105797,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 8,
+      "name": "海啸",
+      "text": "召唤三个3/6的可以<b>冻结</b>攻击目标的水元素，并使其随机攻击敌人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/84a5d0144d934f1fb6f5f22ada5e28a51ba4fb75a65fb091842037911bebf788.png"
+    },
+    {
+      "id": 105813,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 8,
+      "name": "星夜露宿",
+      "text": "<b>选择三次：</b>抽两张牌；获得5点护甲值；或者复原三个法力水晶。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ee70fb8ad5c69781092a8ad13ed76b8e39b0183d5c1286ae050815fbddcdede9.png"
+    },
+    {
+      "id": 106381,
+      "class_id": 10,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 8,
+      "name": "龙族美餐",
+      "text": "<b>突袭</b>。<b>扰魔</b>。每次只能受到1点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e81a59d337894123dfdcf347695f12afe45bca04dce5998b3487e04399674be7.png"
+    },
+    {
+      "id": 106681,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 8,
+      "name": "横夺硬抢",
+      "text": "随机消灭两个敌方随从。你每使用过一张另一职业的卡牌，本牌的法力值消耗便减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ebd023483076d770c4a0c97463ed7c4f83f678dc2002d26c765ea44be56239fa.png"
+    },
+    {
+      "id": 106697,
+      "class_id": 12,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 8,
+      "name": "欢乐术师耶比托",
+      "text": "<b>战吼：</b>获取你在本局对战中使用过的每个生命值为1点或攻击力为1点的随从的各一张复制。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/516c659a20305a1e2587df17db4f53700fb849ef303eb72f1e9aaf284ba2ed26.png"
+    },
+    {
+      "id": 111005,
+      "class_id": 2,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 8,
+      "name": "吞星兽",
+      "text": "<b>扰魔。嘲讽</b> <b>法术迸发：</b>使你的英雄获得本回合中的+8攻击力，并获得8点护甲值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/eccfd8ca47fcbd1a74b27e730aff9313af375649be6cfa64816188e84f9f3e46.png"
+    },
+    {
+      "id": 111178,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 8,
+      "name": "黑洞",
+      "text": "消灭所有非恶魔随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/3bafe64575bd6058432c2d42fc22c91959113d5a3b4357c522a18e60daacb6c5.png"
+    },
+    {
+      "id": 111602,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 8,
+      "name": "类星体",
+      "text": "将你的手牌洗入你的牌库。使你牌库中卡牌的法力值消耗减少（3）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e8650c526bafb3df84b137eb1a938031fcfde5daadba5c928a4e69565acf3428.png"
+    },
+    {
+      "id": 111896,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 8,
+      "name": "超级新星",
+      "text": "用随机火焰法术牌填满你的手牌。这些法术牌的法力值消耗为（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/8f1ccdd92bb6cb0c45e60fb4aacbdb2962fe8a5374c5ba7f170a16d6c9ec2d9d.png"
+    },
+    {
+      "id": 112029,
+      "class_id": 12,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 8,
+      "name": "分裂星岩",
+      "text": "<b>亡语：</b>召唤两个4/4的分裂块岩。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1a4e022275a560d81a747f1293ba7a3915498aae7b0ea78e396e22c4b3572a77.png"
+    },
+    {
+      "id": 112048,
+      "class_id": 1,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 8,
+      "name": "深暗八爪怪",
+      "text": "<b>战吼：</b>摧毁双方玩家牌库中除各自法力值消耗最高的8张牌之外的牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/74b0c6243e493588eb90bfc6dd7915bf85e484cb83d3ca95f53d3a9c9e44c58c.png"
+    },
+    {
+      "id": 112062,
+      "class_id": 12,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 8,
+      "name": "红巨星巨人",
+      "text": "本牌在手牌中时，每有一张相邻的牌被使用，本牌的法力值消耗便减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cad032c680947d056aa3cb74e7ce955382f445c72a0691475446fb445f66d730.png"
+    },
+    {
+      "id": 112815,
+      "class_id": 0,
+      "health": 30,
+      "attack": null,
+      "mana_cost": 8,
+      "name": "吉姆·雷诺",
+      "text": "<b>战吼：</b>再次发射你在本局对战中发射过的每艘<b>星舰</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0a19b8b2ce95a440573a611e8f525f37c957b35b9883c623d5fb71c96f2eceda.png"
+    },
+    {
+      "id": 112846,
+      "class_id": 0,
+      "health": 30,
+      "attack": null,
+      "mana_cost": 8,
+      "name": "刀锋女王凯瑞甘",
+      "text": "<b>战吼：</b>召唤两个2/5的巢群虫后。对所有敌人造成3点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/97b9a0daf3bc5b2764c6d251a98cf2e15875ec7c6c697ca7dd696ae458204ed3.png"
+    },
+    {
+      "id": 113171,
+      "class_id": 0,
+      "health": 30,
+      "attack": null,
+      "mana_cost": 8,
+      "name": "阿塔尼斯",
+      "text": "<b>战吼：</b>召唤两个3/4 并具有<b>冲锋</b>的狂热者。在本局对战中，你的星灵随从牌的法力值消耗减少（2）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f1f8f68dad82456bb0c03ebad92cab2d2daae26eb4c5dd414341441a81da4873.png"
+    },
+    {
+      "id": 113249,
+      "class_id": 12,
+      "health": 4,
+      "attack": 3,
+      "mana_cost": 8,
+      "name": "玛润",
+      "text": "<b>战吼：</b>随机召唤四个鱼人，然后将其射向敌方随从。<i>（目标由你选定！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/db0ec1673d28fc3284ac2bd9fef6345265aacbc32023e6d8d1fa31be7060fe35.png"
+    },
+    {
+      "id": 113700,
+      "class_id": 4,
+      "health": 8,
+      "attack": 6,
+      "mana_cost": 8,
+      "name": "艾森娜",
+      "text": "<b>战吼：</b> 如果在本局对战中已有20个友方随从死亡，造成20点伤害，随机分配到所有敌人身上。 <i>（还剩 个！）</i> <i>（已经就绪！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c1355c6733971c7f2688d1cd35a3992843d574981052a3537c30a489dfcd000b.png"
+    },
+    {
+      "id": 113869,
+      "class_id": 10,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 8,
+      "name": "雷神",
+      "text": "<b>战吼：</b>造成5点伤害。<i>（如果你在本局对战中发射过<b>星舰</b>，则会变形。）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/f8d020a4c4b6349284c43462e3905e74f33724fd4f82bf00275e09f69d8046b1.png"
+    },
+    {
+      "id": 114868,
+      "class_id": 5,
+      "health": 7,
+      "attack": 9,
+      "mana_cost": 8,
+      "name": "乌索尔",
+      "text": "<b>战吼：</b>将你手牌中法力值消耗最高的法术变为持续 回合的光环并施放。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0a8981760858556b9648ea1ea1e75a9afaf8de22c78a2a8bb401c7b17d975e34.png"
+    },
+    {
+      "id": 115090,
+      "class_id": 12,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 8,
+      "name": "莎拉达希尔",
+      "text": "获取全部5张梦境牌。如果你在此牌在你手中时使用过法力值消耗更高的牌，腐蚀这些梦境牌！",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a7e448fa3aa8d32ffb4fb262e598e7d97bf3068adc7b8710cf06d0bf9ccada22.png"
+    },
+    {
+      "id": 115186,
+      "class_id": 12,
+      "health": 6,
+      "attack": 8,
+      "mana_cost": 8,
+      "name": "护路者玛洛恩",
+      "text": "<b>战吼：</b><b>发现</b>一张<b>传说</b>荒野之神。如果你已<b>灌注</b>过你的英雄技能4次，则将发现的荒野之神的法力值消耗变为（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e38dd2bf8e84b0d9a8e4d8880bb81c244e1f670d69939cc9e3422f182df0a0ef.png"
+    },
+    {
+      "id": 115748,
+      "class_id": 1,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 8,
+      "name": "沃尔科罗斯",
+      "text": "<b>突袭。嘲讽</b>。<b>战吼：</b>选择消耗10份，20份或30份<b>残骸</b>以获得等量属性值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/01ce52d7872ea3dec3ac8a0a90eeaa6797ddcfc960c87e1bf86358819fc6491a.png"
+    },
+    {
+      "id": 115751,
+      "class_id": 3,
+      "health": 8,
+      "attack": 5,
+      "mana_cost": 8,
+      "name": "熔岩猎犬",
+      "text": "<b>突袭</b>。在本随从攻击随从并存活下来后，造成等同于本随从攻击力的伤害，随机分配到所有敌人身上。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c182bb0c9ee2771c21b6692e2ab9b5ceb21dee75f860e276dc769698d3c13980.png"
+    },
+    {
+      "id": 117498,
+      "class_id": 9,
+      "health": 7,
+      "attack": 6,
+      "mana_cost": 8,
+      "name": "饥饿古树",
+      "text": "在你的回合结束时，吞食一个你的牌库中的随从，并获得其属性值。<b>亡语：</b>将被吞食的随从置入手牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7ad490f36c4574e7302afe1d8166108101c07fc69d57f69a028d0a455ed77128.png"
+    },
+    {
+      "id": 117511,
+      "class_id": 12,
+      "health": 11,
+      "attack": 6,
+      "mana_cost": 8,
+      "name": "踏青驼鹿",
+      "text": "<b>嘲讽</b>。<b>亡语：</b>将一张踏青驼鹿置于你的牌库底，其法力值消耗为（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/317fbd7fe37bb5aca31838537efbf2706ea686d1be733c6367224538429c427b.png"
+    },
+    {
+      "id": 117733,
+      "class_id": 12,
+      "health": 12,
+      "attack": 1,
+      "mana_cost": 8,
+      "name": "焦油暴君",
+      "text": "<b>嘲讽</b>。<b>吸血</b> 在你对手的回合拥有+6攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e6721d814ba9a99dee16dca6b54b45f2832fbdf1c7b0c8ebb32a729f10b6e85e.png"
+    },
+    {
+      "id": 120576,
+      "class_id": 12,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 8,
+      "name": "八爪巨怪",
+      "text": "<b>亡语：</b>抽八张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e0bea2e90ff8a549a9d52bdb895e86d44c202b1ece2f0f8fd698d9352ca53741.png"
+    },
+    {
+      "id": 120577,
+      "class_id": 12,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 8,
+      "name": "莫尔葛熔魔",
+      "text": "<b>嘲讽</b>，<b>亡语：</b>获得8点护甲值。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e588f29fc1e95a0b9a3d3170720cd959e41e2460644b45c403928b9b7d30eeb6.png"
+    },
+    {
+      "id": 69726,
+      "class_id": 12,
+      "health": 12,
+      "attack": 6,
+      "mana_cost": 9,
+      "name": "贪睡巨龙",
+      "text": "<b>嘲讽</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bbc828190d4bfb074e3e7e66f4a4581f765284d0a356f6aec4c52b7bc14a822f.png"
+    },
+    {
+      "id": 82072,
+      "class_id": 1,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 9,
+      "name": "缝合巨人",
+      "text": "在本局对战中，你每消耗过一份<b>残骸</b>，本牌的法力值消耗便减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a68db701dc39b14ef84805f2dfbebafb1d0c0e9fd66ae1b3518d44fa36a6897c.png"
+    },
+    {
+      "id": 95732,
+      "class_id": 6,
+      "health": 8,
+      "attack": 4,
+      "mana_cost": 9,
+      "name": "黑曜石雕像",
+      "text": "<b>嘲讽</b>，<b>吸血</b> <b>亡语：</b>随机消灭一个敌方随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/69c257b7dd8466d23222b18286b215ade2003d7dbeb3c62b380f2f642f784d46.png"
+    },
+    {
+      "id": 102405,
+      "class_id": 10,
+      "health": 12,
+      "attack": 4,
+      "mana_cost": 9,
+      "name": "机械腐面",
+      "text": "<b>嘲讽</b>。在本随从受到伤害后，随机获取两张<b>微型</b>牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a144e0c6f1c9380cc38206fc04d925dd5a83e333887b4f69439e9b90ffc66746.png"
+    },
+    {
+      "id": 102691,
+      "class_id": 12,
+      "health": 5,
+      "attack": 5,
+      "mana_cost": 9,
+      "name": "具象炉石",
+      "text": "<b>战吼：</b>打开一包标准卡牌包，使用其中的所有卡牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2556bb999b9518e054a2c0dba7285c54ef34a849fa08ad3d706c5823337bf0ce.png"
+    },
+    {
+      "id": 103166,
+      "class_id": 3,
+      "health": 6,
+      "attack": 6,
+      "mana_cost": 9,
+      "name": "抱龙王噗鲁什",
+      "text": "<b>战吼：</b>如果你对手的生命值小于或等于15点，将所有其他随从移回其拥有者的牌库，并获得<b>冲锋</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cdf78f1789b21605d3d8c8f2492f09508f374b7958065a510ee828c75b566e23.png"
+    },
+    {
+      "id": 104864,
+      "class_id": 7,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 9,
+      "name": "一件不留",
+      "text": "随机召唤两个法力值消耗为（4）的随从。在本回合中你每抽过一张牌，本牌的法力值消耗便减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/a56fd3caffcf9c34a5e6e6cbe424c2e58ce7986ce342a741244c363a19aea08e.png"
+    },
+    {
+      "id": 107769,
+      "class_id": 10,
+      "health": 9,
+      "attack": 6,
+      "mana_cost": 9,
+      "name": "芝士怪物",
+      "text": "<b>嘲讽</b> 在你的回合结束时，召唤一个属性值等同于本随从的元素。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ff084eae569270edb9681e84d36331c99f06d191d50bd2c5f6726989c24ba60a.png"
+    },
+    {
+      "id": 107929,
+      "class_id": 12,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 9,
+      "name": "海滨巨人",
+      "text": "在本局对战中，你每使用过一次地标效果，本牌的法力值消耗便减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/387392916aab0601a909ab95a7e9496cdc72d3928602188c06fa737289de127a.png"
+    },
+    {
+      "id": 113321,
+      "class_id": 12,
+      "health": 12,
+      "attack": 4,
+      "mana_cost": 9,
+      "name": "伊瑟拉，翡翠守护巨龙",
+      "text": "<b>对战开始时：</b>双方玩家的法力值上限提高5点。<b>战吼：</b>获得3个法力水晶。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/398aecb9a16eeb59ca573648a9720d4fc7df9aadcd632000c51c0ac23463fccd.png"
+    },
+    {
+      "id": 113434,
+      "class_id": 8,
+      "health": 11,
+      "attack": 5,
+      "mana_cost": 9,
+      "name": "欧恩哈拉",
+      "text": "在你的回合结束时，使用你牌库顶的3张牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9ef2d7b2dffb20f90737fad7fbbeb731fd963cb1418e553b12e5aa8d79df3fc3.png"
+    },
+    {
+      "id": 114254,
+      "class_id": 3,
+      "health": 9,
+      "attack": 9,
+      "mana_cost": 9,
+      "name": "戈德林",
+      "text": "<b>突袭</b>。友方野兽造成的伤害翻倍。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/2d40811483f8667980ccd6eb5a77d0b4321ba5b671ed591269215c794b2ecad2.png"
+    },
+    {
+      "id": 114348,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 9,
+      "name": "星云",
+      "text": "<b>发现</b>并召唤两个法力值消耗为（8）的随从，并使其具有 <b>嘲讽</b>和<b>扰魔</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/9081df00161f9f58b018282b098d6201da888a84b5a5d0ccdf1ee9a6d6d14b91.png"
+    },
+    {
+      "id": 114527,
+      "class_id": 7,
+      "health": 7,
+      "attack": 7,
+      "mana_cost": 9,
+      "name": "阿莎曼",
+      "text": "<b>战吼：</b>用你对手牌库中牌的复制填满你的手牌，其法力值消耗减少（3）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/108455bc1fea49a9885150e3d7caae0d12a20d040e9df176909c1363f294172a.png"
+    },
+    {
+      "id": 115041,
+      "class_id": 12,
+      "health": 9,
+      "attack": 7,
+      "mana_cost": 9,
+      "name": "纵火眼魔",
+      "text": "<b>突袭</b>。<b>吸血</b>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bf3403d18448fb7fbef3de0e53b9d1f5738e119d0cc87d0ab0ff44a434519f14.png"
+    },
+    {
+      "id": 115264,
+      "class_id": 6,
+      "health": 11,
+      "attack": 7,
+      "mana_cost": 9,
+      "name": "艾维娜，艾露恩钦选者",
+      "text": "<b>战吼：</b>开启为期三回合的月相演变。当满月升起时，在本局对战中你的卡牌法力值消耗为（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/e92578c3bc3bf7a9d0fa861864cd267532b9e1d980fa1e5cd5d22f516c14f943.png"
+    },
+    {
+      "id": 115756,
+      "class_id": 12,
+      "health": 7,
+      "attack": 7,
+      "mana_cost": 9,
+      "name": "火光之龙菲莱克",
+      "text": "<b>免疫</b>火焰法术。<b>战吼：</b>随机对敌人施放消耗总计20点法力值的火焰法术。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bccf28cffdd18da42c9850abd86dfa9d3051a97851a1dadaead11a51abe928d9.png"
+    },
+    {
+      "id": 116018,
+      "class_id": 1,
+      "health": 14,
+      "attack": 6,
+      "mana_cost": 9,
+      "name": "乌索克",
+      "text": "<b>战吼：</b>攻击所有其他随从。<b>亡语：</b>复活本随从消灭的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/60191972236190af02bdac09a87b7624bb1ebfb1d358a1b8ac1e3c707f5178a6.png"
+    },
+    {
+      "id": 117294,
+      "class_id": 8,
+      "health": 9,
+      "attack": 9,
+      "mana_cost": 9,
+      "name": "毁灭化身",
+      "text": "<b>嘲讽</b> <b>亡语：</b>对所有敌方随从造成9点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/cec2bc8f84841a2c2a0708bb8a9f5899d4ed2782b267b9e192662220c0bc1190.png"
+    },
+    {
+      "id": 118221,
+      "class_id": 12,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 9,
+      "name": "涡流风暴幼龙",
+      "text": "<b>突袭</b>。<b>风怒</b> <b>延系：</b>在本回合中获得<b>免疫</b>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/ae9860e07fcc4aa68303d18175129cd772ac5cb09f625a43dcfbe64c5de4f27b.png"
+    },
+    {
+      "id": 119755,
+      "class_id": 14,
+      "health": 7,
+      "attack": 7,
+      "mana_cost": 9,
+      "name": "昆虫学家托鲁",
+      "text": "<b>战吼：</b>将你手牌中的每张随从牌分别放入法力值消耗为（1）的0/1的标本罐。打破罐子即可放出随从！",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c96b7e9207c80724e6406f46351b23025d418627bb9526e209b5edc7c2dccd8d.png"
+    },
+    {
+      "id": 119809,
+      "class_id": 12,
+      "health": 7,
+      "attack": 8,
+      "mana_cost": 9,
+      "name": "克罗格，环形山之王",
+      "text": "在你的回合结束时，将所有敌方随从的攻击力和生命值变为1。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/00d36bb63f7586944e03471fc2d6dbc5a15fa2323efb2cef3e3bd6d20dbee17c.png"
+    },
+    {
+      "id": 103354,
+      "class_id": 4,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 10,
+      "name": "星空投影球",
+      "text": "再次施放你在本局对战中施放过的法术，每种法力值消耗各随机一个。<i>（尽可能以敌人为目标）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d74a952dbac8c85d06dcd8d86d9d2d98cab0374d084bed29b840eb9d237f55e8.png"
+    },
+    {
+      "id": 103431,
+      "class_id": 12,
+      "health": 7,
+      "attack": 6,
+      "mana_cost": 10,
+      "name": "工厂装配机",
+      "text": "<b>微缩</b> 在你的回合结束时，召唤一个6/7的机器人并使其攻击一个随机敌人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/1e08aea2523d488105291554b6263e8c100fd265cfe60f329642dad3070d8385.png"
+    },
+    {
+      "id": 105097,
+      "class_id": 9,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 10,
+      "name": "掀桌子",
+      "text": "对所有敌方随从造成 3点伤害。你每有一张其他手牌，本牌的法力值消耗便减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/0f32c1e3bd57bb9a83244966d28af54c3e77f03416fdb35694ea5ecc6b744758.png"
+    },
+    {
+      "id": 105570,
+      "class_id": 10,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 10,
+      "name": "安全专家",
+      "text": "<b>突袭</b>。<b>亡语：</b>将三张“炸弹” 牌洗入你对手的牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/54fce579b304aac2f694353e2b6a8699060775c8dae47df6b6879916ab7fa477.png"
+    },
+    {
+      "id": 107856,
+      "class_id": 2,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 10,
+      "name": "补水区",
+      "text": "复活你法力值消耗最高的三个不同的<b>嘲讽</b>随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/996d72905e96afb6e890f87e825b2109f9aae4553cb73ad86452335346c8d620.png"
+    },
+    {
+      "id": 109262,
+      "class_id": 5,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 10,
+      "name": "海上船歌",
+      "text": "召唤三个 5/5的海盗。在本局对战中，你每对角色施放一个法术，本牌的法力值消耗便 减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/daf2cbba65e2c14c71d6e71d15ea3751ff3a65421867499daebbd8a24e9aaa6e.png"
+    },
+    {
+      "id": 110859,
+      "class_id": 12,
+      "health": 3,
+      "attack": 3,
+      "mana_cost": 10,
+      "name": "旅行管理员杜加尔",
+      "text": "<b>战吼：</b>从你的牌库中召唤三个来自不同扩展包的随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/14e0fcc63e1534f9604d218cd7e03ddc596c4d5ee5bc750d5b7ad1d4d207f274.png"
+    },
+    {
+      "id": 110917,
+      "class_id": 10,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 10,
+      "name": "矮人矮行星",
+      "text": "用法力值消耗为（2）的随机随从填满你的面板并使其攻击随机敌人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7b182453bc25f7b941fbed170cb56c578092c1c5681321056e99127ecad0ab4e.png"
+    },
+    {
+      "id": 111678,
+      "class_id": 1,
+      "health": 7,
+      "attack": 8,
+      "mana_cost": 10,
+      "name": "灵魂唤醒者",
+      "text": "<b>嘲讽</b>。<b>复生</b> <b>亡语：</b>复活一个不同的友方<b>亡语</b>随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/fad7c0977e454cce70457a306f9f95553f56d0353d959cb7f0f62360c7c2ed19.png"
+    },
+    {
+      "id": 113588,
+      "class_id": 2,
+      "health": 8,
+      "attack": 5,
+      "mana_cost": 10,
+      "name": "森林之王塞纳留斯",
+      "text": "<b>选择三次：</b>使你的其他随从获得+1/+3；或者召唤一棵5/5并具有<b>嘲讽</b>的古树。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/bb44d54b67ff239c3e8015fd6d2e6b38ced6779c281e661fa6124ed24134030c.png"
+    },
+    {
+      "id": 113606,
+      "class_id": 14,
+      "health": 12,
+      "attack": 6,
+      "mana_cost": 10,
+      "name": "年兽",
+      "text": "<b>突袭</b>。<b>风怒</b> <b>亡语：</b>对所有敌人造成 点伤害。<i>（在本随从攻击后提升！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/71d6f65ac596439e65b449536ba12e964bc291b4f846050a2333ca9618e04105.png"
+    },
+    {
+      "id": 114213,
+      "class_id": 12,
+      "health": 7,
+      "attack": 12,
+      "mana_cost": 10,
+      "name": "棘嗣幼龙",
+      "text": "在你的回合结束时，随机攻击一个敌方随从<i>（超过目标生命值的伤害会命中敌方英雄）</i>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c97aa50a3b87fa5055e0918e005e9bed181e7f140a11a4762e03722cd3723ba2.png"
+    },
+    {
+      "id": 114353,
+      "class_id": 10,
+      "health": 30,
+      "attack": 1,
+      "mana_cost": 10,
+      "name": "托尔托拉",
+      "text": "<b>嘲讽</b>。<b>扰魔</b> 在本随从受到伤害后，获得1点护甲值并使本随从获得+1攻击力。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/7941ed1f01644bab47e9dba451893eefcab2671793c8ea38bb4af372dcf732ef.png"
+    },
+    {
+      "id": 114357,
+      "class_id": 8,
+      "health": 0,
+      "attack": null,
+      "mana_cost": 10,
+      "name": "台风",
+      "text": "将每个随从 洗入随机玩家 的牌库。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/5dcbb01e8cc83daf74c6635e2319c3629e11cf69fb4132a26fc631bf91ef63b6.png"
+    },
+    {
+      "id": 115203,
+      "class_id": 9,
+      "health": 9,
+      "attack": 8,
+      "mana_cost": 10,
+      "name": "阿迦玛甘",
+      "text": "<b>战吼：</b>你使用的下一张牌会消耗<b>对手</b>的生命值而非法力值<i>（最高不超过10点）</i>。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/170438f08c5c17ef5226449c76167b0e801cb30338125d11b1389821514ddfae.png"
+    },
+    {
+      "id": 121240,
+      "class_id": 12,
+      "health": 10,
+      "attack": 10,
+      "mana_cost": 10,
+      "name": "窜逃的黑翼龙",
+      "text": "在你的回合结束时，随机对一个敌方随从造成10点伤害。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/c777a955e21ea6242214c566cd672ac6e61cb5de699ea3c0202f768b88f4b2d1.png"
+    },
+    {
+      "id": 118238,
+      "class_id": 12,
+      "health": 28,
+      "attack": 14,
+      "mana_cost": 11,
+      "name": "超巨摩天龙",
+      "text": "",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/20f65b441ef3ec772fe959aff1d33225d5ba3963b7578c22853ce3a22ae9c86e.png"
+    },
+    {
+      "id": 113174,
+      "class_id": 2,
+      "health": 14,
+      "attack": 2,
+      "mana_cost": 12,
+      "name": "航母",
+      "text": "在你的回合结束时，召唤四架4/1的拦截机并使其攻击随机敌人。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/20b2097f48477e837daca8979ceed2b409e7cc5df97c68a8058250ee7d367196.png"
+    },
+    {
+      "id": 113177,
+      "class_id": 4,
+      "health": 4,
+      "attack": 9,
+      "mana_cost": 12,
+      "name": "巨像",
+      "text": "<b>战吼：</b>对所有敌人造成 点伤害，触发两次。<i>（在本局对战中你每施放过一个星灵法术都会提升！）</i>",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/4b4394f0a9db08905e9cf7626fc8d5d8ff0085bd9c585abb291b8f7d768e5957.png"
+    },
+    {
+      "id": 113203,
+      "class_id": 6,
+      "health": 10,
+      "attack": 10,
+      "mana_cost": 12,
+      "name": "母舰",
+      "text": "<b>嘲讽</b>。<b>战吼，亡语：</b>随机获取两张星灵随从牌。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/be2f7fe11e5981c3fe492860361323a3a8d593fc724da0d69caca1096380b46f.png"
+    },
+    {
+      "id": 104976,
+      "class_id": 12,
+      "health": 8,
+      "attack": 8,
+      "mana_cost": 20,
+      "name": "游乐巨人",
+      "text": "在本局对战中 你每抽过一张牌，本牌的法力值消耗便减少（1）点。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/d07a1d9983ad816a8148ee1951552da78c8f19fec709d9e5c0dd138273550390.png"
+    },
+    {
+      "id": 111914,
+      "class_id": 12,
+      "health": 10,
+      "attack": 10,
+      "mana_cost": 125,
+      "name": "无界空宇",
+      "text": "每当一张牌被抽到，使用或摧毁时，本牌的法力值消耗便减少（1）点。<b>战吼：</b>消灭所有其他随从。",
+      "image": "https://hs.res.netease.com/pc/zt/20250225182549/static/img/26143d20a41e55114bad6cfb88c8a9b6a13b47bbb83675c4257e906057949116.png"
+    }
+  ];
+
 //随机数，包括min和max
 function randownInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -161,15 +11554,65 @@ function execute() {
     }
 }
 
+function search() {
+    let classid = parseInt(document.getElementById("classid").value);
+    let cost = parseInt(document.getElementById("cost").value);
+    let keyword = document.getElementById("keyword").value;
+    let items  = [];
+    for (let card of cards) {
+        //职业不同
+        if (classid != -1 && classid != card.class_id) {
+            continue;
+        }
+        //费用不同
+        if (cost != -1 && cost != card.mana_cost && (cost == 10 && card.mana_cost < 10)) {
+            continue;
+        }
+
+        //指定关键词，但是不匹配
+        if (keyword && card.name.indexOf(keyword) < 0 && card.text.indexOf(keyword) < 0) {
+            continue;
+        }
+
+        items.push(card);
+    }
+
+    let html = '';
+    let total = items.length < 500 ? items.length : 500;
+    for (let i = 0; i < total; i++) {
+        html += `<div class="col-3">
+        <img src="${items[i].image}" class="img-fluid" alt="${items[i].name}">
+    </div>`;
+    }
+    document.getElementById('alert').innerText = `搜索到：${total}`;
+    document.getElementById("imageContainer").innerHTML = html;
+}
 
 function indexPageInit() {
     document.getElementById('operation').addEventListener('change', operationChange);
-    document.getElementById('btn-execute').addEventListener('click', execute);
+    const btn = document.getElementById('btn-execute');
+    btn.addEventListener('click', search);
+    // 监听全局键盘事件
+    document.addEventListener('keydown', (event) => {
+        // 检查是否按下回车键（keyCode 13 或 key 'Enter'）
+        if (event.key === 'Enter' || event.keyCode === 13) {
+        // 触发按钮点击
+        btn.click();
+        }
+    });
 }
 
 function cardPageInit() {
-    document.getElementById('operation').addEventListener('change', operationChange);
-    document.getElementById('btn-execute').addEventListener('click', execute);
+    const btn = document.getElementById('btn-search');
+    btn.addEventListener('click', search);
+    // 监听全局键盘事件
+    document.addEventListener('keydown', (event) => {
+        // 检查是否按下回车键（keyCode 13 或 key 'Enter'）
+        if (event.key === 'Enter' || event.keyCode === 13) {
+        // 触发按钮点击
+        btn.click();
+        }
+    });
 }
 
 function main() {

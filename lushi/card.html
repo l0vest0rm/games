@@ -33,27 +33,27 @@
 <div class="container txxt-center mt-4">
         <div class="row">
             <div class="col-2">
-                <label for="career">职业</label>
-                <select id="career">
-                    <option value="all">全部职业</option>
-                    <option value="deathknight">死亡骑士</option>
-                    <option value="demonhunter">恶魔猎手</option>
-                    <option value="druid">德鲁伊</option>
-                    <option value="hunter">猎人</option>
-                    <option value="mage">法师</option>
-                    <option value="paladin">圣骑士</option>
-                    <option value="priest">牧师</option>
-                    <option value="rogue">潜行者</option>
-                    <option value="shaman">萨满祭司</option>
-                    <option value="warlock">术士</option>
-                    <option value="warrior">战士</option>
-                    <option value="neutral">中立</option>
+                <label for="classid">职业</label>
+                <select id="classid">
+                    <option value="-1">全部职业</option>
+                    <option value="1">死亡骑士</option>
+                    <option value="14">恶魔猎手</option>
+                    <option value="2">德鲁伊</option>
+                    <option value="3">猎人</option>
+                    <option value="4">法师</option>
+                    <option value="5">圣骑士</option>
+                    <option value="6">牧师</option>
+                    <option value="7">潜行者</option>
+                    <option value="8">萨满祭司</option>
+                    <option value="9">术士</option>
+                    <option value="10">战士</option>
+                    <option value="12">中立</option>
                 </select>
             </div>
             <div class="col-2">
                 <label for="cost">法力值</label>
                 <select id="cost">
-                    <option value="all">不限法力值</option>
+                    <option value="-1">不限法力值</option>
                     <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -68,7 +68,10 @@
                 </select>
             </div>
             <div class="col-2">
-                <button id="btn-execute" type="button" class="btn btn-success btn-sm">执行</button>
+                <input type="text" class="form-control" id="keyword">
+            </div>
+            <div class="col-2">
+                <button id="btn-search" type="button" class="btn btn-success btn-sm">搜索</button>
             </div>
         </div>
         <div id="alert" class="row alert alert-primary" role="alert">
