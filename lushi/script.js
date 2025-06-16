@@ -11580,7 +11580,7 @@ function search() {
     let html = '';
     let total = items.length < 500 ? items.length : 500;
     for (let i = 0; i < total; i++) {
-        html += `<div class="col-3">
+        html += `<div class="col-3 m-0 p-0">
         <img src="${items[i].image}" class="img-fluid" alt="${items[i].name}">
     </div>`;
     }
