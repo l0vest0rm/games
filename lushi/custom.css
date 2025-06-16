@@ -1,0 +1,21 @@
+@media print {
+    /* 隐藏导航栏 */
+    nav, .navbar, .noprint {
+      display: none;
+    }
+    
+    /* 隐藏页脚 */
+    footer {
+      display: none;
+    }
+    
+    /* 隐藏按钮 */
+    button, .btn {
+      display: none;
+    }
+    
+    /* 隐藏特定类的元素 */
+    .no-print {
+      display: none;
+    }
+  }
