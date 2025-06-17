@@ -11643,7 +11643,7 @@ function onlyFavChange() {
         <span name="cancelFav" class="position-absolute top-0 end-0 badge rounded-pill bg-danger noprint" data-id="${i}">
             取消收藏
         </span>
-        <span name="cancelFav" class="position-absolute top-0 start-0">
+        <span name="cancelFav" class="position-absolute top-0 start-0 ps-2">
             ${text}
         </span>
     </div>`;
