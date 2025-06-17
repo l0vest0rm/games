@@ -11579,14 +11579,14 @@ function search() {
     let keyword = document.getElementById("keyword").value;
     let items  = [];
     for (let i=0; i < cards.length;i++) {
-        let card = cards[i]
+        let card = cards[i];
         card.id = i;
         //职业不同
         if (classid != -1 && classid != card.class_id) {
             continue;
         }
         //费用不同
-        if (cost != -1 && cost != card.mana_cost && (cost == 10 && card.mana_cost < 10)) {
+        if (cost != -1 && ((cost < 10 && cost != card.mana_cost) || (cost == 10 && card.mana_cost < 10))) {
             continue;
         }
 
@@ -11594,7 +11594,7 @@ function search() {
         if (keyword && card.name.indexOf(keyword) < 0 && card.text.indexOf(keyword) < 0) {
             continue;
         }
-
+        
         items.push(card);
     }
 
