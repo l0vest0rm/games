@@ -11665,7 +11665,7 @@ function onlyFavChange() {
 function indexPageInit() {
     document.getElementById('operation').addEventListener('change', operationChange);
     const btn = document.getElementById('btn-execute');
-    btn.addEventListener('click', search);
+    btn.addEventListener('click', execute);
     // 监听全局键盘事件
     document.addEventListener('keydown', (event) => {
         // 检查是否按下回车键（keyCode 13 或 key 'Enter'）
