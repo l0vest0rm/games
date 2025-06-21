@@ -52,6 +52,17 @@
                 </select>
             </div>
             <div class="col-2">
+                <label for="cardType">类型</label>
+                <select id="cardType">
+                    <option value="-1">不限</option>
+                    <option value="3">英雄牌</option>
+                    <option value="4">随从</option>
+                    <option value="5">法术</option>
+                    <option value="7">武器</option>
+                    <option value="39">地标</option>
+                </select>
+            </div>
+            <div class="col-2">
                 <label for="cost">法力值</label>
                 <select id="cost">
                     <option value="-1">不限法力值</option>
@@ -74,7 +85,7 @@
             <div class="col-2">
                 <button id="btn-search" type="button" class="btn btn-success btn-sm">搜索</button>
             </div>
-            <div class="col-4">
+            <div class="col-2">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" id="onlyFav" value="onlyFav">
                     <label class="form-check-label" for="onlyFav">收藏的</label>
