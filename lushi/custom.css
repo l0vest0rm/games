@@ -1,5 +1,34 @@
 @media print {
-    /* 隐藏导航栏 */
+
+  }
+
+@media print {
+
+  @page {
+    padding: 0cm;
+    margin-top: 2cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    
+  }
+
+  /* 其他打印优化 */
+  body {
+    padding: 0cm;
+    margin: 0cm;
+  }
+
+  .print-mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .print-img-div {
+    width: 20%;
+  }
+
+    /* 隐藏非打印元素 */
+      /* 隐藏导航栏 */
     nav, .navbar, .noprint {
       display: none;
     }
@@ -18,4 +47,4 @@
     .no-print {
       display: none;
     }
-  }
+}

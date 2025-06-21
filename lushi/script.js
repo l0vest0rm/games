@@ -13154,7 +13154,7 @@ function onlyFavChange() {
         let xiyou = card.rarity_id == 5 ? '传说': '';
         let text = card.class_id < classList.length? classList[card.class_id]: '';
         text += xiyou;
-        html += `<div class="col-3 m-0 p-0 position-relative">
+        html += `<div class="col-3 m-0 p-0 print-img-div position-relative">
         <img src="${card.image}" class="img-fluid border border-secondary" alt="${card.name}">
         <span name="cancelFav" class="position-absolute top-0 end-0 badge rounded-pill bg-danger noprint" data-id="${i}">
             取消收藏
