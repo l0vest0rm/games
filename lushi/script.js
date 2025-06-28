@@ -72,6 +72,20 @@ function randownInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+//下面是一个用于将 JavaScript 数组随机打乱顺序的函数。该函数实现了 Fisher-Yates（也称为 Knuth）洗牌算法，能在原数组上进行高效的随机重排，时间复杂度为 O (n)。
+function shuffleArray(array) {
+    // 从数组最后一个元素开始向前遍历
+    for (let i = array.length - 1; i > 0; i--) {
+        // 生成一个 0 到 i 之间的随机索引
+        const j = Math.floor(Math.random() * (i + 1));
+        
+        // 交换当前元素与随机位置的元素
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+
 //获取当前页面名字，比如company.html
 function currentPage() {
   let arr = window.location.pathname.split('/')
@@ -106,15 +120,10 @@ function getRandomNumbers(max, num) {
 }
 
 function randdomImgDivs(list, num) {
-    let ids = [];
-    let max = list.length;
-    while (num > max) {
-        max += list.length;
-    }
-    ids = getRandomNumbers(max, num);
+    shuffleArray(list);
     let html = ''
-    for (let id of ids) {
-        id = id % list.length;
+    for (let i =0; i < num; i++) {
+        let id = i % list.length;
         html += `<div class="col-3">
         <img src="${list[id]}" class="img-fluid" alt="${list[id]}">
     </div>`;
@@ -251,6 +260,18 @@ function search() {
         items.push(card);
     }
 
+    if (document.getElementById('random').checked) {
+        items = shuffleArray(items);
+    } else {
+        //排序：职业、法力值
+        items.sort((a, b) => {
+            if (a.classid != b.class_id) {
+                return a.class_id - b.class_id;
+            }
+            return a.mana_cost - b.mana_cost;
+        })
+    }
+
     let html = '';
     let total = items.length < 500 ? items.length : 500;
     for (let i = 0; i < total; i++) {
@@ -267,7 +288,8 @@ function search() {
         </span>
     </div>`;
     }
-    document.getElementById('alert').innerText = `搜索到：${total}`;
+
+    document.getElementById('alert').innerText = `总共：${total}`;
     document.getElementById("imageContainer").innerHTML = html;
 
     //添加关注动作

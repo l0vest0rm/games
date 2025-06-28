@@ -24,16 +24,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="card.html">卡牌浏览</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">联系我们</a>
-                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 <div class="container-lg txxt-center p-0 mx-auto print-mx-0">
         <div class="row noprint">
-            <div class="col">
+            <div class="col-2">
                 <label for="classid">职业</label>
                 <select id="classid">
                     <option value="-1">全部职业</option>
@@ -79,7 +76,7 @@
                     <option value="24">龙</option>
                     <option value="43">野猪人</option>
                     <option value="92">纳迦</option>
-                    <option value="26">全部随从类型</option>
+                    <option value="26">全部随从</option>
                     <option value="0">普通法术</option>
                     <option value="1">奥术</option>
                     <option value="2">火焰</option>
@@ -107,13 +104,19 @@
                     <option value="10">10+</option>
                 </select>
             </div>
-            <div class="col-2">
-                <input type="text" class="form-control" id="keyword">
+            <div class="col">
+                <input type="text" class="form-control form-control-sm" id="keyword">
             </div>
-            <div class="col-2">
+            <div class="col">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="random" value="random">
+                    <label class="form-check-label" for="random">随机</label>
+                </div>
+            </div>
+            <div class="col">
                 <button id="btn-search" type="button" class="btn btn-success btn-sm">搜索</button>
             </div>
-            <div class="col-2">
+            <div class="col">
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" id="onlyFav" value="onlyFav">
                     <label class="form-check-label" for="onlyFav">收藏的</label>
