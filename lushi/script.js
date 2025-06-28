@@ -274,14 +274,20 @@ function search() {
 
     let html = '';
     let total = items.length < 500 ? items.length : 500;
+    console.log('favList.', favList);
     for (let i = 0; i < total; i++) {
         let card = items[i];
-        let xiyou = card.rarity_id == 5 ? '传说': '';
+        //let xiyou = card.rarity_id == 5 ? '传说': '';
         let text = card.class_id < classList.length? classList[card.class_id]: '';
+        let favText = '收藏';
+        console.log('favList.indexOf', card.id, favList.indexOf(card.id));
+        if (favList.indexOf(card.id.toString()) > -1) {
+            favText = '已收藏';
+        }
         html += `<div class="col-3 m-0 p-0 position-relative">
         <img src="${card.image}" class="img-fluid border border-secondary" alt="${card.name}">
         <span name="fav" class="position-absolute top-0 end-0 badge rounded-pill bg-danger noprint" data-id="${card.id}">
-            收藏
+            ${favText}
         </span>
         <span name="cancelFav" class="position-absolute top-0 start-0 ps-2">
             ${text}
@@ -301,7 +307,7 @@ function search() {
             }
             favList.push(id);
             localStorage.setItem('fav', favList.join(','));
-            elem.innerText = '已收藏'
+            elem.innerText = '已收藏';
         })
     })
 }
